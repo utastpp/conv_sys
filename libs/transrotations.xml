@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TRANSROTATIONS>
+ <TRANSROT children_allowed="false">
+   <TRANSROT_NAME>FORWARD</TRANSROT_NAME>
+   <COMMAND>forward</COMMAND>
+ </TRANSROT>
+ <TRANSROT>
+   <TRANSROT_NAME>BACKWARD</TRANSROT_NAME>
+   <COMMAND>backward</COMMAND>
+ </TRANSROT>
+<TRANSROTATIONS>

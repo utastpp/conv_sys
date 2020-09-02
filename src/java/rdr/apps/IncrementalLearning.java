@@ -1,0 +1,204 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package rdr.apps;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.JFileChooser;
+import javax.swing.filechooser.FileNameExtensionFilter;
+import org.apache.log4j.PropertyConfigurator;
+import rdr.cases.CaseLoader;
+import rdr.cases.CaseSet;
+import rdr.cases.CaseStructure;
+import rdr.domain.Domain;
+import rdr.gui.DomainEditorFrame;
+import rdr.gui.MainFrame;
+import rdr.gui.StartupFrame;
+import rdr.model.AttributeFactory;
+import rdr.model.IAttribute;
+import rdr.rules.Rule;
+import rdr.rules.RuleBuilder;
+import rdr.rules.RuleSet;
+import rdr.workbench.Workbench;
+
+/**
+ *
+ * @author hchung
+ */
+public class IncrementalLearning extends javax.swing.JFrame {
+
+    /**
+     * Creates new form IncrementalLearning
+     */
+    public IncrementalLearning() {
+        initComponents();
+        start();
+        
+    }
+
+    /**
+     *
+     */
+    public void start() {
+          
+        //Define doamin
+        String domainName = "IntegerIncrementalKA";
+        String methodType = Domain.MCRDR;
+        String domainDesc = "IntegerIncrementalKA";
+        
+        // set default response when the system does not understand.
+        String defaultResponse = "";
+                
+        intialiseSystem(domainName, methodType, domainDesc, defaultResponse);
+        
+        FileNameExtensionFilter filter = new FileNameExtensionFilter("arff", new String[] {"arff","ARFF"});
+            
+            importFileChooser.setCurrentDirectory(new File(System.getProperty("user.dir") + "/domain/cases/"));
+            importFileChooser.addChoosableFileFilter(filter);
+            importFileChooser.setFileFilter(filter);
+            int returnVal = importFileChooser.showOpenDialog(this);
+            if(returnVal == JFileChooser.APPROVE_OPTION) {
+                File selectedFile = importFileChooser.getSelectedFile();                
+                File dest =new File(System.getProperty("user.dir") + "/domain/cases/" + domainName + ".arff") {};
+                Main.loadedFile = dest;
+                try {
+                    //copy file
+                    Files.copy(selectedFile.toPath(), dest.toPath(),REPLACE_EXISTING);
+                    CaseLoader.caseImportWithCaseStructure();     
+                    
+                    //insert case structure into db                    
+                    CaseLoader.inserCaseStructure(Main.domain.getCaseStructure());
+                                       
+                    //dispose domain Editor
+                    this.dispose();
+                    
+                } catch (IOException ex) {
+                    Logger.getLogger(StartupFrame.class.getName()).log(Level.SEVERE, null, ex);
+                } catch (Exception ex) {
+                    Logger.getLogger(DomainEditorFrame.class.getName()).log(Level.SEVERE, null, ex);
+                }
+                
+            }   
+        
+    }
+    
+    
+    /**
+     * Initialise the IDS (Intelligent Dialog System)
+     * 
+     * @param domainName
+     * @param methodType
+     * @param domainDesc
+     * @param defaultConclusion 
+     */
+    private static void intialiseSystem(String domainName, String methodType, String domainDesc, String defaultConclusion){
+        String log4jConfPath = "./log4j.properties";
+        PropertyConfigurator.configure(log4jConfPath);
+        
+        CaseStructure caseStructure = new CaseStructure();
+        IAttribute attr = AttributeFactory.createAttribute("Text");
+        attr.setAttributeId(0);
+        attr.setName("Recent");
+        caseStructure.addAttribute(attr);
+        
+        IAttribute attr2 = AttributeFactory.createAttribute("Text");
+        attr2.setAttributeId(1);
+        attr2.setName("History");
+        caseStructure.addAttribute(attr2);
+        
+        Main.domain = new Domain (domainName, methodType, domainName, domainDesc);
+        
+        Main.domain.setCaseStructure(caseStructure);
+        
+        
+        Main.allCaseSet = new CaseSet();
+        Main.KB = new RuleSet();
+        RuleBuilder.setDefaultConclusion(defaultConclusion);
+        Rule rootRule = RuleBuilder.buildRootRule();
+        Main.KB.setRootRule(rootRule);
+        
+        // set domainName and methodType
+        Main.domain.setDomainName(domainName);
+        Main.domain.setReasonerType(methodType);
+
+        //DPH 2016
+        Main.workbench = new Workbench(methodType);
+        //Main.addWorkbench(methodType); 
+        Main.workbench.setRuleSet(Main.KB);
+    }
+    
+    
+    
+    /**
+     * This method is called from within the constructor to initialize the form.
+     * WARNING: Do NOT modify this code. The content of this method is always
+     * regenerated by the Form Editor.
+     */
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+        importFileChooser = new javax.swing.JFileChooser();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 300, Short.MAX_VALUE)
+        );
+
+        pack();
+    }// </editor-fold>//GEN-END:initComponents
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[]) {
+        /* Set the Nimbus look and feel */
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Windows".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(IncrementalLearning.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(IncrementalLearning.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(IncrementalLearning.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(IncrementalLearning.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new IncrementalLearning().setVisible(true);
+            }
+        });
+    }
+
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JFileChooser importFileChooser;
+    // End of variables declaration//GEN-END:variables
+}

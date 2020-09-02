@@ -1,0 +1,1884 @@
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, span, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html { overflow-y: scroll; }
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size:12px;
+    line-height: 1;
+    color: #414141;  
+    width:100%;
+    height:100%;
+}
+
+p {
+  line-height: 1.25em;
+}
+
+blockquote q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+strong, b { font-weight: bold; }
+em, i { font-style: italic; }
+
+pre {
+  white-space: pre-wrap;       /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+
+br { display: block; line-height: 1.6em; } 
+
+/*input, textarea { */
+textarea { 
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: 1px;
+  border-color: #000;
+  padding: 5px 5px 5px 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+a:hover {
+    color:#33F;
+}
+  
+  
+.userInputDiv{
+    width: 800px;
+    float:left;
+    border-style: solid;
+    border-color: #000;
+    padding: 10px 10px 10px 10px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+.boxed {
+  width: 100%;
+  border: 1px inset white;
+  background: #dddddd;
+  /*padding: 10px 10px 10px 10px;*/
+  margin: 10px 0px 10px 0px;
+  float: left;
+  overflow: auto;
+  padding: 5px;
+}
+
+
+
+.boxed button:hover {
+    background: #E6E65C;
+    cursor: pointer;
+}
+
+.column {
+  background: #cccccc;
+  width: 100%;
+
+  border: 1px solid #000000;
+  padding: 10px 10px 10px 10px;
+  position: relative;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.columnItem {
+  width: 100%;
+  /*padding: 5px 10px 5px 10px;*/
+  padding: 0px;
+  float: left;
+}
+
+
+
+.columnHeading{
+    /* background-color:#0DD7A1;*/
+    background-color:#8e8e8e;
+    color:white;
+    padding:5px;
+    font-size:12px;
+    text-align:left;
+    position:relative;
+    overflow: auto;
+}
+.columnHeading button {
+    font-size: 10px;
+    border:none;
+    background-color: #0DD7A1;
+    float: right;
+}
+
+.columnHeading button:hover {
+    background: #E6E65C;
+    color: #303030;
+    cursor: pointer;
+}
+
+.columnHeading2{
+    background-color:#0DD7D1;
+    color:white;
+    padding:5px;
+    font-size:12px;
+    text-align:left;
+    position:relative;
+}
+
+/*.column input {
+  width: 120px;
+  float: right;
+  border-width: 1px;
+  font-size: 12px;
+}
+
+.column button {
+  width: 120px;
+  float: right;
+  border-width: 1px;
+  font-size: 12px;
+}*/
+
+.admin {
+    padding: 5px;
+}
+.admin label {
+    float:left;
+    padding: 5px 5px 5px 5px;
+}
+.admin input {
+    float:left;
+    display: inline-block;
+    width: 200px;
+    line-height: 20px;
+}
+.admin select {
+    float:left;
+    width: 200px;
+}
+
+.admin textarea {
+     float:left;
+     margin: 0px;
+     width: 200px;
+}
+
+.admin button {
+    float: left;
+}
+
+.admin button:hover {
+    background: #E6E65C;
+    cursor: pointer;
+}
+
+.majorbutton:hover {
+    background: #E6E65C;
+    cursor: pointer;
+    
+}
+
+.boxed label {
+    float: left;
+}
+
+.boxed input {
+    float: left;
+    /*width: 200px;*/
+}
+
+.majorbutton {
+    width: 120px;
+    float: right;
+    margin: 10px;
+}
+
+.rightbutton {
+    float: right;
+    width: 120px;
+    margin: 5px;
+}
+.column textarea {
+    border: 1px solid black;
+    text-align: left;
+    text-decoration: none;
+    font-size: 12px;
+    width: 60%;
+    
+    /*margin: 5px 5px 5px 5px;
+    
+    float:right;*/
+}
+
+.column label {
+  display: inline-block;
+  width:35%;
+  text-align: right;
+  /*font-weight:bold;*/
+}
+
+#fieldItems label {
+  display: inline-block;
+  width:85%;
+  text-align: right; 
+}
+
+#fieldItems input {
+  width:10%;
+  text-align: right; 
+}
+
+.column button {
+ /*   
+    border: 1px solid black;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    */
+    text-align: center;
+    font-size: 12px;
+    
+}
+
+.column select {
+    border: 1px solid black;
+    text-align: left;
+    text-decoration: none;
+    font-size: 12px;
+    /*width: 40%;*/
+   /* margin: 5px 5px 5px 5px;*/
+}
+
+.fullColumn {
+    width:100%;
+    float: left;
+    clear: left;
+}
+
+.leftColumn {
+  width:48%;
+  background: #adcdcf;
+  border: 1px solid #000000;
+  padding: 10px 10px 10px 10px;
+  float: left;
+  margin: 5px;
+}
+
+.leftColumnQuery {
+  width:17%;
+  background: #adcdcf;
+  border: 1px solid #000000;
+  padding: 10px 10px 10px 10px;
+  float: left;
+  margin: 5px;
+}
+
+
+#leftColumnKA {
+  width:100%;
+  height: 570px;
+  background: #adcdcf;
+  border: 1px solid #000000;
+  float: left;
+  margin: 5px;
+}
+
+#leftColumnKB {
+  width:55%;
+  background: #adcdcf;
+  border: 1px solid #000000;
+  padding: 10px 10px 10px 10px;
+  float: left;
+  margin: 5px;
+}
+
+.rightColumn {
+  width:48%;
+  background: #cccccc;
+  border: 1px solid #000000;
+  padding: 10px 10px 10px 10px;
+  float: right;
+  margin: 5px;
+}
+
+.rightColumnQuery {
+  width:79%;
+  background: #cccccc;
+  border: 1px solid #000000;
+  padding: 10px 10px 10px 10px;
+  float: right;
+  margin: 5px;
+}
+
+#rightColumnKA {
+  width:150%;
+  height: 570px;
+  background: #cccccc;
+  border: 1px solid #000000;
+  float: left;
+  margin: 5px;
+  overflow-x: scroll;
+}
+
+#rightColumnKB {
+  width:43%;
+  background: #cccccc;
+  border: 1px solid #000000;
+  padding: 10px 10px 10px 10px;
+  float: left;
+  margin: 5px;
+}
+
+#rightColumnStack {
+  width:100%;
+  height: 570px;
+  background: #cccccc;
+  border: 1px solid #000000;
+  float: left;
+  margin: 5px;
+  
+}
+
+#rightColumnKB label {
+    text-align: right;
+    width: 30%;
+    font-weight: bold;
+}
+#rightColumnKB .ruleDetailsDiv {
+    width:70%;
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+}
+
+.userTextDiv {
+    float:left;
+    overflow:auto;
+    border:none;
+    width:100%
+}
+
+.userTextInputDiv {
+    float:left;
+    overflow:auto;
+    border:none;
+    width:100%
+}
+
+.userTextInputDiv input {
+    font-size:12px;
+    float:right;
+    padding: 6px;
+    background: #FFFFFF;
+    outline: 1px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height:40px;
+    border: 1px solid #000;
+    color: #9a999a;
+	clear: left;
+	top: 5px;
+	visibility: visible;
+	display: block;
+    width:95%;
+}
+
+.userTextDiv {
+    float:left;
+    overflow:auto;
+    border:none;
+    width:100%
+}
+
+.userInput:focus
+{
+    box-shadow: 0 0 5px #99CCFF;
+}
+
+#userInputButton{
+    font: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+    float:right;
+    max-width: 40%;
+    padding: 2%;
+    margin-top:-5px;
+    background: #FFFF00;
+    width: 40%;
+    border: 1px solid #FFFF66;
+    color: #000000;
+    margin: 10px 0px 0px 0px;
+}
+
+#userInputButton:hover{
+    background: #E6E65C;
+    color: #303030;
+    cursor: pointer;
+}
+
+
+#UserTextSection input {
+    float:right;
+    width:100%;
+}
+
+.column p{
+    float:left;
+    font-size: 10px;
+    color: red;
+    font-style: italic;
+    margin: 5px;
+  }
+
+#controllingIO input {
+    max-width: 30%;
+    float: left;
+}
+
+#controllingIO {
+    /*overflow:scroll;*/
+}
+
+#controllingIO label {
+    float: left;
+    width: 15%;
+}
+
+#controllingIO select {
+    float:left;
+    max-width: 35%;
+    max-height: 100%;
+    margin: 0px 0px 0px 5px;
+}
+
+#controllingIO input:hover {
+    background: #E6E65C;
+    cursor: pointer;
+}
+
+#startButton:hover {
+    background: #E6E65C;
+    cursor: pointer; 
+}
+
+#speechDiv button {
+    background-color: #FFFFFF;
+    float:right;
+}
+  
+ #heading{
+    background-color:#0D47A1;
+    color:white;
+    padding:5px;
+    font-size:12px;
+    text-align:left;
+    position:relative;
+
+    clear:both;
+ }
+ 
+ .heading{
+    background-color:#0D47A1;
+    color:white;
+    padding:5px;
+    font-size:12px;
+    text-align:left;
+    position:relative;
+
+    clear:both;
+ }
+  
+  #mainContentDiv {
+      width:800px;
+      height:800px;
+      margin:auto;
+      margin-top:10px;
+      /*border:1px solid #B4B4CD;*/
+      overflow-y:scroll;
+      overflow-x:hidden;
+  }
+  
+  #dictionaryMainContentDiv ,#queryMainContentDiv{
+      width:800px;
+      /*margin:auto;
+      margin-top:10px;*/
+      /*border:1px solid #B4B4CD;*/
+      overflow-y:scroll;
+      overflow-x:hidden;
+  }
+  
+  #dictionarySynonymsDiv {
+      float: left;
+      clear: left;
+  }
+  
+  #dialogMainDiv {
+      width:100%;
+      height:600px;
+      max-height: 400px;
+      float:left;
+      background-color: #FFFFFF;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      padding: 5px;
+      
+  }
+  
+ #results {
+    float:left;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 5px;
+    text-align: left;
+    max-width:200px;
+  }
+  
+ .user{
+    float: right;
+    width: auto;
+    max-width: 80%;
+    position: relative;
+    clear: both;
+    margin-bottom: 2px;
+
+    padding-right:5px;
+    color: #000;
+    /*text-shadow: 0 1px 1px rgba(255,255,255,0.8);*/
+    word-wrap: break-word;
+    font-size:11px;
+    /*font-weight:bold;*/
+}
+
+.system{
+    float: left;
+    width: auto;
+    max-width: 80%;
+    position: relative;
+    clear: both;  
+    margin-bottom: 2px;
+
+    padding-left:5px;
+    color: #000;
+    /*text-shadow: 0 1px 1px rgba(255,255,255,0.8);*/
+    word-wrap: break-word;
+    font-size:11px;
+    /*font-weight:bold;*/
+}
+
+.bubble {
+  box-sizing: border-box;
+  float: left;
+  width: auto;
+  max-width: 80%;
+  position: relative;
+  clear: both;
+  border-radius: 5px;
+  background: white;
+
+  margin-bottom: 5px;
+  padding: 8px 16px;
+  color: #000;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.8);
+  word-wrap: break-word;
+  font-size: 12px;
+}
+
+.bubble:before, .bubble:after {
+  border-radius: 20px / 5px;
+  content: '';
+  display: block;
+  position: absolute;
+  
+}
+.bubble:before {
+  border: 10px solid transparent;
+  border-bottom-color: white;
+  bottom: 0px;
+  left: -7px;
+  z-index: -2;
+}
+.bubble:after {
+  border: 8px white;
+  border-bottom-color: white; /* arrow color */
+  bottom: 1px;
+  left: -5px;
+}
+
+.bubble-alt {
+  float: right;
+}
+.bubble-alt:before {
+  border-bottom-color: #FFCC00;
+  left: auto;
+  right: -7px;
+}
+.bubble-alt:after {
+  left: auto;
+  right: -5px;
+}
+
+.bubble p {
+  font-size: 12px;
+  color:#000;
+}
+
+/* yello bubble */
+.yello {
+  background: #FFFF00;
+ }
+.yello:after {
+  border-bottom-color: #FFFF00;
+}
+
+/* green bubble */
+.green {
+  background: #80FF33;
+ }
+.green:after {
+  border-bottom-color: #80FF33;
+}
+
+/* blue bubble */
+.blue {
+  background: #66CCFF;
+ }
+.blue:after {
+  border-bottom-color: #66CCFF;
+}
+
+#dialogHistory {
+      width:100%;
+      height:400px;
+      max-height: 425px;
+      float:left;
+      background-color: #FFFFFF;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      padding: 5px;
+}
+
+#dialogHistory .bubble {
+    /*width: 95%;*/
+    max-width: 100%;
+    margin-left: 0px;
+    margin-right: 15px;
+}
+
+#dialogHistory .blue {
+    margin-left: 10px;
+}
+
+#rulebaseViewer {
+      width:100%;
+      height:600px;
+      max-height: 400px;
+      float:left;
+      background-color: #FFFFFF;
+      overflow-x: hidden;
+      overflow-y: scroll;
+}
+
+#rulebase {
+      width:150%;
+      height: 545px;
+      float:left;
+      background-color: #FFFFFF;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      padding: 5px;
+}
+
+
+
+#mainContentDivInferenceViewer {
+      width:1200px;
+      height:840px;
+      margin:auto;
+      margin-top:10px;
+      /*border:1px solid #B4B4CD;*/
+      overflow-y:scroll;
+      overflow-x:hidden;
+}
+
+.mainContentDivKnowledgeAcquisition {
+      width:1200px;
+      height:800px;
+      margin:auto;
+      margin-top:10px;
+      /*border:1px solid #B4B4CD;*/
+      overflow-y:scroll;
+      overflow-x:hidden;
+      display: inline-block;
+}
+  
+.nesting { margin-left: 10px; }
+  
+#rulebaseViewer .rule:hover {
+    background-color: #33F;
+    color: white;  
+}
+
+.rulebaseViewerSelected {
+    background-color: #33F;
+    color: white;
+}
+
+#rulebaseViewer .rule:focus {
+      background-color: red;  
+}
+
+
+
+
+.red {
+    background-color: red; 
+}
+
+/* rules highlighting */
+
+.ruleHighlightFromDialogSatisfied, .ruleHighlightFromDialogSatisfiedLegend {
+      background-color: yellow; 
+}
+
+.ruleHighlightFromDialogStartingRules, .ruleHighlightFromDialogStartingRulesLegend {
+      background-color: pink; 
+}
+
+.ruleHighlightFromStack, .ruleHighlightFromStackLegend {
+    background-color: #00ffcc; 
+}
+
+.ruleHighlightSelected, .ruleHighlightSelectedLegend {
+    background-color: #33F;
+    color: white;
+}
+
+.rule:hover {
+    background-color: #33F;
+    color: white;
+}
+
+
+/* stack highlighting */
+
+.stackHighlightCurrent, .stackHighlightCurrentLegend {
+      background-color: lightgoldenrodyellow; 
+}
+
+.stackHighlightFromDialogSatisfied, .stackHighlightFromDialogSatisfiedLegend {
+      background-color: orange; 
+}
+
+.stackHighlightSelected, .stackHighlightSelectedLegend {
+      background-color: fuchsia;  
+}
+
+.stackHighlightFromRule, .stackHighlightFromRuleLegend {
+    background-color:black;
+    color: white;
+}
+
+.stacked:hover,.stackedBottom:hover  {
+      background-color: fuchsia;  
+}
+
+/* dialog highlighting */
+
+.dialogHighlightFromRuleOrStack, .dialogHighlightFromRuleOrStackLegend {
+    background-color:black;
+    color: white;
+}
+
+.dialogHighlightSelected {
+      background-color: red;  
+}
+
+#dialogHistory .blue:hover {
+    background-color: red; 
+}
+
+.navigation:hover {
+   background-color: yellow; 
+}
+
+#ruleConclusion {
+   word-wrap: break-word; 
+}
+
+#ruleCondition {
+   word-wrap: break-word; 
+}
+
+.whiteBackground {
+    background-color: white;
+}
+
+#stack {
+  width:100%;
+  height:525px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-align: center;
+  vertical-align: middle;
+}
+.stacked {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    float:left;
+    border-top: 1px solid #000000;
+    /*border-bottom: 1px solid #000000;*/
+    display: inline-block; 
+}
+
+.stackedBottom {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    float:left;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    display: inline-block; 
+}
+
+#stackLegend, #ruleLegend, #dialogLegend{
+    display: inline-block; 
+    /*height: 120px;*/
+    background: #cccccc;
+    border: 1px solid #000000;
+    margin: 5px;
+    align-content: center;
+    float: left;
+}
+
+ #ruleLegend {
+     width: 200px;
+ }
+#dialogLegend {
+     width: 350px;
+ }
+ #stackLegend {
+     width: 250px;
+ }
+
+
+#legendDiv {
+    width: 100%;
+    height: 150px;
+    float: left;
+}
+
+.legendItem {
+    width:100%;
+    /*height:30px;*/
+    line-height: 30px;
+    display: inline-block; 
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10px;
+
+}
+
+#dictionaryRandomSynonymCheckbox {
+    float:left;
+    width:20px;
+    display: inline-block;
+}
+
+#randomSynonymCheckbox {
+    float:left;
+    width:20px;
+    display: inline-block;
+}
+.hbutton:hover {
+    background: #FFCC00;
+    color: #303030;
+    cursor: pointer;
+}
+
+.majorcolumnA {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin: 0px 5px 0px 0px;
+    padding: 0px;
+    height:600px;
+}
+.majorcolumnB {
+    display: inline-block;
+    float: left;
+    width: 55%;
+    margin: 0px 5px 0px 0px;
+    height:600px;
+    overflow-x: hidden;
+
+}
+.majorcolumnC {
+    display: inline-block;
+    float: left;
+    width: 10%;
+    height:600px;
+
+}
+
+.ivcontrols {
+    width: 200px;
+    /*height: 100px;*/
+    display: inline-block;
+    float: right;
+    clear: right;
+    padding: 5px;
+}
+
+.ivcontrols input {
+    float: left;
+    width:150px;
+}
+
+.no-close {
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);  
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+}
+
+.no-close .ui-dialog-titlebar-close {
+    display: none;
+    z-index: auto;
+}
+
+.dialogYScroll {
+    overflow-y: auto;
+}
+
+.ui-dialog-titlebar {
+    background-color: yellow !important; 
+}
+
+.errormessage {
+    font-style: italic;
+    color: red;
+}
+
+#KAmetaDataWrapper {
+    display: inline-block;
+    background-color:white;
+    border: 1px solid #000000;
+    width: 300px;
+    float: left;
+    margin: 5px;
+    overflow-y: hidden;
+    clear: left;
+}
+
+.KAmetaData {
+    display: inline-block;
+    background-color:white;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    float: left;  
+    padding: 5px;
+}
+
+#KAhistoryWrapper {
+    display: inline-block;
+    background-color:white;
+    border: 1px solid #000000;
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin: 5px;
+    overflow-y: hidden;
+}
+
+#KAhistory {
+    display: inline-block;
+    background-color:white;
+    width: 100%;
+    height: 380px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    float: left;
+    padding: 5px;
+}
+
+#KAhistory .bubble {
+    /*width: 95%;*/
+    max-width: 100%;
+    margin-left: 0px;
+    margin-right: 15px;
+}
+
+#KAhistory .blue {
+    margin-left: 10px;
+}
+
+.mainContentDivKnowledgeAcquisition .returnToInference {
+    float: right;
+}
+
+.itemTransparency {
+    opacity: 0.7;
+}
+
+#KAhistory .bubble:before, #KAhistory .bubble:after {
+    display: none;
+}
+
+
+#knowledgeMainWrapper {
+    width: 1150px;
+}
+
+#KAcontentWrapper {
+    /* width: 800px; */
+    float: right;
+    padding: 0px;
+    margin: 5px;
+}
+
+#KAConclusionsWrapper, #KANewConclusionWrapper, #KApreviewNewConclusion {
+    display: inline-block;
+    border: 1px solid #000000;
+    width: 800px;
+    /*height: 600px;*/
+    float: right;
+    /*margin: 5px;*/
+    padding: 0px;
+    background-color: lightblue;
+}
+
+#KAConclusionsTable {
+    display: inline-block;
+    /* background-color:#888;*/
+    background-color: lightblue;
+    border: 1px solid #000000;
+    width: 788px;
+    /*height: 300px;*/
+    float: left;
+    margin: 5px;
+    overflow-x:auto;
+}
+
+#KAConclusions {
+    display: inline-block;
+    background-color:white;
+    width: 100%;
+    height: 210px;
+    overflow-x:scroll;
+    overflow-y: scroll;
+    float: left;   
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.KAConclusion {
+    width:50%;
+    display: inline-block;
+    float: left;
+    clear: left;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.KAActionCategory {
+    width:20%;
+    display: inline-block;
+    float: left;
+}
+
+.KAAction{
+    width:30%;
+    display: inline-block;
+    float: left;
+    
+}
+
+.conclusionAlt1, .conditionAlt1, .tableAlt1 {
+    background-color:#cccccc
+}
+
+.conclusionAlt2, .conditionAlt2, .tableAlt2 {
+    background-color:#eee;
+}
+
+.tableHeader {
+    background-color: #1995bd;
+    /*font-weight: bold;
+    ;
+    font-size: 12px;*/
+    color: white;
+    padding: 5px;  
+    display: inline-block;
+    width:100%;
+}
+
+.conclusionline, .conditionline, .conditionSubmitLine {
+    width: 100%;
+    display: inline-block;
+    padding: 5px;
+    margin: 0px;
+}
+
+.conclusionline:hover {
+    background-color: red !important;
+}
+
+#KAselections {
+    display: inline-block;
+    /*background-color:#99CCFF;*/
+    background-color: lightblue;
+    width: 788px;
+    height: 150px;
+    float: left;
+    padding: 5px;
+    border: 1px solid #000000;
+    margin: 5px;
+}
+
+
+
+#KASelectedConclusion, #KASelectedAction, #KASelectedCategory {
+    padding: 5px;
+}
+
+#conclusion, #action, #category {
+    line-height: 20px;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+#category {
+    width: 300px;
+}
+
+#conclusion, #action {
+    width: 600px;
+}
+
+#KAsetConclusion, #KAnewConclusion {
+    float: right;
+    margin: 10px;
+    width: 200px;
+}
+
+#KAsetConclusionButton,#KAnewConclusionButton {
+    width: 200px;
+}
+
+#KAsetConclusionButton:hover {
+    background-color: yellow;
+}
+
+#KAnewConclusionButton:hover {
+    background-color: yellow;
+}
+
+#KAConditionsWrapper {
+    display: inline-block;
+    border: 1px solid #000000;
+    background-color: lightgrey;
+    width: 800px;
+    float: left;
+    margin: 5px;
+    padding: 0px;
+}
+
+.inlineButton {
+    width: 230px;
+    float: right;
+    clear: none; 
+   margin: 10px;
+}
+
+.inlineButtonLeft {
+    width: 230px;
+    float: left;
+    clear: none; 
+   margin: 10px;
+}
+
+.inlineButtonSmall {
+    width: 150px;
+    float: right;
+    clear: none; 
+   margin: 10px;
+}
+
+.inlineButtonSmallFloatLeft {
+    width: 120px;
+    float: left;
+   margin: 10px;
+}
+
+.inlineButtonSmallerFloatLeft {
+    width: 70px;
+    float: left;
+   margin: 10px;
+}
+
+.inlineButtonSmallFloatRight {
+    width: 120px;
+    float: right;
+   margin: 10px;
+}
+
+.inlineButtonSmallerFloatRight {
+    width: 70px;
+    float: right;
+   margin: 10px;
+}
+
+.inlineCheck {
+    /*width: 20px;*/
+    float: right;
+    clear: none;
+    margin: 10px 5px 10px 10px;
+}
+
+.inlineCheckLeft {
+    float: left;
+    margin: 10px 5px 10px 10px;
+}
+.checkText {
+    float: right;
+    clear: none;
+    margin: 10px 10px 10px 5px;
+}
+
+.checkTextLeft {
+    float: left;
+    clear: none;
+    margin: 10px 10px 10px 5px;
+}
+
+.KAtextArea {
+    width: 98%;
+    float:right;
+    height: 100px;
+    margin: 10px;
+    word-wrap:break-word;
+    font-size: 18px;
+    overflow-y: auto;
+}
+
+#KAcurrentAttributesTable {
+    display: inline-block;
+    /*background-color:#99CCFF;*/
+    border: 1px solid #000000;
+    width: 788px;
+    /*height: 170px;*/
+    float: left;
+    margin: 5px;
+}
+
+#KAselectAttributesSelectorsDiv {
+    display: inline-block;
+    background-color:white;
+    border: 1px solid #000000;
+    width: 788px;
+    height: 75px;
+    float: left;
+    margin: 5px;  
+}
+
+
+#KAallSelectedConditions {
+    display: inline-block;
+    background-color:white;
+    border: 1px solid #000000;
+    width: 788px;
+    height: 200px;
+    float: left;
+    margin: 5px; 
+    overflow-y: scroll;
+}
+
+.KAconditionAttribute {
+    width:25%;
+    display: inline-block;
+    float: left;
+    clear: left;
+    
+    overflow-x: hidden;
+}
+
+.KAconditionType {
+    width:25%;
+    display: inline-block;
+    float: left;
+    
+    overflow-x: hidden;
+}
+
+.KAconditionValue {
+    width:50%;
+    display: inline-block;
+    float: left;
+    
+    overflow-x: hidden;
+}
+
+#KAAttributeSelector, #KAOperatorSelector, KAConditionCriteria {
+    width:25%;
+    margin: 10px;
+}
+
+#KAAddConditionButton {
+    width:15%;
+    margin: 10px;
+    float: right;
+}
+
+.conditionline:hover {
+    background-color: red !important;
+}
+
+.KAconditionSubmitAttribute {
+    width:15%;
+    display: inline-block;
+    float: left;
+   
+    overflow-x: hidden;
+}
+.KAconditionSubmitOperator {
+    width:20%;
+    display: inline-block;
+    float: left;
+    
+    overflow-x: hidden;
+}
+.KAconditionSubmitCriteria {
+    width:65%;
+    display: inline-block;
+    float: left;
+    
+    overflow-x: hidden;
+}
+
+#KAsubmissionButtons {
+    display: inline-block;
+    /*border: 1px solid #000000;*/
+    width: 788px;
+    float: left;
+    margin: 5px; 
+}
+
+.standardRight {
+    float: right;
+    margin: 10px;
+}
+
+.backButton {
+    
+}
+
+
+.KAnewConclusionSubWrapper {
+    background-color: lightblue;
+    display: inline-block;
+    float: left;
+    clear: both;
+    width: 100%;
+}
+
+.KAnewConclusionSubSubWrapper {
+    background-color: lightblue;
+    display: inline-block;
+    float: left;
+    clear: both;
+    width: 98%;
+    margin: 10px;    
+}
+
+.KAconclusionSpan {
+    float:left;
+    clear: left;
+    display: inline-block;
+    width: 100px;
+    margin: 10px;
+}
+
+.KAconclusionSpanBigger {
+    float:left;
+    clear: left;
+    display: inline-block;
+    width: 150px;
+    margin: 10px;
+}
+
+.KAconclusionInput, .KAinputLeft {
+    float:left;
+    display: inline-block;
+    /*width: 30%;*/
+    width: 250px;
+    margin: 10px;
+}
+
+#KAnavigationWrapper {
+    width:800px;
+    float:right;
+    clear:right;
+    margin: 20px 5px 0px 5px;
+    border: 1px solid #000000;
+}
+
+#KAsetContextVariableWrapper,#KAunsetContextVariableWrapper,#KAsetParsedDateContextVariableWrapper,
+#KAsaveSchemaItemWrapper, #KAloadSchemaItemWrapper  {
+    width: 100%;
+    background-color: lightblue;
+    display: inline-block;
+    float: right;
+    border: 1px dotted #000000;
+}
+
+.KAradio {
+    float: left;
+}
+
+.KAsmallButton {
+    width: 60px;
+    float: left;
+    margin:10px;
+}
+.KAdivHighlight {
+    box-shadow: 0px 0px 4px 2px rgba(0,115,255,1);
+}
+
+.rule {
+    white-space: nowrap;
+    width: 150%;
+}
+
+.halfblockWrapper {
+    border: 1px solid #000000;
+    width: 47%;
+    height: 130px;
+    display: inline-block;
+    margin: 10px;
+    float: left;
+}
+
+.fullblockWrapper {
+    /*border: 1px solid #000000;*/
+    width: 98%;
+    display: inline-block;
+    margin: 10px;
+    float: left;
+}
+
+.fullblockWrapperSlim {
+    /*border: 1px solid #000000;*/
+    width: 98%;
+    /*height: 30px;*/
+    margin: 5px;
+    display: inline-block;
+    float: left;
+}
+
+.fullblockWrapperSuperSlim {
+    /*border: 1px solid #000000;*/
+    width: 98%;
+    /*height: 30px;*/
+    margin: 0px 5px 0px 5px;
+    display: inline-block;
+    float: left;
+}
+
+
+.useBorder {
+    border: 1px solid #000000;
+}
+
+#queryTablesDiv {
+    width: 50%;
+    height: 300px;
+    border: 1px solid #000000;
+    float: left;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.queryTableItem {
+    width: 100%;
+    height: 20px;
+    display: inline-block;
+    clear: left;
+    float: left;
+    padding: 5px;
+    margin: 0px 0px 2px 0px;
+}
+
+.queryTableItem:hover {
+    background-color: red;
+}
+
+.queryTableItemSelected {
+    background-color: blue;
+    color: white;
+}
+
+.rightSpan {
+    float: right;
+    margin:10px 0px 10px 10px;
+}
+
+.leftSpan {
+    float: left;
+    margin:10px 0px 10px 10px;
+}
+
+.leftSpanFixedWidth {
+    width: 60px;
+    float: left;
+    margin:10px 0px 10px 10px;
+}
+.top15Margin {
+    margin-top: 15px;
+}
+
+.padding5 {
+    padding: 5px;
+}
+
+.padding10 {
+    padding: 10px;
+}
+
+.textInput {
+    margin:10px;
+    line-height: 20px;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.textInputWideWidth {
+    width:200px;
+    margin:10px;
+    line-height: 20px;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+
+.textInputFull {
+    width: 95% !important;
+}
+
+#queryCountCheckbox, .inlineCheckbox {
+    float:right;
+    width: 20px;
+    margin: 10px;
+}
+
+.chooserBodyContent {
+    width: 100%;
+    /*height: 20px;*/
+    display: inline-block;
+    clear: left;
+    float: left;
+    padding: 5px;
+    margin: 0px 0px 2px 0px;
+}
+
+.chooserBodyContent:hover {
+    background-color: red;
+}
+
+.chooserBodyContentItemSelected {
+    background-color: blue;
+    color: white;
+}
+
+.chooserBodyContentDiv, .viewerContentDiv {
+    overflow-y: scroll;
+    width: 100%;
+    display:inline-table;
+    float: left;
+    height: 50%;
+}
+
+#queryJoinMultivaluedCheckbox,#queryAllowPartialMatchCheckbox {
+    width: 20px;
+    float: right;
+    margin: 10px;
+}
+
+.criteriaRadio {
+    float: left !important; 
+    margin: 10px 0px 10px 10px !important;
+    width: 20px !important;
+    
+}
+
+.fullWidthWrapper {
+    /*border: 1px solid #000000;*/
+    width: 100%;
+    display: inline-block;
+    float: left;
+}
+.fullWidthHeader {
+    background-color: #1995bd;
+    width: 100%;
+    color: white;
+    float: left;
+    display: inline-block;
+}
+
+.hiddenInput {
+    display:none;
+}
+
+.viewerRowItem {
+    float: left;
+    display: table-row;
+    min-height: 1px;
+}
+
+.viewerHeaderItem {
+    display: table-row;
+    float: left;
+    min-height: 1px;
+}
+
+.subheader1, .subheader2 {
+    width: 100%;
+    padding: 5px;
+    display: table-header-group;
+    float: left;  
+}
+.subheader1 {
+    background-color: #1995bd;
+    color: white;
+}
+.subheader2 {
+    background-color:#E6E65C;
+    color: black;
+}
+
+.viewerBodyContent {
+    width: 100%;
+    /*height: 20px;*/
+    display: table;
+    clear: left;
+    float: left;
+    padding: 5px;
+   /*margin: 10px 0px 0px 0px;*/
+}
+
+
+.viewerTableHeader {
+    background-color: #1995bd;
+    width: 100%;
+    color: white;
+    padding: 5px;
+    display: table-header-group;
+    float: left;   
+}
+
+.viewerTableHeader2 {
+    background-color:#99CCFF;
+    width: 100%;
+    color: white;
+    padding: 5px;
+    display: table-header-group;
+    float: left;   
+}
+
+.fullblockWrapperSlim {
+    /*border: 1px solid #000000;*/
+    width: 98%;
+    display: inline-block;
+    margin-top: 5px;
+    float: left;
+}
+
+.clearLeft {
+    clear: left;
+}
+
+.isStopped,.isStoppingRule {
+    text-decoration: line-through;
+    color: red;
+}
+
+.isStopped::after {
+    display: inline-block;
+    color: red;
+    font-style:normal;
+    font-weight:bold;
+    text-decoration: none; 
+    content: "[Stopped] ";
+}
+
+.isStoppingRule::after {
+    font-style:normal;
+    color: red;
+    display: inline-block;
+    font-weight:bold;
+    text-decoration: none ;
+    content: "[Stop rule] ";
+}
+
+.isNotStacked {
+    color: green;
+    font-style:italic;
+}
+
+.stackFrameNotStacked {
+    background-color:  #cccccc;
+    color: red;    
+}
+
+.stackFrameNotStacked::after {
+    content: "*";
+}
+
+#newVariableName, #newSystemVariableName {
+    float: left;
+}
+
+#contextRecentInput {
+     float:left;
+     font-size: 20px;
+     width: 98%;
+     overflow-y: auto;
+     font-style:italic;
+     margin: 0px 10px 0px 10px;
+     padding: 10px 20px 10px 20px;
+}
+
+.textInputLeft {
+    float: left;
+    margin: 10px 0px 0px 10px;
+    padding: 5px;
+}
+
+.textInputRight {
+    float: right;
+    margin: 10px 0px 0px 10px;
+    padding: 5px;
+}
+
+#currentMatchingCriteria,#currentMatchingCriteriaOverride {
+    width:65%;
+    float: right;
+    margin: 10px 0px 0px 10px;
+    padding: 5px;
+}
+
+.actionRadio {
+    width: 20px !important; 
+    padding: 0px;
+    margin: 10px 0px 0px 10px;
+}
+.leftSpanRadio {
+    float: left;
+    margin: 10px 10px 0px 0px;
+}
+
+.innerBox {
+    float: left;
+    width: 96%;
+    background-color:#eee;
+    padding: 5px;
+    margin: 10px;
+}
+
+#currentSystemContextVariableValue, #currentSystemContextVariableOverrideValue {
+    width: 240px;
+}
+
+#currentSystemContextVariableRuleValue {
+    width: 50px;
+}
+
+#dialogHistoryPreprocessorDiv {
+      width:100%;
+      height:400px;
+      max-height: 200px;
+      float:left;
+      background-color: #FFFFFF;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      padding: 5px;
+}
+
+#actionsPreprocessorDiv {
+      width:100%;
+      height:400px;
+      max-height: 200px;
+      float:left;
+      background-color: #FFFFFF;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      padding: 5px;
+}
+
+.halfColumn {
+    width:49%;
+    display: block;
+    float: left;
+    /*clear: left;*/
+    margin: 5px 2px 5px 2px;
+    padding: 0px;
+}
+
+.checkboxRightSpan {
+    float: right;
+    margin:3px 0px 5px 0px;
+}
+
+.smallColumn {
+    /*width:20%;*/
+    display:block;
+    float: left;
+    /*clear: left;*/
+    margin: 5px 0px 5px 0px;
+    padding: 0px;
+}
+
+.sectionHeader {
+    background-color: #FFCC00;
+    color: black;
+    width:100%;
+    float: left;
+    clear: left;
+    padding: 5px;
+}
+
+#preprocessorActionsDiv {
+    height: 225px;
+    overflow-y:scroll;
+}
+
+.preprocessorAction {
+    padding: 5px;
+}
+
+.preprocessorAction:hover {
+    background-color: red;
+}
