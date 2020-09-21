@@ -3,36 +3,29 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cmcrdr.sqlite;
+package cmcrdr.mysql;
 
 import cmcrdr.logger.Logger;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.Statement;
 import java.util.ArrayList;
-import rdr.sqlite.SqliteConnection;
+import cmcrdr.mysql.*;
 import cmcrdr.main.DialogMain;
-
 /**
- * This class is used for sqlite DB creation
- * 
- * @author Hyunsuk (David) Chung (DavidChung89@gmail.com)
+ *
+ * @author Kai Chiu Wong
  */
-public class SqliteDBCreation {
-    
-    /**
-     * Sqlite Connection object.
-     */
-    private static Connection c; 
+public class DBCreation {
     
     /**
      *
      */
     public static void initialise(){
         dicListTableCreate();
-        SqliteOperation.insertDic("User");
+        DBOperation.insertDic("User");
         // is this used? grammar dictionary doesnt seem to be needed.. DPH
-        //SqliteOperation.insertDic("Grammar");
+        //DBOperation.insertDic("Grammar");
         dicMatchingTermTableCreate();
         dicRepresentativeTermTableCreate();
         referenceDatabaseDetailTableCreate();
@@ -46,15 +39,28 @@ public class SqliteDBCreation {
         dialogSettingsTableCreate();         
     }
     
+    public static void initialise(String dbName, String path){
+        Logger.info("KB DATABASES BEING CREATED FOR:" + dbName);
+        Logger.info("KB DATABASES PATH:" + path);  
+        DBOperation.domainDetailTableCreate();
+        DBOperation.ruleStructureTableCreate();
+        DBOperation.ruleConditionsTableCreate();
+        DBOperation.ruleConclusionTableCreate();
+        DBOperation.ruleCornerstonesTableCreate();
+        DBOperation.caseStructureTableCreate();
+        DBOperation.ruleCornerstoneInferenceResultTableCreate();
+        DBOperation.categoricalValuesTableCreate();
+
+    }
     
     /**
-     * tb_dic_list 테이블 생성.
+     * tb_dic_list 
      */
     public static void dicListTableCreate(){
         
         String tableName = "tb_dic_list";
         
-        c = SqliteConnection.connection;
+        Connection c = DBConnection.getConnection();
         Statement stmt = null;
         try {
             stmt = c.createStatement();
@@ -73,13 +79,13 @@ public class SqliteDBCreation {
       }
     
     /**
-     * tb_dic_representative_term 테이블 생성.
+     * tb_dic_representative_term
      */
     public static void dicRepresentativeTermTableCreate(){
         
         String tableName = "tb_dic_representative_term";
         
-        c = SqliteConnection.connection;
+        Connection c = DBConnection.getConnection();
         Statement stmt = null;
         try {
             stmt = c.createStatement();
@@ -100,13 +106,13 @@ public class SqliteDBCreation {
       }
     
     /**
-     * tb_dic_matching_term 테이블 생성.
+     * tb_dic_matching_term 
      */
     public static void dicMatchingTermTableCreate(){
         
         String tableName = "tb_dic_matching_term";
         
-        c = SqliteConnection.connection;
+        Connection c = DBConnection.getConnection();
         Statement stmt = null;
         try {
             stmt = c.createStatement();
@@ -134,7 +140,7 @@ public class SqliteDBCreation {
         
         String tableName = "tb_commandvar_list";
         
-        c = SqliteConnection.connection;
+        Connection c = DBConnection.getConnection();
         Statement stmt = null;
         try {
             stmt = c.createStatement();
@@ -160,7 +166,7 @@ public class SqliteDBCreation {
         
         String tableName = "tb_commandvar_values";
         
-        c = SqliteConnection.connection;
+        Connection c = DBConnection.getConnection();
         Statement stmt = null;
         try {
             stmt = c.createStatement();
@@ -186,7 +192,7 @@ public class SqliteDBCreation {
         
         String tableName = "tb_commandvar_actions";
         
-        c = SqliteConnection.connection;
+        Connection c = DBConnection.getConnection();
         Statement stmt = null;
         try {
             stmt = c.createStatement();
@@ -213,7 +219,7 @@ public class SqliteDBCreation {
      */
     public static void referenceDatabaseDetailTableCreate(){
         
-        c = SqliteConnection.connection;
+        Connection c = DBConnection.getConnection();
         Statement stmt = null;
         try {
             stmt = c.createStatement();
@@ -236,7 +242,7 @@ public class SqliteDBCreation {
     
     
     public static void referenceDatabaseSlotFieldsCreate(ArrayList<String> columnFieldNames) {
-        c = SqliteConnection.connection;
+        Connection c = DBConnection.getConnection();
    
         
         Statement stmt = null;
@@ -288,7 +294,7 @@ public class SqliteDBCreation {
         
         String tableName = "tb_saved_query_details";
         
-        c = SqliteConnection.connection;
+        Connection c = DBConnection.getConnection();
         Statement stmt = null;
         try {
             stmt = c.createStatement();
@@ -315,7 +321,7 @@ public class SqliteDBCreation {
         
         String tableName = "tb_conclusion_queries";
         
-        c = SqliteConnection.connection;
+        Connection c = DBConnection.getConnection();
         Statement stmt = null;
         try {
             stmt = c.createStatement();
@@ -336,7 +342,7 @@ public class SqliteDBCreation {
     public static void preAndPostProcessorTableCreate(){     
         String tableName = "tb_prepostprocessor_list";
         
-        c = SqliteConnection.connection;
+        Connection c = DBConnection.getConnection();
         Statement stmt = null;
         try {
             stmt = c.createStatement();
@@ -366,7 +372,7 @@ public class SqliteDBCreation {
     public static void dialogSettingsTableCreate(){     
         String tableName = "tb_dialog_settings";
         
-        c = SqliteConnection.connection;
+        Connection c = DBConnection.getConnection();
         Statement stmt = null;
         try {
             stmt = c.createStatement();
@@ -390,5 +396,5 @@ public class SqliteDBCreation {
         Logger.info("Table (" + tableName +") created successfully");
       }
     
-    
+
 }

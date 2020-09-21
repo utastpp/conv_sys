@@ -33,9 +33,9 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 import rdr.cases.CaseLoader;
 import rdr.domain.DomainLoader;
 import rdr.rules.RuleLoader;
-import rdr.sqlite.DBManager;
 import cmcrdr.mysql.DBConnection;
-import cmcrdr.sqlite.SqliteOperation;
+import cmcrdr.mysql.DBCreation;
+import cmcrdr.mysql.DBOperation;
 import cmcrdr.user.DialogUser;
 import java.util.Collections;
 import java.util.Iterator;
@@ -2271,7 +2271,7 @@ public class AdminJavaGUI extends javax.swing.JFrame implements UserInterface  {
             */
             DialogMain.userInterfaceController.clearAllDialogResults();
             
-            DBManager.initialise(Main.domain.getDomainName(), contextPath);
+            DBCreation.initialise(Main.domain.getDomainName(), contextPath);
             
             try {
                 DialogCaseArchiveModule.createTextFileWithCaseStructure(contextPath);
@@ -2377,7 +2377,7 @@ public class AdminJavaGUI extends javax.swing.JFrame implements UserInterface  {
             else {
                 JOptionPane.showMessageDialog(this,"Reference database connection succeeded.");
                 // re-load matching terms in case we have matching terms sourced from the reference database.
-                SqliteOperation.getMatchingTermList();
+                DBOperation.getMatchingTermList();
             }
         }
         else {
@@ -2624,7 +2624,7 @@ public class AdminJavaGUI extends javax.swing.JFrame implements UserInterface  {
             DialogMain.processorList.add(anAction);
             Logger.info("Adding preprocessor rule: " + anAction.getMatchText());
         }
-        SqliteOperation.updatePreAndPostProcessorList(DialogMain.processorList);
+        DBOperation.updatePreAndPostProcessorList(DialogMain.processorList);
         speechProcessorFrame.setVisible(false);
     }//GEN-LAST:event_saveActionButtonActionPerformed
 

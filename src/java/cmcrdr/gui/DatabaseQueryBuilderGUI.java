@@ -12,7 +12,7 @@ import static cmcrdr.mysql.DBConnection.getIsDatabaseUsed;
 import cmcrdr.mysql.DBOperation;
 import cmcrdr.savedquery.ConclusionQuery;
 import cmcrdr.savedquery.SavedQueryTemplate;
-import cmcrdr.sqlite.SqliteOperation;
+import cmcrdr.mysql.DBOperation;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -1536,7 +1536,7 @@ public class DatabaseQueryBuilderGUI extends javax.swing.JFrame {
             // insertNewConclusionQuery adds database tag to query along with embedded id number, so no need to include it here next..
             String query = selectedFields.getText() + joinFields.getText() + criteriaField.getText();
 
-            int id = SqliteOperation.insertNewConclusionQuery(conclusionQueryDescription.getText(), query);
+            int id = DBOperation.insertNewConclusionQuery(conclusionQueryDescription.getText(), query);
             query = OutputParser.getTag(id + selectedFields.getText() + joinFields.getText() + criteriaField.getText(),OutputParser.DB_DATABASE_TYPE);
             String descriptionTag = OutputParser.getTag(conclusionQueryDescription.getText(), OutputParser.DB_DESCRIPTION_TYPE);
             String queryPlaceholder = OutputParser.getTag(Integer.toString(id) + descriptionTag, OutputParser.DB_PLACEHOLDER_TYPE);
@@ -1823,7 +1823,7 @@ public class DatabaseQueryBuilderGUI extends javax.swing.JFrame {
             aSavedQuery.setSelect(selectedFields.getText());
             aSavedQuery.setjoin(joinFields.getText());
             aSavedQuery.setCriteria(criteriaField.getText());
-            int id = SqliteOperation.insertNewQueryTemplateDetails(aSavedQuery);
+            int id = DBOperation.insertNewQueryTemplateDetails(aSavedQuery);
             if (id != -1) {
                 aSavedQuery.setId(id);
                 DialogMain.savedQueryTemplateList.put(id, aSavedQuery);
@@ -1902,7 +1902,7 @@ public class DatabaseQueryBuilderGUI extends javax.swing.JFrame {
         if (savedQueryItemsJList.getSelectedIndex() >= 0) {
             int queryId = Integer.parseInt(savedQueryItemsJList.getSelectedValue().split(" ")[0]);
             DialogMain.savedQueryTemplateList.remove(queryId);
-            SqliteOperation.deleteSavedQueryTemplate(queryId);
+            DBOperation.deleteSavedQueryTemplate(queryId);
             DefaultListModel theModel = (DefaultListModel)savedQueryItemsJList.getModel();
             theModel.remove(savedQueryItemsJList.getSelectedIndex());
         }

@@ -15,7 +15,7 @@ import rdr.cases.Case;
 import rdr.cases.CornerstoneCase;
 import rdr.cases.CornerstoneCaseSet;
 import rdr.logger.Logger;
-import rdr.sqlite.SqliteBasicOperation;
+import cmcrdr.mysql.DBOperation;
 
 /**
  *
@@ -28,7 +28,7 @@ public class RuleLoader {
      *
      */
     public static void deleteDefaultRule(){
-        SqliteBasicOperation.deleteQuery("tb_rule_structure", "rule_id", 0);
+        DBOperation.deleteQuery("tb_rule_structure", "rule_id", 0);
     }
 
     /**
@@ -56,7 +56,7 @@ public class RuleLoader {
 //        attributes[1] = "value_type_id";
 //        attributes[2] = "conclusion_name";
         
-        SqliteBasicOperation.insertRuleConclusion(newConclusionId, newConclusion.getConclusionValue().getValueType().getTypeCode(), newConclusion.getConclusionName());
+        DBOperation.insertRuleConclusion(newConclusionId, newConclusion.getConclusionValue().getValueType().getTypeCode(), newConclusion.getConclusionName());
         
     }
     
@@ -77,7 +77,7 @@ public class RuleLoader {
             parentId = newRule.getParent().getRuleId();
         }
         
-        SqliteBasicOperation.insertRuleStructure(newRule.getRuleId(), parentId, conclusionId, newRule.getIsStoppingRule(), newRule.getDoNotStack());
+        DBOperation.insertRuleStructure(newRule.getRuleId(), parentId, conclusionId, newRule.getIsStoppingRule(), newRule.getDoNotStack());
     }
     
     /**
@@ -93,7 +93,7 @@ public class RuleLoader {
         
         for (Condition aCondition : newRule.getConditionSet().getBase()) {
             
-            SqliteBasicOperation.insertRuleCondition(newRuleId, aCondition.getAttribute().getAttributeId(), aCondition.getOperator().getOperator(), aCondition.getValue().toString());
+            DBOperation.insertRuleCondition(newRuleId, aCondition.getAttribute().getAttributeId(), aCondition.getOperator().getOperator(), aCondition.getValue().toString());
         }
     }
         
@@ -115,7 +115,7 @@ public class RuleLoader {
             int caseId = (int) me.getKey();
             CornerstoneCase aCase = (CornerstoneCase) me.getValue();
             
-            SqliteBasicOperation.insertRuleCornerstone(newRuleId, caseId);
+            DBOperation.insertRuleCornerstone(newRuleId, caseId);
            
             RuleSet inferenceResult = aCase.getWrongRuleSet();
             
@@ -127,7 +127,7 @@ public class RuleLoader {
                 Map.Entry me2 = (Map.Entry) ruleIterator.next();
                 Rule aRule = (Rule) me2.getValue();
                 
-                SqliteBasicOperation.insertRuleCornerstoneInferenceResult(caseId, aRule.getRuleId());            
+                DBOperation.insertRuleCornerstoneInferenceResult(caseId, aRule.getRuleId());            
             }
         }
     }
@@ -136,9 +136,9 @@ public class RuleLoader {
      *
      */
     public static void setRules(){
-        HashMap<Integer, ConditionSet> conditionHashMap = SqliteBasicOperation.getConditionHashMap();
-        ConclusionSet conclusionSet = SqliteBasicOperation.getConclusionSet();
-        Main.KB = SqliteBasicOperation.getRuleStructureSet(conditionHashMap,  conclusionSet);
+        HashMap<Integer, ConditionSet> conditionHashMap = DBOperation.getConditionHashMap();
+        ConclusionSet conclusionSet = DBOperation.getConclusionSet();
+        Main.KB = DBOperation.getRuleStructureSet(conditionHashMap,  conclusionSet);
         Main.KB.setRootRuleTree();
         cornerstoneCaseSet = RuleLoader.getCornerstoneCaseSet();
         RuleLoader.setCornerstoneCase();
@@ -146,7 +146,7 @@ public class RuleLoader {
     
     private static CornerstoneCaseSet getCornerstoneCaseSet() {
         //case id , list of rule ids
-        HashMap<Integer, ArrayList<Integer>> cornerstoneCaseInferenceResultsHashMap = SqliteBasicOperation.getCornerstoneCaseInferenceResultHashMap();
+        HashMap<Integer, ArrayList<Integer>> cornerstoneCaseInferenceResultsHashMap = DBOperation.getCornerstoneCaseInferenceResultHashMap();
       
         Set cases = cornerstoneCaseInferenceResultsHashMap.entrySet();
         // Get an iterator
@@ -172,7 +172,7 @@ public class RuleLoader {
     
     private static void setCornerstoneCase(){
         //rule id , list of case ids
-        HashMap<Integer, ArrayList<Integer>> cornerstoneCaseIdsHashMap = SqliteBasicOperation.getCornerstoneCaseIdsHashMap();
+        HashMap<Integer, ArrayList<Integer>> cornerstoneCaseIdsHashMap = DBOperation.getCornerstoneCaseIdsHashMap();
 
         Set rules = Main.KB.getBase().entrySet();
         // Get an iterator

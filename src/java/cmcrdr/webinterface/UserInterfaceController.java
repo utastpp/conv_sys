@@ -22,7 +22,7 @@ import cmcrdr.main.DialogMainTimer;
 import cmcrdr.mysql.DBConnection;
 import cmcrdr.processor.PreAndPostProcessorAction;
 import cmcrdr.responses.SystemResponse;
-import cmcrdr.sqlite.SqliteOperation;
+import cmcrdr.mysql.DBOperation;
 import cmcrdr.user.DialogUser;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -74,7 +74,7 @@ public class UserInterfaceController  {
                 
         //Logger.info("Setting KB ruleset");
         Main.workbench.setRuleSet(Main.KB);
-        HashMap <String,String> settings = cmcrdr.sqlite.SqliteOperation.getReferenceDatabaseDetails();
+        HashMap <String,String> settings = cmcrdr.mysql.DBOperation.getReferenceDatabaseDetails();
         DialogMain.setReferenceDatabaseDetails(settings,true);
         //Logger.info("Setting referential database details:");
         //for (String aSetting: settings.values()) {
@@ -82,8 +82,8 @@ public class UserInterfaceController  {
         //}
 
         //Logger.info("Setting saved query and conclusion details..");
-        DialogMain.savedQueryTemplateList = SqliteOperation.getSavedQueryTemplateDetails();
-        DialogMain.conclusionQueryList = SqliteOperation.getConclusionQueryDetails();
+        DialogMain.savedQueryTemplateList = DBOperation.getSavedQueryTemplateDetails();
+        DialogMain.conclusionQueryList = DBOperation.getConclusionQueryDetails();
         
         // Check for user inactivity and remove them if they are idle for 60 mins or more..
         TimerTask timerTask = new DialogMainTimer(this);
@@ -130,12 +130,12 @@ public class UserInterfaceController  {
         
         
         // a test insertion to the internal slotFiller database..
-        //SqliteOperation.updateCurrentSlotInformation("david.herbert@utas.edu.au", "booking.Destination City", "Melbourne");
+        //DBOperation.updateCurrentSlotInformation("david.herbert@utas.edu.au", "booking.Destination City", "Melbourne");
         
         
        //Logger.info("Getting dictionary values..");
 
-        SqliteOperation.getMatchingTermList();
+        DBOperation.getMatchingTermList();
     }
     
     public String[] getConvertedSchemaColumnNamesAsStringArray() {

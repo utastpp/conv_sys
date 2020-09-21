@@ -23,7 +23,7 @@ import cmcrdr.logger.Logger;
 import cmcrdr.main.DialogMain;
 import cmcrdr.mysql.DBOperation;
 import cmcrdr.processor.PreAndPostProcessorAction;
-import cmcrdr.sqlite.SqliteOperation;
+import cmcrdr.mysql.DBOperation;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -817,7 +817,7 @@ public class KALogic {
             DialogMain.processorList.add(anAction);
             Logger.info("Adding preprocessor rule: " + anAction.getMatchText());
         }
-        SqliteOperation.updatePreAndPostProcessorList(DialogMain.processorList);   
+        DBOperation.updatePreAndPostProcessorList(DialogMain.processorList);   
 
         return theResponse;        
     }

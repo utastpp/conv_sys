@@ -24,8 +24,8 @@ import rdr.domain.Domain;
 import cmcrdr.gui.UserInterface;
 import static cmcrdr.main.DialogMain.defaultResponse;
 import cmcrdr.mysql.DBOperation;
-import static cmcrdr.sqlite.SqliteDBCreation.referenceDatabaseSlotFieldsCreate;
-import static cmcrdr.sqlite.SqliteOperation.getDomainDescription;
+import static cmcrdr.mysql.DBCreation.referenceDatabaseSlotFieldsCreate;
+import static cmcrdr.mysql.DBOperation.getDomainDescription;
 
 @WebServlet("/AdminServlet")
 public class AdminServlet extends HttpServlet {

@@ -10,7 +10,7 @@ import java.util.LinkedHashMap;
 import cmcrdr.contextvariable.ContextVariableUser;
 import cmcrdr.logger.Logger;
 import cmcrdr.main.DialogMain;
-import cmcrdr.sqlite.SqliteOperation;
+import cmcrdr.mysql.DBOperation;
 
 /**
  *
@@ -75,7 +75,7 @@ public class DatabaseItemCommandInstance  extends CommandInstance {
 
             String originalSchemaColumnName = DialogMain.userInterfaceController.getSchemaOriginalColumnName(schemaItem);
             if (!originalSchemaColumnName.isEmpty() && !finalDataValue.isEmpty())
-                SqliteOperation.updateCurrentSlotInformation(primaryID, originalSchemaColumnName, finalDataValue);
+                DBOperation.updateCurrentSlotInformation(primaryID, originalSchemaColumnName, finalDataValue);
 
         }
         else {
@@ -91,7 +91,7 @@ public class DatabaseItemCommandInstance  extends CommandInstance {
 
                 String originalSchemaColumnName = DialogMain.userInterfaceController.getSchemaOriginalColumnName(contextVarName);
                 if (!originalSchemaColumnName.isEmpty() && !finalDataValue.isEmpty())
-                    SqliteOperation.updateCurrentSlotInformation(primaryID, originalSchemaColumnName, finalDataValue);
+                    DBOperation.updateCurrentSlotInformation(primaryID, originalSchemaColumnName, finalDataValue);
             }
         }
    } 
@@ -111,7 +111,7 @@ public class DatabaseItemCommandInstance  extends CommandInstance {
         
         Logger.info("I have been called to load all saved schema items, using primary ID of :" + primaryID);
         int context = DialogMain.getDialogUserList().getCurrentStackLevel();
-        ArrayList<String> storedSchemaValues = SqliteOperation.getCurrentSlotInformation(primaryID,DialogMain.userInterfaceController.getSelectedSchemaColumnNames());
+        ArrayList<String> storedSchemaValues = DBOperation.getCurrentSlotInformation(primaryID,DialogMain.userInterfaceController.getSelectedSchemaColumnNames());
         
         int index = 0;  // index 0 is the primaryID
         
@@ -161,7 +161,7 @@ public class DatabaseItemCommandInstance  extends CommandInstance {
             }
 
             int context = DialogMain.getDialogUserList().getCurrentStackLevel();
-            ArrayList<String> storedSchemaValues = SqliteOperation.getCurrentSlotInformation(primaryID,DialogMain.userInterfaceController.getSelectedSchemaColumnNames());
+            ArrayList<String> storedSchemaValues = DBOperation.getCurrentSlotInformation(primaryID,DialogMain.userInterfaceController.getSelectedSchemaColumnNames());
 
             int index = 0;  // index 0 is the primaryID
 

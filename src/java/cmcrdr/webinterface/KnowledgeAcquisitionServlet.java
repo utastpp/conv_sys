@@ -31,12 +31,12 @@ import rdr.rules.Conclusion;
 import rdr.rules.Condition;
 import rdr.rules.ConditionSet;
 import rdr.rules.RuleLoader;
-import rdr.sqlite.DBManager;
 import cmcrdr.command.CommandFactory;
 import cmcrdr.command.CommandInstance;
 import cmcrdr.dialog.DialogSet;
 import cmcrdr.handler.OutputParser;
 import cmcrdr.mysql.DBOperation;
+import cmcrdr.mysql.DBCreation;
 import cmcrdr.command.ICommandInstance;
 import cmcrdr.contextvariable.ContextVariable;
 import cmcrdr.dialog.SystemDialogInstance;
@@ -53,7 +53,7 @@ import static cmcrdr.handler.OutputParser.containsTableAndFieldTag;
 import static cmcrdr.main.DialogMain.contextPath;
 import cmcrdr.savedquery.ConclusionQuery;
 import cmcrdr.savedquery.SavedQueryTemplate;
-import cmcrdr.sqlite.SqliteOperation;
+import cmcrdr.mysql.DBOperation;
 import cmcrdr.user.DialogUser;
 import cmcrdr.knowledgeacquisition.KALogic;
 import static cmcrdr.knowledgeacquisition.KALogic.addContextVariableAction;
@@ -1906,7 +1906,7 @@ public class KnowledgeAcquisitionServlet extends HttpServlet {
                 aDialogUser.getDialogRepository().clearRepository();
             }
                      
-            DBManager.initialise(Main.domain.getDomainName(), contextPath);
+            DBCreation.initialise(Main.domain.getDomainName(), contextPath);
 
             try {
                 DialogCaseArchiveModule.createTextFileWithCaseStructure(contextPath);
@@ -1980,7 +1980,7 @@ public class KnowledgeAcquisitionServlet extends HttpServlet {
             aSavedQuery.setSelect(fields);
             aSavedQuery.setjoin(joins);
             aSavedQuery.setCriteria(criteria);
-            int id = SqliteOperation.insertNewQueryTemplateDetails(aSavedQuery);
+            int id = DBOperation.insertNewQueryTemplateDetails(aSavedQuery);
             if (id != -1) {
                 aSavedQuery.setId(id);
                 DialogMain.savedQueryTemplateList.put(id, aSavedQuery);
@@ -1994,7 +1994,7 @@ public class KnowledgeAcquisitionServlet extends HttpServlet {
         StatusResponse theResponse = new StatusResponse();
         
         DialogMain.savedQueryTemplateList.remove(queryID);
-        SqliteOperation.deleteSavedQueryTemplate(queryID);
+        DBOperation.deleteSavedQueryTemplate(queryID);
             
         theResponse.setStatus("OK");
         return theResponse;
@@ -2045,7 +2045,7 @@ public class KnowledgeAcquisitionServlet extends HttpServlet {
     private StatusResponse setSavedQuery(String queryText, String description) {
         StatusResponse theResponse = new StatusResponse();
         
-        int id = SqliteOperation.insertNewConclusionQuery(description, queryText);
+        int id = DBOperation.insertNewConclusionQuery(description, queryText);
         String query = OutputParser.getTag(id + queryText,OutputParser.DB_DATABASE_TYPE);
         String descriptionTag = OutputParser.getTag(description, OutputParser.DB_DESCRIPTION_TYPE);
         //String queryPlaceholder = OutputParser.getTag(Integer.toString(id) + descriptionTag, OutputParser.DB_PLACEHOLDER_TYPE);

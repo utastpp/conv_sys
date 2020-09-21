@@ -16,7 +16,6 @@ import static javax.swing.JOptionPane.showMessageDialog;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import rdr.apps.Main;
 import rdr.domain.DomainLoader;
-import rdr.sqlite.DBManager;
 
 /**
  * This class is used to present GUI for startup frame

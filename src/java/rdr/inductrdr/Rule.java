@@ -4,7 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import rdr.sqlite.inductSqliteOperation;
+import cmcrdr.mysql.DBInductOperation;
 
 /**
  *
@@ -68,12 +68,12 @@ public class Rule {
 			fileWriter.write(indent + "All trained data:\t" + (this.true_no + this.false_no) + "\r\n");
 			fileWriter.write(indent + "Default class:\t" + default_class + "\r\n");
 			
-			inductSqliteOperation.insert_tb_tree(-1, default_class);
-			int ruleID = inductSqliteOperation.select_max_ruleId();
+			DBInductOperation.insert_tb_tree(-1, default_class);
+			int ruleID = DBInductOperation.select_max_ruleId();
 			
 			outputRule(listAttr, indent, fileWriter, ruleID);
 			
-			inductSqliteOperation.update_exception(this.ruleID, ruleID);
+			DBInductOperation.update_exception(this.ruleID, ruleID);
 			
 		} catch(IOException e) {
 			System.out.println(e.getMessage());
@@ -88,8 +88,8 @@ public class Rule {
 			fileWriter.write(indent + "True Cases: " + this.true_no +"\tFalse Cases: " + this.false_no + "\r\n");
 			fileWriter.write(indent + "Terms:" + "\r\n");
 
-			inductSqliteOperation.insert_tb_tree(parent_id, this.class_name);
-			ruleID = inductSqliteOperation.select_max_ruleId();
+			DBInductOperation.insert_tb_tree(parent_id, this.class_name);
+			ruleID = DBInductOperation.select_max_ruleId();
 			
 			for(int i = 0; i < this.clause.terms.size(); i++) {
 				term = this.clause.terms.get(i);
@@ -97,7 +97,7 @@ public class Rule {
 						+ "Relation: %-10sValue: %-15s\r\n", (i + 1),
 						listAttr.get(term.attribute_no), term.relation, term.value/*.replace(",", " to ")*/));
 				
-				inductSqliteOperation.insert_tb_cond(ruleID, term.attribute_no, term.value, term.relation);
+				DBInductOperation.insert_tb_cond(ruleID, term.attribute_no, term.value, term.relation);
 			}
 			
 			if(this.if_true != null) {
@@ -106,7 +106,7 @@ public class Rule {
 				this.if_true.outputRule(listAttr, indent + "  ", fileWriter, ruleID);
 				fileWriter.write(indent + "End If_true" + "\r\n");
 				
-				inductSqliteOperation.update_exception(this.if_true.ruleID, ruleID);
+				DBInductOperation.update_exception(this.if_true.ruleID, ruleID);
 			} else {
 				fileWriter.write(indent + "If_true: null (" + this.correct_no_t + " correct"
 						+ ((this.true_no - this.correct_no_t > 0)?
@@ -143,7 +143,7 @@ public class Rule {
 				this.if_false.outputRule(listAttr, indent + "  ", fileWriter, parent_id);
 				fileWriter.write(indent + "End If_false" + "\r\n");
 				
-				inductSqliteOperation.update_alter(this.if_false.ruleID, ruleID);
+				DBInductOperation.update_alter(this.if_false.ruleID, ruleID);
 			} else {
 				fileWriter.write(indent + "If_false: null (" + this.correct_no_f + " correct"
 						+ ((this.false_no - this.correct_no_f > 0)?

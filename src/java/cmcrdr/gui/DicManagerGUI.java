@@ -11,7 +11,7 @@ import cmcrdr.dic.DicTerm;
 import cmcrdr.logger.Logger;
 import cmcrdr.main.DialogMain;
 import cmcrdr.mysql.DBOperation;
-import cmcrdr.sqlite.SqliteOperation;
+import cmcrdr.mysql.DBOperation;
 import java.awt.event.KeyEvent;
 import java.io.BufferedReader;
 import java.io.File;
@@ -1143,7 +1143,7 @@ if(representativeTermTable.getSelectedRow()>-1){
             File file = importexportFileChooser.getSelectedFile();
             //This is where a real application would open the file.
             Logger.info("Saving to: " + file.getName());
-            SqliteOperation.exportDictionary(DialogMain.dictionary.getDicId(), file);
+            DBOperation.exportDictionary(DialogMain.dictionary.getDicId(), file);
         }
     }//GEN-LAST:event_exportDictionaryButtonActionPerformed
 

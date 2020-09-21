@@ -54,7 +54,7 @@ import rdr.rules.ConditionSet;
 import rdr.rules.Rule;
 import rdr.rules.RuleLoader;
 import rdr.rules.RuleSet;
-import rdr.sqlite.inductSqliteOperation;
+import cmcrdr.mysql.DBInductOperation;
 
 /**
  * This class is used to present GUI for main frame for this program
@@ -1523,7 +1523,7 @@ public class MainFrame extends javax.swing.JFrame {
         if (confirmed == JOptionPane.YES_OPTION) {
             try {
                 String fileName = System.getProperty("user.dir") + "/domain/cases/" + Main.domain.getDomainName() + ".arff";
-                inductSqliteOperation.init();
+                DBInductOperation.init();
                 
                 CaseLoader.caseStructureImport();
                 
@@ -1587,7 +1587,7 @@ public class MainFrame extends javax.swing.JFrame {
 //                        CaseLoader.caseStructureImport();
 //                        
 //                        String fileName = System.getProperty("user.dir") + "/domain/cases/" + Main.domain.getDomainName() + ".arff";
-//                        inductSqliteOperation.init();
+//                        DBInductOperation.init();
 //                        
 //                        int CaseAttrAmount = Main.domain.getCaseStructure().getAttrAmount();
 //                        InductRDR.createRules(fileName, CaseAttrAmount-1);

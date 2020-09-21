@@ -5,7 +5,7 @@
  */
 package cmcrdr.dic;
 
-import cmcrdr.sqlite.SqliteOperation;
+import cmcrdr.mysql.DBOperation;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -18,20 +18,20 @@ public class DicManager {
     
 
     public static HashMap<Integer,Dictionary> getAllDictionaryFromDB() {
-        HashMap<Integer,Dictionary> dicList = SqliteOperation.getDicList();
+        HashMap<Integer,Dictionary> dicList = DBOperation.getDicList();
         
         return dicList;
     }
     
 
     public void setCurrentDicByNameFromDB(String dicName) {
-        Dictionary aDic = SqliteOperation.getDicByName(dicName);
+        Dictionary aDic = DBOperation.getDicByName(dicName);
         int dicId = aDic.getDicId();
         
         
-        HashMap<Integer,DicRepTerm> representativeTermHashMap = SqliteOperation.getRepresentativeTermList(dicId);
+        HashMap<Integer,DicRepTerm> representativeTermHashMap = DBOperation.getRepresentativeTermList(dicId);
 
-        HashMap<Integer,DicTerm> matchingTermList = SqliteOperation.getMatchingTermList();
+        HashMap<Integer,DicTerm> matchingTermList = DBOperation.getMatchingTermList();
         
         // Get a set
          Set representativeSet = representativeTermHashMap.entrySet();
@@ -66,7 +66,7 @@ public class DicManager {
             }
             //else {
             //    Logger.info("DELETING REPRESENTATIVE TERM: " + representativeTerm + " as it has no matching terms..");
-            //    SqliteOperation.deleteDicRepresentativeTerm(dicId, representativeTerm);
+            //    DBOperation.deleteDicRepresentativeTerm(dicId, representativeTerm);
             //}
         }
         this.currentDic= aDic;
@@ -74,7 +74,7 @@ public class DicManager {
     
 
     public void createNewDic(String dicName) {
-        int dicId = SqliteOperation.insertDic(dicName);
+        int dicId = DBOperation.insertDic(dicName);
         
         this.currentDic.setDicId(dicId);
         this.currentDic.setDicName(dicName);
@@ -93,7 +93,7 @@ public class DicManager {
 
     public DicTerm addRepresentativeTerm(DicTerm aDicTerm){
         Logger.info("About to save rep term " + aDicTerm.getRepresentativeTerm());
-        int representativeId = SqliteOperation.insertDicRepresentativeTerm(this.currentDic.getDicId(), aDicTerm.getRepresentativeTerm(), aDicTerm.getAllowRandomSynonym());
+        int representativeId = DBOperation.insertDicRepresentativeTerm(this.currentDic.getDicId(), aDicTerm.getRepresentativeTerm(), aDicTerm.getAllowRandomSynonym());
 
         //ArrayList<String> matchingTermsFromDatabase;
         //ArrayList<String> masterList = new ArrayList<>();
@@ -110,7 +110,7 @@ public class DicManager {
                    
  
             // we have a direct matching term, so add it to the system database
-            SqliteOperation.insertDicMatchingTerm(representativeId, matchingTerm);
+            DBOperation.insertDicMatchingTerm(representativeId, matchingTerm);
             
         }
 
@@ -122,7 +122,7 @@ public class DicManager {
 
     public DicTerm addRepresentativeTermUsingString(String representativeTerm, boolean allowRandomSynonym){
         DicTerm aDicTerm = new DicTerm();
-        int representativeId = SqliteOperation.insertDicRepresentativeTerm(this.currentDic.getDicId(), representativeTerm, allowRandomSynonym);
+        int representativeId = DBOperation.insertDicRepresentativeTerm(this.currentDic.getDicId(), representativeTerm, allowRandomSynonym);
 
         aDicTerm.setRepresentativeTerm(representativeTerm);
         aDicTerm.setRepresentativeTermId(representativeId);
@@ -140,7 +140,7 @@ public class DicManager {
             DicTerm aDicTerm = this.currentDic.getDicTermByRepresentative(representativeTerm);
             aDicTerm.addMatchingTerm(matchingTerm);     
 
-            SqliteOperation.insertDicMatchingTerm(aDicTerm.getRepresentativeTermId(), matchingTerm);
+            DBOperation.insertDicMatchingTerm(aDicTerm.getRepresentativeTermId(), matchingTerm);
             
             this.currentDic.addDicTerm(aDicTerm);       
             
@@ -148,7 +148,7 @@ public class DicManager {
             
             DicTerm aDicTerm = this.addRepresentativeTermUsingString(representativeTerm,allowRandomSynonyms);
 
-            SqliteOperation.insertDicMatchingTerm(aDicTerm.getRepresentativeTermId(), matchingTerm);
+            DBOperation.insertDicMatchingTerm(aDicTerm.getRepresentativeTermId(), matchingTerm);
             aDicTerm.addMatchingTerm(matchingTerm);         
             this.currentDic.addDicTerm(aDicTerm);
         }
@@ -159,9 +159,9 @@ public class DicManager {
         DicTerm aDicTerm = this.currentDic.getDicTermByRepresentative(representativeTerm);
         int representativeId = aDicTerm.getRepresentativeTermId();
         
-        SqliteOperation.deleteDicRepresentativeTerm(this.currentDic.getDicId(), representativeTerm);
+        DBOperation.deleteDicRepresentativeTerm(this.currentDic.getDicId(), representativeTerm);
         
-        SqliteOperation.deleteDicMatchingTermByRepresentativeId(representativeId);
+        DBOperation.deleteDicMatchingTermByRepresentativeId(representativeId);
         
         this.currentDic.deleteDicTerm(aDicTerm);
     }
@@ -174,7 +174,7 @@ public class DicManager {
             // delete from the list..
             aDicTerm.getMatchingTerm().clear();
             // delete from the database..
-            SqliteOperation.deleteDicMatchingTermByRepresentativeId(representativeId);   
+            DBOperation.deleteDicMatchingTermByRepresentativeId(representativeId);   
         }
     }
     

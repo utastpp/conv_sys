@@ -134,4 +134,5 @@ public class DBConnection {
     public static boolean getIsDatabaseUsed() {
         return database_used;
     }
+
 }

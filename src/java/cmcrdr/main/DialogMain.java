@@ -15,7 +15,7 @@ import cmcrdr.dic.Dictionary;
 import cmcrdr.external.ExternalExecutor;
 import cmcrdr.savedquery.ConclusionQuery;
 import cmcrdr.savedquery.SavedQueryTemplate;
-import cmcrdr.sqlite.SqliteOperation;
+import cmcrdr.mysql.DBOperation;
 import cmcrdr.user.DialogUser;
 import cmcrdr.user.DialogUserList;
 import java.awt.event.ActionEvent;
@@ -41,14 +41,14 @@ import rdr.rules.RuleBuilder;
 import rdr.rules.RuleLoader;
 import rdr.rules.RuleSet;
 import rdr.workbench.Workbench;
-import static cmcrdr.sqlite.SqliteOperation.getPreAndPostProcessorActionsList;
+import static cmcrdr.mysql.DBOperation.getPreAndPostProcessorActionsList;
 import rdr.cases.Case;
 import rdr.cases.CaseLoader;
 import rdr.cases.CornerstoneCaseSet;
-import rdr.sqlite.DBManager;
+import cmcrdr.mysql.DBCreation;
 import cmcrdr.gui.UserInterface;
 import cmcrdr.mysql.DBConnection;
-import cmcrdr.sqlite.SqliteDBCreation;
+import cmcrdr.mysql.DBCreation;
 import cmcrdr.webinterface.UserInterfaceController;
 import cmcrdr.xml.Transrotations;
 import static cmcrdr.xml.TransrotationsBuilder.getTransrotationCapabilities;
@@ -223,7 +223,7 @@ public class DialogMain {
         
         // create domain database
         Logger.info("About to create databases..");
-        DBManager.initialise(Main.domain.getDomainName(), contextPath);       
+        DBCreation.initialise(Main.domain.getDomainName(), contextPath);       
 
         try {
             DialogCaseArchiveModule.createTextFileWithCaseStructure(contextPath);
@@ -237,7 +237,7 @@ public class DialogMain {
         RuleLoader.insertRule(0, Main.KB.getRootRule(), 0);      
 
         // create chat features databases
-        SqliteDBCreation.initialise();      
+        DBCreation.initialise();      
         
         // DPH JUNE 2016 test creating new dicmanager..
         DicManager dicManager = new DicManager();
@@ -288,9 +288,9 @@ public class DialogMain {
             
             dialogUserList.setCurrentIndex(-1);
             processorList = getPreAndPostProcessorActionsList();
-            initialGreeting = SqliteOperation.getInitialDialogGreeting();
-            initialShortGreeting = SqliteOperation.getInitialShortDialogGreeting();
-            referenceDatabaseDetails = cmcrdr.sqlite.SqliteOperation.getReferenceDatabaseDetails();
+            initialGreeting = DBOperation.getInitialDialogGreeting();
+            initialShortGreeting = DBOperation.getInitialShortDialogGreeting();
+            referenceDatabaseDetails = cmcrdr.mysql.DBOperation.getReferenceDatabaseDetails();
             
 
             //Logger.info("CREATING USER INTERFACE CONTROLLER");
@@ -386,12 +386,12 @@ public class DialogMain {
     
     public static void updateInitialGreeting(String greeting) {
         initialGreeting = greeting;
-        SqliteOperation.updateInitialGreeting(greeting);
+        DBOperation.updateInitialGreeting(greeting);
     }
     
     public static void updateInitialShortGreeting(String greeting) {
         initialShortGreeting = greeting;
-        SqliteOperation.updateInitialShortGreeting(greeting);
+        DBOperation.updateInitialShortGreeting(greeting);
     }
     
     public static String getInitialGreeting() {
@@ -417,7 +417,7 @@ public class DialogMain {
         //}
         
         if (save)
-            cmcrdr.sqlite.SqliteOperation.setReferenceDatabaseDetails(DialogMain.referenceDatabaseDetails);
+            cmcrdr.mysql.DBOperation.setReferenceDatabaseDetails(DialogMain.referenceDatabaseDetails);
         
         return DBConnection.connect(DialogMain.referenceDatabaseDetails, true);
     }

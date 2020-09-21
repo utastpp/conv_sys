@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package rdr.sqlite;
+package cmcrdr.mysql;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -15,14 +15,12 @@ import java.util.List;
 import rdr.apps.Main;
 import rdr.logger.Logger;
 
+
 /**
  *
- * @author Hyunsuk (David) Chung (DavidChung89@gmail.com)
+ * @author Kai Chiu Wong
  */
-public class inductSqliteOperation {
-    
-	static Connection connect = SqliteConnection.connection;
-	
+public class DBInductOperation {
 	static String cr_tb_cond = "CREATE TABLE IF NOT EXISTS `tb_rule_conditions` (" +
 								"`condition_id` integer PRIMARY KEY AUTOINCREMENT," +
 								"`rule_id` integer NOT NULL," +
@@ -138,8 +136,7 @@ public class inductSqliteOperation {
 		}
 		
 		try {
-			Class.forName("org.sqlite.JDBC");
-                        connect = (Connection) DriverManager.getConnection("jdbc:sqlite:" + System.getProperty("user.dir") + "/domain/"+ Main.domain.getDomainName() +".db" );
+		    Connection connect = DBConnection.getConnection();
 	    } catch ( Exception e ) {
 		    Logger.error( e.getClass().getName() + ": " + e.getMessage() );
 		    System.exit(0);
@@ -151,6 +148,7 @@ public class inductSqliteOperation {
      *
      */
     public static void create_table() {
+        Connection connect = DBConnection.getConnection();
 	    try {
 	    	stmt = connect.createStatement();
 	    	stmt.executeUpdate(cr_tb_cond);
@@ -170,6 +168,7 @@ public class inductSqliteOperation {
      *
      */
     public static void delete_table() {
+        Connection connect = DBConnection.getConnection();
 	    try {
 	    	stmt = connect.createStatement();
 	    	stmt.executeUpdate(dl_tb_cond);
@@ -195,6 +194,7 @@ public class inductSqliteOperation {
      */
     public static void insert_tb_cond(int rule_id, int attribute_id, String attribute_value,
 			String operator_id) {
+        Connection connect = DBConnection.getConnection();
 		try {
 			pstmt = connect.prepareStatement(is_tb_cond);
 			pstmt.setInt(2, rule_id);
@@ -216,6 +216,7 @@ public class inductSqliteOperation {
      * @param conclusion_id
      */
     public static void insert_tb_tree(int alter_id, int exception_id, int conclusion_id) {
+        Connection connect = DBConnection.getConnection();
 		try {
 			pstmt = connect.prepareStatement(is_tb_tree1);
 			pstmt.setInt(2, alter_id);
@@ -235,6 +236,7 @@ public class inductSqliteOperation {
      * @param conclusion_id
      */
     public static void insert_tb_tree(int parent_id, int conclusion_id) {
+        Connection connect = DBConnection.getConnection();
 		try {
 			pstmt = connect.prepareStatement(is_tb_tree2);
 			pstmt.setInt(2, conclusion_id);
@@ -255,6 +257,7 @@ public class inductSqliteOperation {
      * @param conclusion_id
      */
     public static void insert_tb_tree_root(int conclusion_id) {
+        Connection connect = DBConnection.getConnection();
 		try {
 			pstmt = connect.prepareStatement(is_tb_tree2);
 			pstmt.setInt(1, 0);
@@ -319,6 +322,7 @@ public class inductSqliteOperation {
      * @param rule_id
      */
     public static void update_alter(int alter_id, int rule_id) {
+        Connection connect = DBConnection.getConnection();
 		try {
 			pstmt = connect.prepareStatement(ud_tb_tree1);
 			pstmt.setInt(1, alter_id);
@@ -337,6 +341,7 @@ public class inductSqliteOperation {
      * @param rule_id
      */
     public static void update_exception(int exception_id, int rule_id) {
+        Connection connect = DBConnection.getConnection();
 		try {
 			pstmt = connect.prepareStatement(ud_tb_tree2);
 			pstmt.setInt(1, exception_id);
@@ -354,6 +359,7 @@ public class inductSqliteOperation {
      * @return
      */
     public static int select_max_ruleId() {
+        Connection connect = DBConnection.getConnection();
 		int id = 0;
 		try {
 			stmt = connect.createStatement();
@@ -373,6 +379,7 @@ public class inductSqliteOperation {
      *
      */
     public static void close() {
+        Connection connect = DBConnection.getConnection();
 		try {
 			stmt.close();
 			pstmt.close();
@@ -394,6 +401,7 @@ public class inductSqliteOperation {
      */
     public static void set_Attributes(List<String> attributes1, List<Integer> types1, 
 			int class_index, String class_name, List<String> class_set1) {
+        Connection connect = DBConnection.getConnection();
 		attributes = new ArrayList<String>();
 		attributes.addAll(attributes1);
 		types = new ArrayList<Integer>();
@@ -461,6 +469,7 @@ public class inductSqliteOperation {
      */
     public static void set_Conclusions(List<String> attributes1, List<Integer> types1, 
 			int class_index, String class_name, List<String> class_set1) {
+        Connection connect = DBConnection.getConnection();
 		
 		class_set = new ArrayList<String>();
 		class_set.addAll(class_set1);
@@ -484,6 +493,7 @@ public class inductSqliteOperation {
      * @param fileName
      */
     public static void read(String fileName) {
+        
 		operator = new ArrayList<String>();
 		String[] op = {"", "=", "!=", "<", ">", "<=", ">="};
 		for(int i = 0; i < 7; i++) {
@@ -497,12 +507,11 @@ public class inductSqliteOperation {
 		}
 		
 		try {
-			Class.forName("org.sqlite.JDBC");
-		    connect = DriverManager.getConnection("jdbc:sqlite:" + fileName);
+                    Connection connect = DBConnection.getConnection();
 	    } catch ( Exception e ) {
 		    Logger.error( e.getClass().getName() + ": " + e.getMessage() );
 		    System.exit(0);
 	    }
 	    Logger.info("Opened database successfully");
-	}
+	} 
 }

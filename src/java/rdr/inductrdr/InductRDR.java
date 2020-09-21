@@ -11,7 +11,7 @@ import rdr.apps.Main;
 import rdr.cases.CaseLoader;
 import rdr.cases.CornerstoneCaseSet;
 import rdr.logger.Logger;
-import rdr.sqlite.inductSqliteOperation;
+import cmcrdr.mysql.DBInductOperation;
 
 import weka.core.Instances;
 
@@ -671,18 +671,18 @@ public class InductRDR {
 		
 			String class_name = ds.createDataSet(data, classIndex);
 			
-			inductSqliteOperation.create_table();
-			inductSqliteOperation.delete_table();
+			DBInductOperation.create_table();
+			DBInductOperation.delete_table();
                         
 			Rule r = make_rdr(null, ds.getDefaultClass(), ds.getAttrNoSet(), ds, false, 2, 1,
 					0, Integer.MAX_VALUE);
                         
                         Logger.info("Inserting attributes...");
                         
-//			inductSqliteOperation.set_Attributes(ds.attribute, ds.type, classIndex, class_name, ds.class_set);
+//			DBInductOperation.set_Attributes(ds.attribute, ds.type, classIndex, class_name, ds.class_set);
                         CaseLoader.inserCaseStructure(Main.domain.getCaseStructure());
-                        inductSqliteOperation.set_Attributes(ds.attribute, ds.type, classIndex, class_name, ds.class_set);
-                        inductSqliteOperation.set_Conclusions(ds.attribute, ds.type, classIndex, class_name, ds.class_set);
+                        DBInductOperation.set_Attributes(ds.attribute, ds.type, classIndex, class_name, ds.class_set);
+                        DBInductOperation.set_Conclusions(ds.attribute, ds.type, classIndex, class_name, ds.class_set);
                         
                         Logger.info("Writing results into text file...");
                         
@@ -690,7 +690,7 @@ public class InductRDR {
 			r.outputRule(ds.getDefaultClass(), ds.attribute, "", writer);
 			writer.close();
 			
-			inductSqliteOperation.close();
+			DBInductOperation.close();
 			frData.close();
 			
 			rule = new Rule();
@@ -865,18 +865,18 @@ public class InductRDR {
 			
 			//r.validate(vd, ds.getDefaultClass());
 			
-			inductSqliteOperation.create_table();
-			inductSqliteOperation.delete_table();
+			DBInductOperation.create_table();
+			DBInductOperation.delete_table();
                         
 			CaseLoader.caseStructureImport();
                         CaseLoader.inserCaseStructure(Main.domain.getCaseStructure());
-			inductSqliteOperation.set_Attributes(ds.attribute, ds.type, classIndex, class_name, ds.class_set);
+			DBInductOperation.set_Attributes(ds.attribute, ds.type, classIndex, class_name, ds.class_set);
 			
 			FileWriter writer = new FileWriter(file2);
 			r.outputRule(ds.getDefaultClass(), ds.attribute, "", writer);
 			writer.close();
 			
-			inductSqliteOperation.close();
+			DBInductOperation.close();
 			
 			
 			frData.close();

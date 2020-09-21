@@ -21,7 +21,7 @@ import rdr.model.AttributeFactory;
 import rdr.model.IAttribute;
 import rdr.model.Value;
 import rdr.model.ValueType;
-import rdr.sqlite.SqliteBasicOperation;
+import cmcrdr.mysql.DBOperation;
 import weka.core.Attribute;
 import weka.core.Instance;
 import weka.core.Instances;
@@ -54,7 +54,7 @@ public class CaseLoader {
             values[0] = Integer.toString(cur_attr.getAttributeId());
             values[1] = Integer.toString(cur_attr.getValueType().getTypeCode());
             values[2] = cur_attr.getName();
-            SqliteBasicOperation.insertQuery("tb_case_structure", columns, values, false);
+            DBOperation.insertQuery("tb_case_structure", columns, values, false);
             
             //if the attribute is categorical, add categorical valuse
             if(cur_attr.isThisType("CATEGORICAL")){
@@ -71,7 +71,7 @@ public class CaseLoader {
      * 
      */
     public static void setCaseStructure() {
-        CaseStructure caseStructure = SqliteBasicOperation.getCaseStructure();
+        CaseStructure caseStructure = DBOperation.getCaseStructure();
         Main.domain.setCaseStructure(caseStructure);
     }
     
@@ -92,7 +92,7 @@ public class CaseLoader {
         for(int i=0; i< catValues.size(); i++) {
             values[0] = Integer.toString(attribute_id);
             values[1] = catValues.get(i);
-            SqliteBasicOperation.insertQuery("tb_categorical_value", columns, values, false);
+            DBOperation.insertQuery("tb_categorical_value", columns, values, false);
         }
     }
     

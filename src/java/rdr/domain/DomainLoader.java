@@ -12,8 +12,8 @@ import java.util.HashMap;
 import rdr.apps.Main;
 import rdr.cases.CaseLoader;
 import rdr.rules.RuleLoader;
-import rdr.sqlite.SqliteBasicOperation;
-import rdr.sqlite.SqliteConnection;
+import cmcrdr.mysql.DBOperation;
+
 
 /**
  * This class is used to load and save domain 
@@ -29,7 +29,6 @@ public class DomainLoader {
      * @throws Exception
      */
     public static void openDomainFile(String domainName, String path, boolean isCaseImport) throws Exception {
-        SqliteConnection.connect(domainName, path);     
         DomainLoader.setDomainDetails(domainName);
 
         CaseLoader.setCaseStructure();
@@ -47,7 +46,6 @@ public class DomainLoader {
     public static void reloadDomainFile(String domainName, String path) throws Exception {
         Logger.info("I too am calling connect with " + domainName);
         Logger.info("my path is " + path);
-        SqliteConnection.connect(domainName, path);     
         DomainLoader.setDomainDetails(domainName);
 
         CaseLoader.setCaseStructure();
@@ -76,7 +74,7 @@ public class DomainLoader {
         values[2] = domainReasoner;
         values[3] = cur_time;
         values[4] = cur_time;
-        SqliteBasicOperation.insertQuery("tb_domain_details", attributes, values, false);
+        DBOperation.insertQuery("tb_domain_details", attributes, values, false);
         
     }
     
@@ -85,7 +83,7 @@ public class DomainLoader {
      * @param domainName
      */
     public static void setDomainDetails(String domainName){
-        HashMap<String,String> domainDetails = SqliteBasicOperation.getDomainDetails();
+        HashMap<String,String> domainDetails = DBOperation.getDomainDetails();
         if(domainDetails.size()>0){
             Main.domain.setDomainName(domainDetails.get("domainName"));
             Main.domain.setDescription(domainDetails.get("domainDesc"));

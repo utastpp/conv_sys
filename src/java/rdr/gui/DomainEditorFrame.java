@@ -20,10 +20,10 @@ import rdr.apps.Main;
 import rdr.cases.CaseLoader;
 import rdr.domain.DomainLoader;
 import rdr.inductrdr.InductRDR;
-import rdr.sqlite.DBManager;
-import rdr.sqlite.SqliteBasicOperation;
-import rdr.sqlite.SqliteConnection;
-import rdr.sqlite.inductSqliteOperation;
+import cmcrdr.mysql.DBCreation;
+import cmcrdr.mysql.DBOperation;
+
+import cmcrdr.mysql.DBInductOperation;
 import rdr.workbench.Workbench;
 
 /**
@@ -280,7 +280,7 @@ public class DomainEditorFrame extends javax.swing.JFrame {
             switch (mode) {
                 case "Add":
                     //initialise db                     
-                    DBManager.initialise(domainName,"");
+                    DBCreation.initialise(domainName,"");
                     
                     //if this is add mode, set confirm import dataset dialog visible
                     confirmImportDataset.setVisible(true);
@@ -324,7 +324,7 @@ public class DomainEditorFrame extends javax.swing.JFrame {
                         CaseLoader.caseStructureImport();
                         
                         String fileName = System.getProperty("user.dir") + "/domain/cases/" + Main.domain.getDomainName() + ".arff";
-                        inductSqliteOperation.init();
+                        DBInductOperation.init();
                         
                         int CaseAttrAmount = Main.domain.getCaseStructure().getAttrAmount();
                         InductRDR.createRules(fileName, CaseAttrAmount-1);

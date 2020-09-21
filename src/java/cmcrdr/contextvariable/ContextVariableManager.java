@@ -7,7 +7,7 @@ package cmcrdr.contextvariable;
 
 import cmcrdr.dic.Dictionary;
 import cmcrdr.main.DialogMain;
-import cmcrdr.sqlite.SqliteOperation;
+import cmcrdr.mysql.DBOperation;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -156,10 +156,10 @@ public class ContextVariableManager {
      */
     public void setCurrentContextVariablesFromDB() {
 
-        //LinkedHashMap<Integer, String> variablesHashMap = SqliteOperation.getContextVariableList();
-        LinkedHashMap<Integer, ContextVariable> variablesHashMap = SqliteOperation.getContextVariableList();
-        LinkedHashMap<Integer, ContextVariable> variableValuesList = SqliteOperation.getContextVariableValuesList();
-        LinkedHashMap<Integer, ContextVariable> variableActionsList = SqliteOperation.getContextVariableActionsList();
+        //LinkedHashMap<Integer, String> variablesHashMap = DBOperation.getContextVariableList();
+        LinkedHashMap<Integer, ContextVariable> variablesHashMap = DBOperation.getContextVariableList();
+        LinkedHashMap<Integer, ContextVariable> variableValuesList = DBOperation.getContextVariableValuesList();
+        LinkedHashMap<Integer, ContextVariable> variableActionsList = DBOperation.getContextVariableActionsList();
 
         Set variableSet = variablesHashMap.entrySet();
 
@@ -188,7 +188,7 @@ public class ContextVariableManager {
                 //Logger.info("Variable had values so added to main list..");
                 this.addToContextVariableList(aVariable);
             } else {
-                SqliteOperation.deleteContextVariable(variableName);
+                DBOperation.deleteContextVariable(variableName);
             }
         }
     }
@@ -197,9 +197,9 @@ public class ContextVariableManager {
      * Delete all current context variables
      */
     public void deleteAllContextVariables() {
-        SqliteOperation.deleteAllContextVariableActions();
-        SqliteOperation.deleteAllContextVariableValues();
-        SqliteOperation.deleteAllContextVariables();
+        DBOperation.deleteAllContextVariableActions();
+        DBOperation.deleteAllContextVariableValues();
+        DBOperation.deleteAllContextVariables();
         this.contextVariables.clear();
     }
 
@@ -209,7 +209,7 @@ public class ContextVariableManager {
      * @return the context variable added (with updated id)
      */
     public ContextVariable addContextVariable(ContextVariable aVariable) {
-        int varId = SqliteOperation.insertContextVariable(aVariable.getVariableName(), aVariable.getVariableValueOverride());
+        int varId = DBOperation.insertContextVariable(aVariable.getVariableName(), aVariable.getVariableValueOverride());
 
         aVariable.setVariableId(varId);
 
@@ -221,7 +221,7 @@ public class ContextVariableManager {
             Map.Entry me = (Map.Entry) valueIterator.next();
             String value = (String) me.getValue();
 
-            SqliteOperation.insertContextVariableValue(varId, value);
+            DBOperation.insertContextVariableValue(varId, value);
         }
 
         Iterator actionIterator = actions.iterator();
@@ -229,7 +229,7 @@ public class ContextVariableManager {
             Map.Entry me = (Map.Entry) actionIterator.next();
             ContextVariableAction anAction = (ContextVariableAction) me.getValue();
 
-            SqliteOperation.insertContextVariableAction(varId, anAction.getTarget(), anAction.getFixed(), anAction.getContext(), anAction.getTrigger());
+            DBOperation.insertContextVariableAction(varId, anAction.getTarget(), anAction.getFixed(), anAction.getContext(), anAction.getTrigger());
         }
 
         this.addToContextVariableList(aVariable);
@@ -261,11 +261,11 @@ public class ContextVariableManager {
         if (aVariable != null) {
             int varId = aVariable.getVariableId();
 
-            SqliteOperation.deleteContextVariable(varName);
+            DBOperation.deleteContextVariable(varName);
 
-            SqliteOperation.deleteContextVariableValueByVarId(varId);
+            DBOperation.deleteContextVariableValueByVarId(varId);
 
-            SqliteOperation.deleteContextVariableActionByVarId(varId);
+            DBOperation.deleteContextVariableActionByVarId(varId);
 
             this.contextVariables.remove(varName);
         }
