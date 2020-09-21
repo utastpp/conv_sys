@@ -1,0 +1,7 @@
+26/06/2019 12:00:10	USER:[1]	test1
+26/06/2019 12:00:10	SYSTEM:[2]	reply1b
+reply1a
+26/06/2019 12:00:23	USER:[3]	test2
+26/06/2019 12:00:23	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "test1", "test1", "test1"
+26/06/2019 12:06:31	USER:[7]	test4
+26/06/2019 12:06:31	SYSTEM:[8]	I'm sorry, I don't understand.  Did you mean - e.g. "test1", "test1", "test1", "test2", "test2"

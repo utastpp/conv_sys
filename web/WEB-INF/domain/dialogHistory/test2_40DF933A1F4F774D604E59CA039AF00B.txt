@@ -1,0 +1,2 @@
+04/02/2019 12:12:31	USER:[1]	/test10/
+04/02/2019 12:12:31	SYSTEM:[2]	I'm sorry, I don't understand.

@@ -1,0 +1,6 @@
+30/04/2020 13:13:41	USER:[1]	unicorn
+30/04/2020 13:13:41	SYSTEM:[2]	I'm sorry, I don't understand.
+30/04/2020 13:15:20	USER:[3]	unicorn
+30/04/2020 13:15:20	SYSTEM:[4]	I'm sorry, I don't understand.
+30/04/2020 13:16:31	USER:[5]	unitcode
+30/04/2020 13:16:31	SYSTEM:[6]	I'm sorry, I don't understand.

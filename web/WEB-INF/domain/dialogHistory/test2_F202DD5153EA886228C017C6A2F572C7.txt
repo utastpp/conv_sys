@@ -1,0 +1,14 @@
+13/03/2019 18:01:40	USER:[7]	/hello/
+13/03/2019 18:01:40	SYSTEM:[8]	hello back
+13/03/2019 18:02:10	USER:[9]	how are you
+13/03/2019 18:02:10	SYSTEM:[10]	how back
+13/03/2019 18:02:48	USER:[11]	/test10/
+13/03/2019 18:02:48	SYSTEM:[12]	blah back
+13/03/2019 18:03:26	USER:[13]	bink
+13/03/2019 18:03:26	SYSTEM:[14]	bink
+13/03/2019 18:03:49	USER:[15]	bonk
+13/03/2019 18:03:49	SYSTEM:[16]	I'm sorry, I don't understand.  Did you mean - e.g. "bink"
+13/03/2019 18:04:34	USER:[17]	bonk
+13/03/2019 18:04:34	SYSTEM:[18]	bonk back
+13/03/2019 18:05:35	USER:[21]	bonk
+13/03/2019 18:05:35	SYSTEM:[22]	bonk back

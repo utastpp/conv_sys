@@ -1,0 +1,4 @@
+20/03/2019 18:18:47	USER:[1]	/hello/
+20/03/2019 18:18:47	SYSTEM:[2]	hello back
+20/03/2019 18:18:51	USER:[3]	how are you
+20/03/2019 18:18:51	SYSTEM:[4]	how back

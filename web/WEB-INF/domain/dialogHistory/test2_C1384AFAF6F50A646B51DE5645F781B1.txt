@@ -1,0 +1,10 @@
+02/05/2019 08:07:17	USER:[1]	bok
+02/05/2019 08:07:17	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "hello", "whiz", "bork"
+02/05/2019 08:54:14	USER:[3]	botk
+02/05/2019 08:54:14	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "hi", "whiz", "bork"
+02/05/2019 10:59:03	USER:[1]	bok
+02/05/2019 10:59:03	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "hi", "whiz", "bork"
+02/05/2019 11:10:39	USER:[1]	bok
+02/05/2019 11:10:39	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "hi", "whiz", "bork"
+02/05/2019 11:49:29	USER:[1]	bok
+02/05/2019 11:49:29	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "hi", "whiz", "bork"

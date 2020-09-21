@@ -1,0 +1,12 @@
+22/08/2019 12:41:26	USER:[1]	/hello/
+22/08/2019 12:41:26	SYSTEM:[2]	hello is now set!
+22/08/2019 12:56:06	USER:[3]	how are you
+22/08/2019 12:56:06	SYSTEM:[4]	I'm sorry, I don't understand..
+22/08/2019 12:56:09	USER:[5]	today
+22/08/2019 12:56:09	SYSTEM:[6]	today is set!
+22/08/2019 12:56:11	USER:[7]	dadad
+22/08/2019 12:56:11	SYSTEM:[8]	I'm sorry, I don't understand..
+22/08/2019 13:50:04	USER:[1]	/hello/
+22/08/2019 13:50:04	SYSTEM:[2]	hello is now set!
+22/08/2019 13:50:07	USER:[3]	this is a test
+22/08/2019 13:50:07	SYSTEM:[4]	I'm sorry, I don't understand..

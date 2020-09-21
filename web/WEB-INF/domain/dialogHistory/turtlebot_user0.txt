@@ -1,0 +1,140 @@
+20/06/2019 09:19:10	USER:[1]	text 1 stacked
+20/06/2019 09:19:10	SYSTEM:[2]	I'm sorry, I don't understand.
+20/06/2019 09:19:55	USER:[3]	text 1
+20/06/2019 09:19:55	SYSTEM:[4]	reply for text 1
+20/06/2019 09:20:10	USER:[5]	text 2
+20/06/2019 09:20:10	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "text 1"
+20/06/2019 09:21:18	USER:[7]	text 2
+20/06/2019 09:21:18	SYSTEM:[8]	reply for text 2
+20/06/2019 09:21:24	USER:[9]	text 3
+20/06/2019 09:21:24	SYSTEM:[10]	I'm sorry, I don't understand.  Did you mean - e.g. "text 2"
+20/06/2019 11:09:24	USER:[3]	text 1
+20/06/2019 11:09:24	SYSTEM:[4]	reply for text 1
+20/06/2019 11:09:27	USER:[5]	text 2
+20/06/2019 11:09:27	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "text 1"
+20/06/2019 12:41:03	USER:[1]	hello
+20/06/2019 12:41:03	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "text 1", "text 1"
+20/06/2019 15:59:50	USER:[1]	test 1
+20/06/2019 15:59:50	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "text 1", "text 1", "text new", "text 1", "text 2"
+20/06/2019 16:02:49	USER:[3]	test 1
+20/06/2019 16:02:49	SYSTEM:[4]	reply for test 1
+20/06/2019 16:07:10	USER:[5]	test 2
+20/06/2019 16:07:10	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "text 1", "text new", "text 1", "text 2", "test 1"
+20/06/2019 16:11:11	USER:[7]	test 2
+20/06/2019 16:11:11	SYSTEM:[8]	reply for test 2
+20/06/2019 16:11:15	USER:[9]	test 3
+20/06/2019 16:11:15	SYSTEM:[10]	I'm sorry, I don't understand.  Did you mean - e.g. "text 1", "text new", "text 1", "text 2", "test 1"
+20/06/2019 16:52:40	USER:[1]	test 1
+20/06/2019 16:52:40	SYSTEM:[2]	I'm sorry, I don't understand.
+20/06/2019 16:53:20	USER:[3]	test 1
+20/06/2019 16:53:20	SYSTEM:[4]	reply test 1
+20/06/2019 16:53:24	USER:[5]	test 2
+20/06/2019 16:53:24	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "test 1"
+20/06/2019 17:50:09	USER:[1]	test 1
+20/06/2019 17:50:09	SYSTEM:[2]	reply test 1
+20/06/2019 17:50:13	USER:[3]	test 4
+20/06/2019 17:50:13	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "test 1", "test 2"
+20/06/2019 17:55:41	USER:[13]	test 3
+20/06/2019 17:55:41	SYSTEM:[14]	reply for test 3
+21/06/2019 11:43:28	USER:[3]	test1 test2
+21/06/2019 11:43:28	SYSTEM:[4]	reply1
+reply2
+reply test1 test2
+21/06/2019 11:48:14	USER:[1]	test1 test2
+21/06/2019 11:48:14	SYSTEM:[2]	reply1
+reply2
+reply test1 test2
+21/06/2019 13:49:49	USER:[3]	test1 test2
+21/06/2019 13:49:49	SYSTEM:[4]	reply1
+reply2
+reply test1 test2
+21/06/2019 13:59:27	USER:[1]	test1 test2
+21/06/2019 13:59:27	SYSTEM:[2]	reply1
+reply2
+reply test1 test2
+21/06/2019 14:08:08	USER:[1]	test1 test2
+21/06/2019 14:08:08	SYSTEM:[2]	reply1
+reply2
+reply test1 test2
+21/06/2019 14:18:05	USER:[1]	test1 test2
+21/06/2019 14:18:05	SYSTEM:[2]	reply1
+reply2
+reply test1 test2
+21/06/2019 14:33:42	USER:[1]	test1 test2
+21/06/2019 14:33:42	SYSTEM:[2]	reply1
+reply2
+reply test1 test2
+21/06/2019 14:35:50	USER:[1]	test1 test2
+21/06/2019 14:35:50	SYSTEM:[2]	reply1
+reply2
+reply test1 test2
+21/06/2019 14:38:11	USER:[1]	test1 test2
+21/06/2019 14:38:11	SYSTEM:[2]	reply1
+reply2
+reply test1 test2
+21/06/2019 15:14:21	USER:[1]	test4
+21/06/2019 15:14:21	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "test1", "test2", "test1 test2", "test1 test2"
+21/06/2019 15:15:03	USER:[1]	test4
+21/06/2019 15:15:03	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "test1", "test2", "test1 test2", "test1 test2"
+21/06/2019 15:17:00	USER:[9]	test5
+21/06/2019 15:17:00	SYSTEM:[10]	reply5
+23/06/2019 11:56:35	USER:[3]	test2
+23/06/2019 11:56:35	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "test1"
+23/06/2019 11:57:42	USER:[5]	test2
+23/06/2019 11:57:42	SYSTEM:[6]	reply2
+23/06/2019 15:35:55	USER:[5]	testing
+23/06/2019 15:35:55	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "test1", "test2", "test3", "test4"
+23/06/2019 15:35:57	USER:[7]	this is a test
+23/06/2019 15:35:57	SYSTEM:[8]	I'm sorry, I don't understand.  Did you mean - e.g. "test1", "test2", "test3", "test4"
+25/06/2019 14:51:28	USER:[1]	test1
+25/06/2019 14:51:28	SYSTEM:[2]	I'm sorry, I don't understand.
+25/06/2019 14:53:06	USER:[1]	test1
+25/06/2019 14:53:06	SYSTEM:[2]	I'm sorry, I don't understand.
+25/06/2019 14:53:57	USER:[3]	test1
+25/06/2019 14:53:57	SYSTEM:[4]	reply1
+25/06/2019 14:54:44	USER:[5]	test1
+25/06/2019 14:54:44	SYSTEM:[6]	reply1
+reply1a
+26/06/2019 12:00:54	USER:[5]	test2
+26/06/2019 12:00:54	SYSTEM:[6]	reply2
+26/06/2019 12:07:21	USER:[1]	test4
+26/06/2019 12:07:21	SYSTEM:[2]	reply4
+26/06/2019 12:24:15	USER:[1]	test4
+26/06/2019 12:24:15	SYSTEM:[2]	reply4
+26/06/2019 12:26:13	USER:[5]	test5
+26/06/2019 12:26:13	SYSTEM:[6]	reply5
+26/06/2019 12:26:16	USER:[7]	test6
+26/06/2019 12:26:16	SYSTEM:[8]	I'm sorry, I don't understand.  Did you mean - e.g. "test1", "test1", "test2", "test2", "test5"
+26/06/2019 12:27:16	USER:[9]	test7
+26/06/2019 12:27:16	SYSTEM:[10]	I'm sorry, I don't understand.  Did you mean - e.g. "test6"
+26/06/2019 12:28:02	USER:[11]	test1
+26/06/2019 12:28:02	SYSTEM:[12]	reply1b
+reply1a
+26/06/2019 12:29:24	USER:[13]	test1
+26/06/2019 12:29:24	SYSTEM:[14]	test1 1b corrected
+27/06/2019 14:06:24	USER:[1]	enable prompting
+27/06/2019 14:06:24	SYSTEM:[2]	prompting enabled
+27/06/2019 14:06:29	USER:[3]	prompting2
+27/06/2019 14:06:29	SYSTEM:[4]	prompting2 is set!
+27/06/2019 14:35:31	USER:[1]	enable prompting
+27/06/2019 14:35:31	SYSTEM:[2]	prompting enabled
+27/06/2019 14:35:34	USER:[3]	prompting2
+27/06/2019 14:35:34	SYSTEM:[4]	prompting2 is set!
+27/06/2019 16:57:59	USER:[1]	enable prompting
+27/06/2019 16:57:59	SYSTEM:[2]	prompting enabled
+27/06/2019 16:58:14	USER:[3]	test1
+27/06/2019 16:58:14	SYSTEM:[4]	reply1
+27/06/2019 16:58:30	USER:[5]	test2
+27/06/2019 16:58:30	SYSTEM:[6]	reply2
+27/06/2019 16:59:01	USER:[7]	blah
+27/06/2019 16:59:01	SYSTEM:[8]	The value of prompting is now: true
+27/06/2019 16:59:30	USER:[9]	test1
+27/06/2019 16:59:30	SYSTEM:[10]	reply1
+10/07/2019 11:57:19	USER:[7]	hello
+10/07/2019 11:57:19	SYSTEM:[8]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting", "blah", "unset prompting2", "test1"
+10/07/2019 15:02:22	USER:[7]	/hello/
+10/07/2019 15:02:22	SYSTEM:[8]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting", "blah", "unset prompting2", "ooks"
+01/08/2019 11:41:50	USER:[3]	today is wednesday
+01/08/2019 11:41:50	SYSTEM:[4]	today is set!
+07/02/2020 09:44:30	USER:[1]	test
+07/02/2020 09:44:30	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "hi", "today"

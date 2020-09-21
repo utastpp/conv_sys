@@ -1,0 +1,36 @@
+21/03/2019 13:13:43	USER:[1]	/hello/
+21/03/2019 13:13:43	SYSTEM:[2]	hello back
+21/03/2019 13:13:47	USER:[3]	how are you
+21/03/2019 13:13:47	SYSTEM:[4]	how back
+21/03/2019 13:13:50	USER:[5]	/test10/
+21/03/2019 13:13:50	SYSTEM:[6]	blah back
+21/03/2019 13:14:08	USER:[7]	/hello/
+21/03/2019 13:14:08	SYSTEM:[8]	hello back
+21/03/2019 13:30:45	USER:[1]	/hello/
+21/03/2019 13:30:45	SYSTEM:[2]	hello back
+21/03/2019 13:30:49	USER:[3]	how are you
+21/03/2019 13:30:49	SYSTEM:[4]	how back
+21/03/2019 13:30:51	USER:[5]	/test10/
+21/03/2019 13:30:51	SYSTEM:[6]	blah back
+21/03/2019 13:31:07	USER:[7]	/hello/
+21/03/2019 13:31:07	SYSTEM:[8]	hello back
+21/03/2019 13:52:00	USER:[1]	/hello/
+21/03/2019 13:52:00	SYSTEM:[2]	hello back
+21/03/2019 13:53:06	USER:[3]	how are you
+21/03/2019 13:53:06	SYSTEM:[4]	how back
+21/03/2019 13:54:13	USER:[5]	/test10/
+21/03/2019 13:54:13	SYSTEM:[6]	blah back
+21/03/2019 13:55:17	USER:[7]	/hello/
+21/03/2019 13:55:17	SYSTEM:[8]	hello back
+21/03/2019 13:59:07	USER:[1]	/hello/
+21/03/2019 13:59:07	SYSTEM:[2]	hello back
+21/03/2019 13:59:09	USER:[3]	how are you
+21/03/2019 13:59:09	SYSTEM:[4]	how back
+21/03/2019 13:59:11	USER:[5]	/test10/
+21/03/2019 13:59:11	SYSTEM:[6]	blah back
+21/03/2019 13:59:14	USER:[7]	/hello/
+21/03/2019 13:59:14	SYSTEM:[8]	hello back
+21/03/2019 14:12:54	USER:[1]	/hello/ how are you
+21/03/2019 14:12:54	SYSTEM:[2]	how back
+21/03/2019 14:16:06	USER:[1]	/hello/ how are you
+21/03/2019 14:16:06	SYSTEM:[2]	how back

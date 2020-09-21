@@ -1,0 +1,6 @@
+26/11/2019 08:58:33	USER:[1]	hello
+26/11/2019 08:58:33	SYSTEM:[2]	I'm sorry, I don't understand.
+26/11/2019 09:00:05	USER:[3]	hello
+26/11/2019 09:00:05	SYSTEM:[4]	hello back
+26/11/2019 09:01:30	USER:[5]	hello
+26/11/2019 09:01:30	SYSTEM:[6]	hello back

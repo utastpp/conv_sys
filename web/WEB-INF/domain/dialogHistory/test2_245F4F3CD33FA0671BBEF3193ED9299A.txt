@@ -1,0 +1,10 @@
+24/04/2019 11:58:30	USER:[15]	blok
+24/04/2019 11:58:30	SYSTEM:[16]	I'm sorry, I don't understand.  Did you mean - e.g. "hello", "whiz", "bork"
+24/04/2019 11:59:27	USER:[17]	blink
+24/04/2019 11:59:27	SYSTEM:[18]	I'm sorry, I don't understand.  Did you mean - e.g. "hello", "whiz", "bork"
+24/04/2019 12:00:26	USER:[19]	/hello/
+24/04/2019 12:00:26	SYSTEM:[20]	how back
+24/04/2019 12:00:29	USER:[21]	blobk
+24/04/2019 12:00:29	SYSTEM:[22]	I'm sorry, I don't understand.  Did you mean - e.g. "how are you", "bink", "hello", "hello"
+24/04/2019 12:14:41	USER:[1]	/test10/
+24/04/2019 12:14:41	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "hello", "whiz", "bork"

@@ -1,0 +1,19 @@
+19/06/2019 08:21:02	USER:[1]	text1
+19/06/2019 08:21:02	SYSTEM:[2]	I'm sorry, I don't understand.
+19/06/2019 08:30:11	USER:[1]	text1
+19/06/2019 08:30:11	SYSTEM:[2]	I'm sorry, I don't understand.
+19/06/2019 08:36:10	USER:[1]	text1
+19/06/2019 08:36:10	SYSTEM:[2]	I'm sorry, I don't understand.
+19/06/2019 09:50:06	USER:[1]	text1
+19/06/2019 09:50:06	SYSTEM:[2]	I'm sorry, I don't understand.
+19/06/2019 09:55:17	USER:[1]	text1
+19/06/2019 09:55:17	SYSTEM:[2]	I'm sorry, I don't understand.
+19/06/2019 10:07:46	USER:[3]	text1
+19/06/2019 10:07:46	SYSTEM:[4]	<REPLACE>1<REPLACE-EMPTY> no-result-text-goes-here <REPLACE-OVERRIDE> override-text-goes-here  </REPLACE>
+19/06/2019 10:10:29	USER:[5]	text1
+19/06/2019 10:10:29	SYSTEM:[6]	<REPLACE>1<REPLACE-EMPTY> no-result-text-goes-here <REPLACE-OVERRIDE> override-text-goes-here  </REPLACE>
+19/06/2019 10:11:26	USER:[7]	text1
+19/06/2019 10:11:26	SYSTEM:[8]	override-text-goes-here
+19/06/2019 10:16:38	USER:[9]	text1
+19/06/2019 10:16:38	SYSTEM:[10]	override-text-goes-here 
+<REPLACE>1 <REPLACE-EMPTY> no-result-text-goes-here <REPLACE-OVERRIDE>   </REPLACE>

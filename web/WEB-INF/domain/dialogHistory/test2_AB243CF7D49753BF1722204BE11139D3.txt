@@ -1,0 +1,16 @@
+14/03/2019 15:41:39	USER:[1]	/hello/
+14/03/2019 15:41:39	SYSTEM:[2]	hello back
+14/03/2019 16:31:17	USER:[7]	/hello/
+14/03/2019 16:31:17	SYSTEM:[8]	hello back
+14/03/2019 16:32:56	USER:[9]	whiz
+14/03/2019 16:32:56	SYSTEM:[10]	whiz back
+14/03/2019 16:48:11	USER:[15]	/hello/
+14/03/2019 16:48:11	SYSTEM:[16]	hello back
+14/03/2019 16:48:18	USER:[17]	how are you
+14/03/2019 16:48:18	SYSTEM:[18]	how back
+14/03/2019 16:48:21	USER:[19]	pink
+14/03/2019 16:48:21	SYSTEM:[20]	I'm sorry, I don't understand.  Did you mean - e.g. "blah"
+14/03/2019 16:48:47	USER:[21]	JustinGuitar
+14/03/2019 16:48:47	SYSTEM:[22]	I'm sorry, I don't understand.  Did you mean - e.g. "blah"
+14/03/2019 16:49:03	USER:[23]	with
+14/03/2019 16:49:03	SYSTEM:[24]	I'm sorry, I don't understand.  Did you mean - e.g. "blah"

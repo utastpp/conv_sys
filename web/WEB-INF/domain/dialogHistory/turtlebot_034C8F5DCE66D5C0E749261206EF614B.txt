@@ -1,0 +1,14 @@
+10/07/2019 11:17:31	USER:[1]	hello
+10/07/2019 11:17:31	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "blah", "unset prompting2", "test1", "ooks"
+10/07/2019 11:17:39	USER:[3]	disable prompting
+10/07/2019 11:17:39	SYSTEM:[4]	prompting disabled
+10/07/2019 11:17:42	USER:[5]	hello
+10/07/2019 11:17:42	SYSTEM:[6]	I'm sorry, I don't understand..
+10/07/2019 12:36:01	USER:[1]	/hello/
+10/07/2019 12:36:01	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting", "blah", "unset prompting2", "ooks"
+10/07/2019 12:44:19	USER:[1]	/hello/
+10/07/2019 12:44:19	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting", "blah", "test1", "ooks"
+10/07/2019 12:46:05	USER:[1]	/hello/
+10/07/2019 12:46:05	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting", "blah", "unset prompting2", "test1"
+10/07/2019 12:51:21	USER:[3]	blah
+10/07/2019 12:51:21	SYSTEM:[4]	The value of prompting is now:

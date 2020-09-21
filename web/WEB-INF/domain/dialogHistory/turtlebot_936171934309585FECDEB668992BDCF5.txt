@@ -1,0 +1,80 @@
+27/06/2019 16:19:58	USER:[1]	enable prompting
+27/06/2019 16:19:58	SYSTEM:[2]	prompting enabled
+27/06/2019 16:20:02	USER:[3]	prompting2
+27/06/2019 16:20:02	SYSTEM:[4]	prompting2 is set!
+27/06/2019 16:25:44	USER:[5]	get prompting2
+27/06/2019 16:25:44	SYSTEM:[6]	prompting2 is woohoo!
+27/06/2019 16:45:30	USER:[1]	enable prompting
+27/06/2019 16:45:30	SYSTEM:[2]	prompting enabled
+27/06/2019 16:46:46	USER:[3]	prompting2
+27/06/2019 16:46:46	SYSTEM:[4]	prompting2 is set!
+27/06/2019 16:48:34	USER:[5]	test1
+27/06/2019 16:48:34	SYSTEM:[6]	I'm sorry, I don't understand.  You could try - e.g. "get prompting2"
+27/06/2019 16:49:14	USER:[7]	test1
+27/06/2019 16:49:14	SYSTEM:[8]	reply1
+27/06/2019 16:50:42	USER:[9]	test2
+27/06/2019 16:50:42	SYSTEM:[10]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting", "blah", "unset prompting2", "test1"
+27/06/2019 16:51:51	USER:[11]	reply2
+27/06/2019 16:51:51	SYSTEM:[12]	I'm sorry, I don't understand.  You could try - e.g. "test2"
+27/06/2019 16:51:55	USER:[13]	test2
+27/06/2019 16:51:55	SYSTEM:[14]	reply2
+27/06/2019 16:52:14	USER:[15]	blah
+27/06/2019 16:52:14	SYSTEM:[16]	testing
+27/06/2019 17:18:26	USER:[1]	test
+27/06/2019 17:18:26	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting", "blah", "unset prompting2", "test1"
+27/06/2019 17:19:50	USER:[3]	enable prompting
+27/06/2019 17:19:50	SYSTEM:[4]	prompting enabled
+27/06/2019 17:20:16	USER:[5]	test1
+27/06/2019 17:20:16	SYSTEM:[6]	reply1
+27/06/2019 17:20:29	USER:[7]	test2
+27/06/2019 17:20:29	SYSTEM:[8]	reply2
+27/06/2019 17:20:51	USER:[9]	blah
+27/06/2019 17:20:51	SYSTEM:[10]	The value of prompting is now: true
+27/06/2019 17:26:44	USER:[1]	test
+27/06/2019 17:26:44	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting", "blah", "unset prompting2", "test1"
+27/06/2019 17:27:14	USER:[3]	enable prompting
+27/06/2019 17:27:14	SYSTEM:[4]	prompting enabled
+27/06/2019 17:27:58	USER:[5]	test1 test2
+27/06/2019 17:27:58	SYSTEM:[6]	I'm sorry, I don't understand.  You could try - e.g. "prompting2"
+27/06/2019 17:28:03	USER:[7]	test1
+27/06/2019 17:28:03	SYSTEM:[8]	reply1
+27/06/2019 17:28:13	USER:[9]	test2
+27/06/2019 17:28:13	SYSTEM:[10]	reply2
+27/06/2019 17:28:41	USER:[11]	ooks
+27/06/2019 17:28:41	SYSTEM:[12]	I'm sorry, I don't understand.  You could try - e.g. "test2"
+27/06/2019 17:29:17	USER:[13]	ooks
+27/06/2019 17:29:17	SYSTEM:[14]	ooks reply
+27/06/2019 17:34:51	USER:[1]	enable prompting
+27/06/2019 17:34:51	SYSTEM:[2]	prompting enabled
+27/06/2019 17:48:41	USER:[1]	enable prompting
+27/06/2019 17:48:41	SYSTEM:[2]	prompting enabled
+27/06/2019 17:49:05	USER:[3]	enable prompting
+27/06/2019 17:49:05	SYSTEM:[4]	prompting enabled
+27/06/2019 17:50:21	USER:[1]	prompting enabled
+27/06/2019 17:50:21	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting", "blah", "unset prompting2", "test1"
+27/06/2019 17:52:28	USER:[1]	enable prompting
+27/06/2019 17:52:28	SYSTEM:[2]	prompting enabled
+27/06/2019 17:55:24	USER:[1]	hello
+27/06/2019 17:55:24	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "blah", "unset prompting2", "test1", "ooks"
+27/06/2019 17:55:44	USER:[3]	enable prompting
+27/06/2019 17:55:44	SYSTEM:[4]	prompting enabled
+27/06/2019 18:01:40	USER:[1]	enable prompting
+27/06/2019 18:01:40	SYSTEM:[2]	prompting enabled
+27/06/2019 18:02:14	USER:[3]	test1'
+27/06/2019 18:02:14	SYSTEM:[4]	I'm sorry, I don't understand.  You could try - e.g. "prompting2"
+27/06/2019 18:02:16	USER:[5]	test1
+27/06/2019 18:02:16	SYSTEM:[6]	reply1
+27/06/2019 18:02:17	USER:[7]	test2
+27/06/2019 18:02:17	SYSTEM:[8]	reply2
+27/06/2019 18:03:11	USER:[9]	ooks
+27/06/2019 18:03:11	SYSTEM:[10]	ooks reply
+27/06/2019 18:04:00	USER:[11]	eek
+27/06/2019 18:04:00	SYSTEM:[12]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting", "unset prompting2", "test1", "ooks"
+27/06/2019 18:04:36	USER:[1]	ooks
+27/06/2019 18:04:36	SYSTEM:[2]	ooks reply
+27/06/2019 18:04:50	USER:[3]	test1
+27/06/2019 18:04:50	SYSTEM:[4]	reply1
+27/06/2019 18:05:00	USER:[5]	test2
+27/06/2019 18:05:00	SYSTEM:[6]	reply2
+27/06/2019 18:05:13	USER:[7]	ooks
+27/06/2019 18:05:13	SYSTEM:[8]	ooks reply

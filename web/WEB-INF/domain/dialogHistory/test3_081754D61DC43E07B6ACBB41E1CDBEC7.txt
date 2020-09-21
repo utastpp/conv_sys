@@ -1,0 +1,10 @@
+12/06/2019 11:38:18	USER:[1]	oops
+12/06/2019 11:38:18	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "dave1", "quest", "dave8", "insert", "unset variables"
+12/06/2019 12:06:05	USER:[1]	oops
+12/06/2019 12:06:05	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "david.herbert@utas.edu.au", "dave5", "quest", "hello", "unset variables"
+12/06/2019 12:09:01	USER:[1]	oops
+12/06/2019 12:09:01	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "david.herbert@utas.edu.au", "dave5", "insert", "hello", "insert"
+12/06/2019 12:11:14	USER:[1]	oops
+12/06/2019 12:11:14	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "david.herbert@utas.edu.au", "dave1", "quest", "insert", "hello"
+12/06/2019 12:14:12	USER:[1]	oops
+12/06/2019 12:14:12	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "david.herbert@utas.edu.au", "galaxy", "dave5", "dave8", "unset variables"

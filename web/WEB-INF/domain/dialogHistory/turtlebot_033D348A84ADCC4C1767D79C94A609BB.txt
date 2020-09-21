@@ -1,0 +1,12 @@
+30/06/2019 08:47:49	USER:[1]	test1
+30/06/2019 08:47:49	SYSTEM:[2]	reply1
+30/06/2019 10:19:38	USER:[1]	test1
+30/06/2019 10:19:38	SYSTEM:[2]	reply1
+30/06/2019 10:32:53	USER:[1]	test1
+30/06/2019 10:32:53	SYSTEM:[2]	reply1
+30/06/2019 10:39:27	USER:[1]	test
+30/06/2019 10:39:27	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting", "unset prompting2", "test1", "ooks"
+30/06/2019 10:48:19	USER:[1]	test
+30/06/2019 10:48:19	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting", "blah", "unset prompting2", "ooks"
+30/06/2019 10:50:39	USER:[1]	test
+30/06/2019 10:50:39	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "blah", "unset prompting2", "test1", "ooks"

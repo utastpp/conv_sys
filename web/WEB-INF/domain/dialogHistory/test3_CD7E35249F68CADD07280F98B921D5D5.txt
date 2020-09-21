@@ -1,0 +1,2 @@
+03/06/2019 18:14:17	USER:[1]	oops
+03/06/2019 18:14:17	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "dave5", "insert", "hello2", "unset variables", "show schema items"

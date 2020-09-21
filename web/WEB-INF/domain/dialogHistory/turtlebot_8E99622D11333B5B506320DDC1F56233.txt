@@ -1,0 +1,16 @@
+24/06/2019 14:43:11	USER:[1]	test1
+24/06/2019 14:43:11	SYSTEM:[2]	reply1 corrected
+24/06/2019 14:44:01	USER:[3]	test1
+24/06/2019 14:44:01	SYSTEM:[4]	reply1 corrected corrected
+24/06/2019 14:44:05	USER:[5]	test2
+24/06/2019 14:44:05	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "test1"
+24/06/2019 14:53:02	USER:[7]	test2
+24/06/2019 14:53:02	SYSTEM:[8]	reply2
+24/06/2019 14:53:16	USER:[1]	test2
+24/06/2019 14:53:16	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "test1"
+24/06/2019 14:53:19	USER:[3]	test1
+24/06/2019 14:53:19	SYSTEM:[4]	reply1 corrected corrected
+24/06/2019 14:53:22	USER:[5]	test2
+24/06/2019 14:53:22	SYSTEM:[6]	reply2
+24/06/2019 14:53:27	USER:[7]	test3
+24/06/2019 14:53:27	SYSTEM:[8]	I'm sorry, I don't understand.  Did you mean - e.g. "test2"

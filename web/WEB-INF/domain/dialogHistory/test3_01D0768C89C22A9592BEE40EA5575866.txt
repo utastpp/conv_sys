@@ -1,0 +1,7 @@
+17/06/2019 10:02:16	USER:[1]	hello
+17/06/2019 10:02:16	SYSTEM:[2]	Loading all schema items!
+dave1
+17/06/2019 10:02:22	USER:[3]	ryan
+17/06/2019 10:02:22	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "david.herbert@utas.edu.au", "galaxy", "hello", "insert", "unset variables", "dave1", "dave2", "insert", "unset variables", "hello"
+17/06/2019 10:03:22	USER:[5]	ryan
+17/06/2019 10:03:22	SYSTEM:[6]	ryan is here!

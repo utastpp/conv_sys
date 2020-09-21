@@ -1,0 +1,14 @@
+13/03/2019 15:44:59	USER:[1]	/hello/
+13/03/2019 15:44:59	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "how are you", "bink", "hi"
+13/03/2019 15:45:59	USER:[3]	/hello/
+13/03/2019 15:45:59	SYSTEM:[4]	hello back
+13/03/2019 16:11:21	USER:[1]	/hello/
+13/03/2019 16:11:21	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "how are you", "bink", "hi"
+13/03/2019 16:11:27	USER:[3]	/hello/
+13/03/2019 16:11:27	SYSTEM:[4]	hello back
+13/03/2019 16:16:14	USER:[9]	/hello/
+13/03/2019 16:16:14	SYSTEM:[10]	hello back
+13/03/2019 16:26:07	USER:[1]	/hello/
+13/03/2019 16:26:07	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "how are you", "bink", "hi"
+13/03/2019 16:26:17	USER:[3]	/hello/
+13/03/2019 16:26:17	SYSTEM:[4]	hello back

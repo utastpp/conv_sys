@@ -1,0 +1,24 @@
+09/05/2019 09:11:17	USER:[1]	bok
+09/05/2019 09:11:17	SYSTEM:[2]	whiz back
+hello back
+hello back
+bonk back
+whiz back
+09/05/2019 10:37:55	USER:[1]	bok
+09/05/2019 10:37:56	SYSTEM:[2]	something found! 
+hello back
+hello back
+bonk back
+ <REPLACE> 33 <REPLACE-EMPTY> no results! <REPLACE-OVERRIDE> something found! </REPLACE>
+09/05/2019 10:58:35	USER:[1]	bok
+09/05/2019 10:58:35	SYSTEM:[2]	something found! 
+hello back
+hello back
+bonk back
+ <REPLACE> 33 <REPLACE-EMPTY> no results! <REPLACE-OVERRIDE> something found! </REPLACE>
+09/05/2019 11:01:17	USER:[1]	bok
+09/05/2019 11:01:17	SYSTEM:[2]	something found! 
+hello back
+hello back
+bonk back
+ <REPLACE> 33 <REPLACE-EMPTY> no results! <REPLACE-OVERRIDE> something found! </REPLACE>

@@ -1,0 +1,4 @@
+04/06/2019 17:37:47	USER:[1]	oops
+04/06/2019 17:37:47	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "dave1", "dave2", "dave8", "hello", "show schema items"
+04/06/2019 17:51:20	USER:[3]	oops
+04/06/2019 17:51:20	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "david.herbert@utas.edu.au", "quest", "dave5", "insert", "unset variables"

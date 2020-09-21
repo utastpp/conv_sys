@@ -1,0 +1,26 @@
+10/05/2019 12:33:39	USER:[3]	/hello/
+10/05/2019 12:33:39	SYSTEM:[4]	hello back!
+another hello!
+This is a new conclusion!
+10/05/2019 12:34:10	USER:[5]	how are you
+10/05/2019 12:34:10	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "hello", "hello", "hi", "hi", "hi", "hi", "hello", "hello", "hi"
+10/05/2019 13:17:34	USER:[1]	/hello/
+10/05/2019 13:17:34	SYSTEM:[2]	hello back!
+another hello!
+This is a new conclusion!
+10/05/2019 13:24:41	USER:[1]	/hello/
+10/05/2019 13:24:41	SYSTEM:[2]	hello back!
+another hello!
+This is a new conclusion!
+10/05/2019 13:45:35	USER:[1]	/hello/
+10/05/2019 13:45:35	SYSTEM:[2]	hello back!
+another hello!
+This is a new conclusion!
+10/05/2019 13:48:49	USER:[1]	/hello/
+10/05/2019 13:48:49	SYSTEM:[2]	hello back!
+another hello!
+This is a new conclusion!
+10/05/2019 14:03:08	USER:[3]	/hello/
+10/05/2019 14:03:08	SYSTEM:[4]	hello back!
+another hello!
+This is a new conclusion!

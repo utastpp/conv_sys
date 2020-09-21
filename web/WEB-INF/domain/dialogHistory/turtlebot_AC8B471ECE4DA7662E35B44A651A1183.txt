@@ -1,0 +1,59 @@
+19/06/2019 10:51:48	USER:[1]	text1
+19/06/2019 10:51:48	SYSTEM:[2]	override-text-goes-here
+19/06/2019 10:52:01	USER:[3]	text1
+19/06/2019 10:52:01	SYSTEM:[4]	override-text-goes-here
+19/06/2019 10:53:03	USER:[5]	text1
+19/06/2019 10:53:03	SYSTEM:[6]	override-text-goes-here
+19/06/2019 11:05:53	USER:[1]	text1
+19/06/2019 11:05:53	SYSTEM:[2]	override-text-goes-here 1
+19/06/2019 11:06:56	USER:[3]	text2
+19/06/2019 11:06:56	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "text1", "text1", "text1", "text1"
+19/06/2019 11:15:04	USER:[5]	text2
+19/06/2019 11:15:04	SYSTEM:[6]	[this is valid empty text 1]  [this is valid empty text 2]
+19/06/2019 11:23:26	USER:[1]	text2
+19/06/2019 11:23:26	SYSTEM:[2]	[this is valid empty text 1]  [this is valid empty text 2]
+19/06/2019 11:23:51	USER:[3]	text3
+19/06/2019 11:23:51	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "text1", "text1", "text2"
+19/06/2019 11:57:56	USER:[1]	text3
+19/06/2019 11:57:56	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "text1", "text1", "text2"
+19/06/2019 12:27:04	USER:[3]	text1
+19/06/2019 12:27:04	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "text1", "text1", "text2", "text3 true"
+19/06/2019 12:27:11	USER:[5]	text2
+19/06/2019 12:27:11	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "text1", "text1", "text2", "text3 true"
+19/06/2019 12:27:15	USER:[7]	text3
+19/06/2019 12:27:15	SYSTEM:[8]	I'm sorry, I don't understand.  Did you mean - e.g. "text1", "text1", "text2", "text3 true"
+19/06/2019 13:18:52	USER:[1]	text4
+19/06/2019 13:18:52	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "text1", "text2", "text3 true", "true", "text3 text3 true"
+19/06/2019 13:37:17	USER:[1]	text4
+19/06/2019 13:37:17	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "text1", "text2", "text3 true", "true", "text3 text3 true"
+19/06/2019 13:45:07	USER:[1]	text4
+19/06/2019 13:45:07	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "text1", "text2", "text3 true", "true", "text3 text3 true"
+19/06/2019 14:01:32	USER:[1]	text4
+19/06/2019 14:01:32	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "text1", "text1", "text3 true", "text3 text3 true", "text4 text4 true"
+19/06/2019 14:17:58	USER:[1]	text1
+19/06/2019 14:17:58	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "text1", "text1", "true", "text3 text3 true", "text4 text4 true"
+19/06/2019 14:32:22	USER:[1]	text1
+19/06/2019 14:32:22	SYSTEM:[2]	I'm sorry, I don't understand.
+19/06/2019 14:33:00	USER:[3]	text1
+19/06/2019 14:33:00	SYSTEM:[4]	text1 response
+19/06/2019 14:36:48	USER:[1]	text
+19/06/2019 14:36:48	SYSTEM:[2]	I'm sorry, I don't understand.
+19/06/2019 14:40:19	USER:[1]	text1
+19/06/2019 14:40:19	SYSTEM:[2]	I'm sorry, I don't understand.
+19/06/2019 14:40:46	USER:[3]	text1
+19/06/2019 14:40:46	SYSTEM:[4]	reply1
+19/06/2019 14:44:22	USER:[5]	text1
+19/06/2019 14:44:22	SYSTEM:[6]	reply1
+reply2
+19/06/2019 14:45:22	USER:[7]	text3
+19/06/2019 14:45:22	SYSTEM:[8]	I'm sorry, I don't understand.  Did you mean - e.g. "text1", "text1", "text1", "text1"
+19/06/2019 14:46:10	USER:[9]	text3
+19/06/2019 14:46:10	SYSTEM:[10]	reply3
+19/06/2019 14:50:19	USER:[11]	reply3
+19/06/2019 14:50:19	SYSTEM:[12]	I'm sorry, I don't understand.  Did you mean - e.g. "text1", "text1", "text3"
+19/06/2019 15:01:26	USER:[1]	text4
+19/06/2019 15:01:26	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "text1", "text1", "text3"
+19/06/2019 15:01:57	USER:[3]	text4
+19/06/2019 15:01:57	SYSTEM:[4]	reply4
+19/06/2019 15:02:09	USER:[5]	text3
+19/06/2019 15:02:09	SYSTEM:[6]	reply3

@@ -1,0 +1,10 @@
+16/06/2019 15:40:55	USER:[3]	oops
+16/06/2019 15:40:55	SYSTEM:[4]	dave2
+16/06/2019 15:40:58	USER:[5]	oops
+16/06/2019 15:40:58	SYSTEM:[6]	dave2
+16/06/2019 16:32:47	USER:[1]	oops2
+16/06/2019 16:32:47	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "david.herbert@utas.edu.au", "quest", "hello2", "unset variables", "show schema items"
+16/06/2019 16:45:02	USER:[1]	oops2
+16/06/2019 16:45:02	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "galaxy", "dave2", "dave8", "insert", "hello"
+16/06/2019 17:16:20	USER:[1]	oops2
+16/06/2019 17:16:20	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "david.herbert@utas.edu.au", "quest", "dave8", "hello2", "show schema items"

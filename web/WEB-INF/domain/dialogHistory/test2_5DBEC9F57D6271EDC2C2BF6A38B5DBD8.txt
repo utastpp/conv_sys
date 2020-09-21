@@ -1,0 +1,36 @@
+27/03/2019 09:05:28	USER:[1]	/hello/
+27/03/2019 09:05:28	SYSTEM:[2]	hello back
+27/03/2019 10:28:11	USER:[1]	/hello/
+27/03/2019 10:28:11	SYSTEM:[2]	hello back
+27/03/2019 10:29:18	USER:[3]	/hello/
+27/03/2019 10:29:18	SYSTEM:[4]	hello back
+27/03/2019 11:55:38	USER:[1]	/hello/
+27/03/2019 11:55:38	SYSTEM:[2]	hello back
+27/03/2019 12:26:09	USER:[1]	/hello/
+27/03/2019 12:26:09	SYSTEM:[2]	hello back
+27/03/2019 12:56:41	USER:[1]	/hello/
+27/03/2019 12:56:41	SYSTEM:[2]	hello back
+27/03/2019 13:36:39	USER:[1]	/hello/
+27/03/2019 13:36:39	SYSTEM:[2]	hello back
+27/03/2019 13:43:32	USER:[3]	how are you
+27/03/2019 13:43:32	SYSTEM:[4]	how back
+27/03/2019 14:45:47	USER:[1]	/hello/
+27/03/2019 14:45:47	SYSTEM:[2]	hello back
+27/03/2019 14:53:07	USER:[3]	how are you
+27/03/2019 14:53:07	SYSTEM:[4]	how back
+27/03/2019 14:53:09	USER:[5]	bink
+27/03/2019 14:53:09	SYSTEM:[6]	bink
+27/03/2019 15:14:54	USER:[1]	/hello/
+27/03/2019 15:14:54	SYSTEM:[2]	hello back
+27/03/2019 15:14:56	USER:[3]	how are you
+27/03/2019 15:14:56	SYSTEM:[4]	how back
+27/03/2019 15:16:47	USER:[5]	/hello/
+27/03/2019 15:16:47	SYSTEM:[6]	hello back
+27/03/2019 15:38:14	USER:[1]	/hello/
+27/03/2019 15:38:14	SYSTEM:[2]	hello back
+27/03/2019 15:38:16	USER:[3]	how are you
+27/03/2019 15:38:16	SYSTEM:[4]	how back
+27/03/2019 15:38:18	USER:[5]	bink
+27/03/2019 15:38:18	SYSTEM:[6]	bink
+27/03/2019 15:40:33	USER:[7]	/hello/
+27/03/2019 15:40:33	SYSTEM:[8]	hello back

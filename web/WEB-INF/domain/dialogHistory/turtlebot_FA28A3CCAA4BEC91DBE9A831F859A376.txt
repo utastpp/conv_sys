@@ -1,0 +1,28 @@
+20/06/2019 10:08:24	USER:[1]	text 1
+20/06/2019 10:08:24	SYSTEM:[2]	reply for text 1
+20/06/2019 10:08:49	USER:[3]	text 2
+20/06/2019 10:08:49	SYSTEM:[4]	reply for text 2
+20/06/2019 10:09:07	USER:[5]	text 3
+20/06/2019 10:09:07	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "text 3"
+20/06/2019 10:14:22	USER:[7]	text 1
+20/06/2019 10:14:22	SYSTEM:[8]	reply for text 1
+20/06/2019 10:34:19	USER:[9]	text 4
+20/06/2019 10:34:19	SYSTEM:[10]	I'm sorry, I don't understand.  Did you mean - e.g. "text 2"
+20/06/2019 10:34:23	USER:[11]	text 5
+20/06/2019 10:34:23	SYSTEM:[12]	I'm sorry, I don't understand.  Did you mean - e.g. "text 2"
+20/06/2019 10:35:13	USER:[13]	text 5
+20/06/2019 10:35:13	SYSTEM:[14]	reply for text 5
+20/06/2019 10:47:25	USER:[15]	stop me
+20/06/2019 10:47:25	SYSTEM:[16]	I'm sorry, I don't understand.  Did you mean - e.g. "text 1", "text 5"
+20/06/2019 10:56:51	USER:[1]	text 1\
+20/06/2019 10:56:51	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "text 1", "text 5", "true"
+20/06/2019 10:56:59	USER:[3]	text 1
+20/06/2019 10:56:59	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "text 1", "text 5", "true"
+20/06/2019 11:07:56	USER:[1]	text 1
+20/06/2019 11:07:56	SYSTEM:[2]	I'm sorry, I don't understand.
+20/06/2019 11:09:56	USER:[7]	text 1
+20/06/2019 11:09:56	SYSTEM:[8]	I'm sorry, I don't understand.  Did you mean - e.g. "text 1"
+20/06/2019 11:10:21	USER:[9]	text 1
+20/06/2019 11:10:21	SYSTEM:[10]	reply for text 1
+20/06/2019 11:53:39	USER:[11]	text 2
+20/06/2019 11:53:39	SYSTEM:[12]	I'm sorry, I don't understand.  Did you mean - e.g. "text 1", "text 1"

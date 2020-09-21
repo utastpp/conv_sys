@@ -1,0 +1,4 @@
+17/04/2019 14:42:05	USER:[7]	/hello/
+17/04/2019 14:42:05	SYSTEM:[8]	how back
+17/04/2019 14:42:09	USER:[9]	blork
+17/04/2019 14:42:09	SYSTEM:[10]	I'm sorry, I don't understand.  Did you mean - e.g. "how are you", "bink", "hi", "hello"

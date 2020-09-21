@@ -1,0 +1,4 @@
+13/02/2020 15:24:43	USER:[1]	/hello/
+13/02/2020 15:24:43	SYSTEM:[2]	testing 2020!
+13/02/2020 15:24:49	USER:[3]	I am /schemaTable1.ID1/
+13/02/2020 15:24:49	SYSTEM:[4]	testing 2020!

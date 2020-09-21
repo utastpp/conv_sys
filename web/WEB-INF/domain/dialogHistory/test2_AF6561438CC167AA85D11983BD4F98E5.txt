@@ -1,0 +1,41 @@
+13/03/2019 10:29:24	USER:[1]	/hello/
+13/03/2019 10:29:24	SYSTEM:[2]	hello back
+13/03/2019 10:29:28	USER:[3]	how ar eyou
+13/03/2019 10:29:28	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "how are you", "bink"
+13/03/2019 10:29:34	USER:[5]	how are you
+13/03/2019 10:29:34	SYSTEM:[6]	how back
+13/03/2019 10:29:35	USER:[7]	bink
+13/03/2019 10:29:35	SYSTEM:[8]	bink
+13/03/2019 10:31:32	USER:[9]	/hello/
+13/03/2019 10:31:32	SYSTEM:[10]	hello back
+13/03/2019 10:43:50	USER:[11]	/hello/ bink
+13/03/2019 10:43:50	SYSTEM:[12]	bink
+13/03/2019 10:45:23	USER:[13]	/hello/ whiz
+13/03/2019 10:45:23	SYSTEM:[14]	hello back
+13/03/2019 10:45:47	USER:[15]	/hello/ bork
+13/03/2019 10:45:47	SYSTEM:[16]	hello back
+bork
+13/03/2019 11:03:54	USER:[17]	/hello/
+13/03/2019 11:03:54	SYSTEM:[18]	hello back
+13/03/2019 11:27:58	USER:[19]	/hello/
+13/03/2019 11:27:58	SYSTEM:[20]	hello back
+13/03/2019 12:00:03	USER:[1]	/hello/
+13/03/2019 12:00:03	SYSTEM:[2]	hello back
+13/03/2019 12:43:13	USER:[1]	/hello/
+13/03/2019 12:43:13	SYSTEM:[2]	hello back
+13/03/2019 12:55:00	USER:[3]	/hello/
+13/03/2019 12:55:00	SYSTEM:[4]	testing
+13/03/2019 12:55:35	USER:[5]	/hello/ you
+13/03/2019 12:55:35	SYSTEM:[6]	testing
+13/03/2019 12:56:30	USER:[7]	bork
+13/03/2019 12:56:30	SYSTEM:[8]	bork
+13/03/2019 12:56:35	USER:[9]	/hello/ you
+13/03/2019 12:56:35	SYSTEM:[10]	testing
+13/03/2019 12:56:38	USER:[11]	yuck
+13/03/2019 12:56:38	SYSTEM:[12]	I'm sorry, I don't understand.  Did you mean - e.g. "how are you", "bink", "hi"
+13/03/2019 12:57:47	USER:[13]	/hello/
+13/03/2019 12:57:47	SYSTEM:[14]	hello back
+13/03/2019 12:57:53	USER:[15]	/hello/ you
+13/03/2019 12:57:53	SYSTEM:[16]	hello back
+13/03/2019 13:10:16	USER:[17]	oops
+13/03/2019 13:10:16	SYSTEM:[18]	I'm sorry, I don't understand.  Did you mean - e.g. "how are you", "bink", "hello"

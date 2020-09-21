@@ -1,0 +1,8 @@
+05/02/2019 10:50:43	USER:[1]	/hello/
+05/02/2019 10:50:43	SYSTEM:[2]	hello back
+05/02/2019 10:50:50	USER:[3]	how are you
+05/02/2019 10:50:50	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "hello", "whiz"
+05/02/2019 11:08:12	USER:[1]	/hello/
+05/02/2019 11:08:12	SYSTEM:[2]	hello back
+05/02/2019 11:08:54	USER:[3]	greetings
+05/02/2019 11:08:54	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "how are you"

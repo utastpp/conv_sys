@@ -1,0 +1,6 @@
+30/04/2020 16:49:11	USER:[1]	/hello/
+30/04/2020 16:49:11	SYSTEM:[2]	Hello! I am a weather forecast system. What would you like to know?
+30/04/2020 16:54:53	USER:[1]	/hello/
+30/04/2020 16:54:53	SYSTEM:[2]	I'm sorry, I don't understand.
+30/04/2020 16:55:52	USER:[3]	/hello/
+30/04/2020 16:55:52	SYSTEM:[4]	Hello! I am a weather forecast system.  What would you like to know?

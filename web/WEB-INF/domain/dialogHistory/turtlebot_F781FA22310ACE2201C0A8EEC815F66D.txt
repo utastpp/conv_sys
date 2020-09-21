@@ -1,0 +1,2 @@
+11/07/2019 13:26:03	USER:[1]	/hellodave/
+11/07/2019 13:26:03	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "blah", "unset prompting2", "test1", "ooks"

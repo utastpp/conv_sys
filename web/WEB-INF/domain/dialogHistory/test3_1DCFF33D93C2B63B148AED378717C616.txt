@@ -1,0 +1,77 @@
+16/05/2019 09:36:05	USER:[1]	hello
+16/05/2019 09:36:05	SYSTEM:[2]	hello
+16/05/2019 09:36:12	USER:[3]	dave7
+16/05/2019 09:37:20	USER:[1]	hello
+16/05/2019 09:37:20	SYSTEM:[2]	hello
+16/05/2019 09:37:23	USER:[3]	dave7
+16/05/2019 09:39:57	USER:[1]	dave7
+16/05/2019 09:39:57	SYSTEM:[2]	this sets id
+this sets test
+16/05/2019 09:46:06	USER:[3]	dave7
+16/05/2019 09:46:06	SYSTEM:[4]	this sets id
+this sets test
+16/05/2019 09:46:45	USER:[5]	hello
+16/05/2019 09:46:45	SYSTEM:[6]	hello
+16/05/2019 09:46:58	USER:[7]	hello
+16/05/2019 09:46:58	SYSTEM:[8]	hello
+16/05/2019 09:47:10	USER:[9]	dave7
+16/05/2019 09:47:10	SYSTEM:[10]	this sets id
+this sets test
+16/05/2019 10:10:39	USER:[11]	hello
+16/05/2019 10:10:39	SYSTEM:[12]	hello
+16/05/2019 10:10:46	USER:[13]	hello
+16/05/2019 10:10:46	SYSTEM:[14]	hello
+16/05/2019 10:10:51	USER:[15]	hello
+16/05/2019 10:10:51	SYSTEM:[16]	hello
+16/05/2019 10:37:05	USER:[1]	hello
+16/05/2019 10:37:05	SYSTEM:[2]	hello
+16/05/2019 10:37:08	USER:[3]	dave7
+16/05/2019 10:37:08	SYSTEM:[4]	this sets id
+this sets test
+16/05/2019 11:22:59	USER:[5]	variables
+16/05/2019 11:22:59	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "hello", "dave4", "dave5", "dave7", "dave7", "hello", "dave4", "dave5", "dave7", "dave7"
+16/05/2019 11:24:49	USER:[7]	variables
+16/05/2019 11:24:49	SYSTEM:[8]	Variable 'id 'is 'id is set..' and variable 'test' is 'test is set'
+16/05/2019 12:06:11	USER:[9]	unset test
+16/05/2019 12:06:11	SYSTEM:[10]	I'm sorry, I don't understand.  Did you mean - e.g. "hello", "dave4", "dave5", "dave7", "variables"
+16/05/2019 12:07:37	USER:[11]	variables
+16/05/2019 12:07:37	SYSTEM:[12]	Variable 'id 'is 'id is set..' and variable 'test' is 'test is set'
+16/05/2019 12:07:43	USER:[13]	unset test
+16/05/2019 12:07:43	SYSTEM:[14]	the variable test is now not set..
+16/05/2019 12:07:54	USER:[15]	variables
+16/05/2019 12:07:54	SYSTEM:[16]	Variable 'id 'is 'id is set..' and variable 'test' is ''
+16/05/2019 12:08:17	USER:[17]	dave7
+16/05/2019 12:08:17	SYSTEM:[18]	this sets id
+this sets test
+16/05/2019 12:08:21	USER:[19]	variables
+16/05/2019 12:08:21	SYSTEM:[20]	Variable 'id 'is 'id is set..' and variable 'test' is 'test is set'
+16/05/2019 12:08:29	USER:[21]	unset test
+16/05/2019 12:08:29	SYSTEM:[22]	the variable test is now not set..
+16/05/2019 12:08:34	USER:[23]	variales
+16/05/2019 12:08:34	SYSTEM:[24]	I'm sorry, I don't understand.  Did you mean - e.g. "hello", "dave5", "dave7", "variables", "unset test"
+16/05/2019 12:08:37	USER:[25]	variables
+16/05/2019 12:08:37	SYSTEM:[26]	Variable 'id 'is 'id is set..' and variable 'test' is ''
+16/05/2019 12:23:50	USER:[27]	today
+16/05/2019 12:23:50	SYSTEM:[28]	I'm sorry, I don't understand.  Did you mean - e.g. "hello", "dave5", "dave7", "variables", "unset test"
+16/05/2019 12:31:09	USER:[29]	today
+16/05/2019 12:31:09	SYSTEM:[30]	Setting the date for today in DAVE
+16/05/2019 12:31:36	USER:[31]	variables
+16/05/2019 12:31:36	SYSTEM:[32]	Variable 'id 'is 'id is set..' and variable 'test' is ''
+16/05/2019 12:31:42	USER:[33]	what is dave
+16/05/2019 12:31:42	SYSTEM:[34]	I'm sorry, I don't understand.  Did you mean - e.g. "dave5", "dave7", "dave7", "variables", "today"
+16/05/2019 12:32:47	USER:[35]	what is dave
+16/05/2019 12:32:48	SYSTEM:[36]	The value of DAVE is hello
+16/05/2019 12:32:55	USER:[37]	today
+16/05/2019 12:32:55	SYSTEM:[38]	Setting the date for today in DAVE
+16/05/2019 12:33:24	USER:[39]	set today
+16/05/2019 12:33:24	SYSTEM:[40]	I'm sorry, I don't understand.  Did you mean - e.g. "what is dave", "hello", "dave5", "variables", "unset test"
+16/05/2019 12:35:38	USER:[41]	set today
+16/05/2019 12:35:38	SYSTEM:[42]	setting DAVE to the value in today
+16/05/2019 12:35:49	USER:[43]	what is dave
+16/05/2019 12:35:49	SYSTEM:[44]	The value of DAVE is 2019-05-16
+16/05/2019 12:40:43	USER:[1]	today
+16/05/2019 12:40:43	SYSTEM:[2]	Setting the date for today in DAVE
+16/05/2019 12:40:50	USER:[3]	what is dave
+16/05/2019 12:40:50	SYSTEM:[4]	The value of DAVE is 2019-05-16
+16/05/2019 12:41:05	USER:[5]	what is today
+16/05/2019 12:41:05	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "dave4", "dave7", "variables", "unset test", "today"

@@ -1,0 +1,6 @@
+30/04/2020 14:43:22	USER:[1]	what is the weather forecast today
+30/04/2020 14:43:22	SYSTEM:[2]	today is set!
+30/04/2020 14:45:04	USER:[1]	/hello/
+30/04/2020 14:45:04	SYSTEM:[2]	I'm sorry, I don't understand.
+30/04/2020 14:50:10	USER:[3]	/hello/
+30/04/2020 14:50:10	SYSTEM:[4]	Hello! I am a weather forecast system. What would you like to know?

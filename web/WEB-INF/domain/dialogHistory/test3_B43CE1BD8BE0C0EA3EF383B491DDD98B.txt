@@ -1,0 +1,14 @@
+17/05/2019 13:34:38	USER:[1]	hello
+17/05/2019 13:34:38	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "dave1", "dave2", "dave5", "dave5"
+17/05/2019 14:34:34	USER:[3]	hello
+17/05/2019 14:34:34	SYSTEM:[4]	Loading all schema items!
+17/05/2019 14:40:17	USER:[1]	hello2
+17/05/2019 14:40:17	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "dave1", "dave2", "dave5", "dave5", "hello"
+17/05/2019 14:41:01	USER:[3]	hello2
+17/05/2019 14:41:01	SYSTEM:[4]	loaded all schema items2!
+17/05/2019 14:41:40	USER:[1]	hello2
+17/05/2019 14:41:40	SYSTEM:[2]	loaded all schema items2!
+17/05/2019 15:09:40	USER:[1]	show schema items
+17/05/2019 15:09:40	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "dave2", "dave5", "hello", "hello2", "unset variables"
+17/05/2019 15:36:12	USER:[3]	show schema items
+17/05/2019 15:36:12	SYSTEM:[4]	id is now

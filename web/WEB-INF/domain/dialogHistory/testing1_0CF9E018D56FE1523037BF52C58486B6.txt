@@ -1,0 +1,46 @@
+01/08/2019 16:11:20	USER:[1]	hello
+01/08/2019 16:11:20	SYSTEM:[2]	I'm sorry, I don't understand.
+01/08/2019 16:11:43	USER:[3]	Second crtieria
+01/08/2019 16:11:43	SYSTEM:[4]	I'm sorry, I don't understand.
+01/08/2019 16:12:23	USER:[5]	Second criteria
+01/08/2019 16:12:23	SYSTEM:[6]	I'm sorry, I don't understand.
+01/08/2019 16:12:47	USER:[7]	test2 match text
+01/08/2019 16:12:47	SYSTEM:[8]	I'm sorry, I don't understand.
+01/08/2019 16:12:58	USER:[9]	test1 match text
+01/08/2019 16:12:58	SYSTEM:[10]	I'm sorry, I don't understand.
+01/08/2019 16:14:47	USER:[11]	Second criteria
+01/08/2019 16:14:47	SYSTEM:[12]	I'm sorry, I don't understand.
+01/08/2019 16:48:40	USER:[1]	hello
+01/08/2019 16:48:40	SYSTEM:[2]	I'm sorry, I don't understand.
+01/08/2019 16:49:00	USER:[3]	Second criteria
+01/08/2019 16:49:00	SYSTEM:[4]	I'm sorry, I don't understand.
+01/08/2019 16:49:18	USER:[5]	test1 test match
+01/08/2019 16:49:18	SYSTEM:[6]	I'm sorry, I don't understand.
+01/08/2019 16:49:30	USER:[7]	test1 match text
+01/08/2019 16:49:30	SYSTEM:[8]	I'm sorry, I don't understand.
+01/08/2019 16:50:04	USER:[9]	test2 match text
+01/08/2019 16:50:04	SYSTEM:[10]	I'm sorry, I don't understand.
+01/08/2019 16:50:26	USER:[11]	test1 match text
+01/08/2019 16:50:26	SYSTEM:[12]	I'm sorry, I don't understand.
+01/08/2019 16:56:52	USER:[1]	Second criteria
+01/08/2019 16:56:52	SYSTEM:[2]	I'm sorry, I don't understand.
+01/08/2019 16:58:48	USER:[3]	test1 match text
+01/08/2019 16:58:48	SYSTEM:[4]	I'm sorry, I don't understand.
+01/08/2019 17:01:32	USER:[1]	Second criteria
+01/08/2019 17:01:32	SYSTEM:[2]	I'm sorry, I don't understand.
+01/08/2019 17:01:47	USER:[3]	test1 match text
+01/08/2019 17:01:47	SYSTEM:[4]	I'm sorry, I don't understand.
+01/08/2019 17:14:03	USER:[1]	Second criteria
+01/08/2019 17:14:03	SYSTEM:[2]	I'm sorry, I don't understand.
+01/08/2019 17:14:18	USER:[3]	test1 match text
+01/08/2019 17:14:18	SYSTEM:[4]	I'm sorry, I don't understand.
+01/08/2019 17:18:14	USER:[5]	/names/
+01/08/2019 17:18:14	SYSTEM:[6]	I'm sorry, I don't understand.
+01/08/2019 17:25:33	USER:[1]	Second criteria
+01/08/2019 17:25:33	SYSTEM:[2]	I'm sorry, I don't understand.
+01/08/2019 17:25:53	USER:[3]	/names/
+01/08/2019 17:25:53	SYSTEM:[4]	I'm sorry, I don't understand.
+01/08/2019 17:30:17	USER:[1]	Second criteria
+01/08/2019 17:30:17	SYSTEM:[2]	I'm sorry, I don't understand.
+01/08/2019 17:30:33	USER:[3]	/names/
+01/08/2019 17:30:33	SYSTEM:[4]	I'm sorry, I don't understand.

@@ -1,0 +1,41 @@
+20/06/2019 09:22:28	USER:[11]	text 1
+20/06/2019 09:22:28	SYSTEM:[12]	reply for text 1
+20/06/2019 09:22:39	USER:[13]	text 3
+20/06/2019 09:22:39	SYSTEM:[14]	I'm sorry, I don't understand.  Did you mean - e.g. "text 2"
+20/06/2019 09:22:43	USER:[15]	text 2
+20/06/2019 09:22:43	SYSTEM:[16]	reply for text 2
+20/06/2019 09:22:50	USER:[17]	text 3
+20/06/2019 09:22:50	SYSTEM:[18]	I'm sorry, I don't understand.  Did you mean - e.g. "text 3"
+20/06/2019 09:32:11	USER:[19]	text 2 text 3
+20/06/2019 09:32:11	SYSTEM:[20]	reply for text 3
+20/06/2019 09:32:31	USER:[21]	text 4
+20/06/2019 09:32:31	SYSTEM:[22]	I'm sorry, I don't understand.  Did you mean - e.g. "text 3"
+20/06/2019 09:35:04	USER:[23]	text 4
+20/06/2019 09:35:04	SYSTEM:[24]	I'm sorry, I don't understand.  Did you mean - e.g. "text 4"
+20/06/2019 09:35:07	USER:[25]	text 3
+20/06/2019 09:35:07	SYSTEM:[26]	I'm sorry, I don't understand.  Did you mean - e.g. "text 4"
+20/06/2019 09:35:10	USER:[27]	text 2
+20/06/2019 09:35:10	SYSTEM:[28]	reply for text 2
+20/06/2019 09:35:22	USER:[29]	text 3
+20/06/2019 09:35:22	SYSTEM:[30]	I'm sorry, I don't understand.  Did you mean - e.g. "text 3"
+20/06/2019 09:35:26	USER:[31]	text 2 text 4
+20/06/2019 09:35:26	SYSTEM:[32]	reply for text 2
+20/06/2019 09:35:33	USER:[33]	text 3
+20/06/2019 09:35:33	SYSTEM:[34]	I'm sorry, I don't understand.  Did you mean - e.g. "text 3"
+20/06/2019 09:35:42	USER:[35]	text 2 text 3 text 4
+20/06/2019 09:35:42	SYSTEM:[36]	reply for text 4
+20/06/2019 09:37:24	USER:[37]	text 2 text 3
+20/06/2019 09:37:24	SYSTEM:[38]	reply for text 3
+20/06/2019 09:37:28	USER:[39]	text 4
+20/06/2019 09:37:28	SYSTEM:[40]	I'm sorry, I don't understand.  Did you mean - e.g. "text 4"
+20/06/2019 16:12:50	USER:[11]	test 1
+20/06/2019 16:12:50	SYSTEM:[12]	reply for test 1
+20/06/2019 16:12:53	USER:[13]	test 3
+20/06/2019 16:12:53	SYSTEM:[14]	reply for test 3
+21/06/2019 14:18:41	USER:[3]	hello
+21/06/2019 14:18:41	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "test1", "test2", "test1 test2"
+26/06/2019 12:29:34	USER:[15]	test1
+26/06/2019 12:29:34	SYSTEM:[16]	test1 1b corrected
+reply1a
+27/06/2019 14:37:37	USER:[1]	hello
+27/06/2019 14:37:37	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting", "blah", "unset prompting2"

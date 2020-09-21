@@ -1,0 +1,6 @@
+04/06/2019 08:25:33	USER:[1]	oops
+04/06/2019 08:25:33	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "dave8", "insert", "hello2", "hello", "show schema items"
+04/06/2019 08:26:55	USER:[1]	oops
+04/06/2019 08:26:55	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "galaxy", "insert", "hello", "hello2", "show schema items"
+04/06/2019 10:42:17	USER:[1]	oops
+04/06/2019 10:42:17	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "david.herbert@utas.edu.au", "dave8", "insert", "hello2", "hello"

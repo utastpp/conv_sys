@@ -1,0 +1,24 @@
+07/03/2019 11:50:28	USER:[1]	/hello/
+07/03/2019 11:50:28	SYSTEM:[2]	hello back
+07/03/2019 11:52:54	USER:[1]	/hello/
+07/03/2019 11:52:54	SYSTEM:[2]	hello back
+07/03/2019 11:52:57	USER:[3]	how are you
+07/03/2019 11:52:57	SYSTEM:[4]	how back
+07/03/2019 12:15:33	USER:[1]	/hello/
+07/03/2019 12:15:33	SYSTEM:[2]	hello back
+07/03/2019 12:15:35	USER:[3]	how are you
+07/03/2019 12:15:35	SYSTEM:[4]	how back
+07/03/2019 12:15:37	USER:[5]	whiz
+07/03/2019 12:15:37	SYSTEM:[6]	whiz back
+07/03/2019 12:24:55	USER:[1]	/hello/
+07/03/2019 12:24:55	SYSTEM:[2]	hello back
+07/03/2019 12:36:42	USER:[1]	/hello/
+07/03/2019 12:36:42	SYSTEM:[2]	hello back
+07/03/2019 12:36:44	USER:[3]	/test10/
+07/03/2019 12:36:44	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "how are you", "bink"
+07/03/2019 12:36:49	USER:[5]	how are you
+07/03/2019 12:36:49	SYSTEM:[6]	how back
+07/03/2019 12:36:51	USER:[7]	/test10/
+07/03/2019 12:36:51	SYSTEM:[8]	blah back
+07/03/2019 12:36:54	USER:[9]	bink
+07/03/2019 12:36:54	SYSTEM:[10]	bink

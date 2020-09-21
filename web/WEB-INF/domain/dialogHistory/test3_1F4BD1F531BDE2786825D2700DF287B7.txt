@@ -1,0 +1,2 @@
+24/05/2019 11:23:01	USER:[1]	hrllo
+24/05/2019 11:23:01	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "quest", "dave5", "dave8", "insert", "show schema items"

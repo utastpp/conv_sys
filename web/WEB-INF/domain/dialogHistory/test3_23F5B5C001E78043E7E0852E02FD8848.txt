@@ -1,0 +1,4 @@
+30/05/2019 13:08:18	USER:[1]	oops
+30/05/2019 13:08:18	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "quest", "dave8", "insert", "hello2", "show schema items"
+30/05/2019 13:09:55	USER:[1]	oops
+30/05/2019 13:09:55	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "david.herbert@utas.edu.au", "dave5", "dave5", "hello", "insert"

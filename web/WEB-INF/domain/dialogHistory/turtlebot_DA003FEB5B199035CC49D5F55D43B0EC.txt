@@ -1,0 +1,6 @@
+13/07/2019 15:40:46	USER:[1]	/hello/
+13/07/2019 15:40:46	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting", "blah", "test1", "ooks"
+13/07/2019 15:45:33	USER:[1]	/hello/
+13/07/2019 15:45:33	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting", "unset prompting2", "test1", "ooks"
+13/07/2019 15:56:48	USER:[1]	/hello/
+13/07/2019 15:56:48	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "blah", "unset prompting2", "test1", "ooks"

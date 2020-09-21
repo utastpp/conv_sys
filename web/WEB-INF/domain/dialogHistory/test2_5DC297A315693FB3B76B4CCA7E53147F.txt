@@ -1,0 +1,16 @@
+20/03/2019 15:58:16	USER:[1]	/hello/ how are you
+20/03/2019 15:58:16	SYSTEM:[2]	how back
+20/03/2019 16:08:07	USER:[1]	/hello/ how are you
+20/03/2019 16:08:07	SYSTEM:[2]	how back
+20/03/2019 16:20:56	USER:[1]	/hello/ how are you
+20/03/2019 16:20:56	SYSTEM:[2]	how back
+20/03/2019 16:25:40	USER:[1]	/hello/ how are you
+20/03/2019 16:25:40	SYSTEM:[2]	how back
+20/03/2019 16:29:51	USER:[1]	/hello/ how are you
+20/03/2019 16:29:51	SYSTEM:[2]	how back
+20/03/2019 16:30:40	USER:[1]	/hello/ how are you
+20/03/2019 16:30:40	SYSTEM:[2]	how back
+20/03/2019 16:33:14	USER:[3]	/test10/ bink
+20/03/2019 16:33:14	SYSTEM:[4]	bink
+20/03/2019 17:05:02	USER:[1]	/hello/ how are you
+20/03/2019 17:05:02	SYSTEM:[2]	how back

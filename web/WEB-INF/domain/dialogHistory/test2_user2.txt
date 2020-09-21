@@ -1,0 +1,38 @@
+13/03/2019 16:50:31	USER:[33]	/hello/
+13/03/2019 16:50:31	SYSTEM:[34]	I'm sorry, I don't understand.  Did you mean - e.g. "how are you", "bink", "hello"
+13/03/2019 18:14:04	USER:[75]	bonk
+13/03/2019 18:14:04	SYSTEM:[76]	I'm sorry, I don't understand.  Did you mean - e.g. "hello", "whiz", "bork"
+13/03/2019 18:14:08	USER:[77]	/hello/
+13/03/2019 18:14:08	SYSTEM:[78]	hello back
+13/03/2019 18:14:20	USER:[79]	bink
+13/03/2019 18:14:20	SYSTEM:[80]	bink
+20/03/2019 12:24:08	USER:[19]	/hello/ bonk
+20/03/2019 12:24:08	SYSTEM:[20]	hello back
+20/03/2019 18:28:34	USER:[9]	/hello/ how are you /test10/ bink
+20/03/2019 18:28:34	SYSTEM:[10]	bink
+bink
+20/03/2019 18:32:45	USER:[11]	bink
+20/03/2019 18:32:45	SYSTEM:[12]	bink
+20/03/2019 18:32:47	USER:[13]	bonk
+20/03/2019 18:32:47	SYSTEM:[14]	bonk back
+20/03/2019 18:32:48	USER:[15]	whiz
+20/03/2019 18:32:48	SYSTEM:[16]	whiz back
+20/03/2019 18:32:52	USER:[17]	/test10/
+20/03/2019 18:32:52	SYSTEM:[18]	blah back
+20/03/2019 18:32:55	USER:[19]	bonk
+20/03/2019 18:32:55	SYSTEM:[20]	bonk back
+20/03/2019 18:32:57	USER:[21]	bink
+20/03/2019 18:32:57	SYSTEM:[22]	bink
+20/03/2019 18:32:58	USER:[23]	/hello/
+20/03/2019 18:32:58	SYSTEM:[24]	hello back
+20/03/2019 18:33:00	USER:[25]	/test10/
+20/03/2019 18:33:00	SYSTEM:[26]	blah back
+20/03/2019 18:33:10	USER:[27]	bonk
+20/03/2019 18:33:10	SYSTEM:[28]	bonk back
+21/03/2019 14:19:10	USER:[15]	/hello/ bork
+21/03/2019 14:19:11	SYSTEM:[16]	hello back
+bork
+21/03/2019 14:19:28	USER:[17]	how are you
+21/03/2019 14:19:28	SYSTEM:[18]	how back
+21/03/2019 14:19:57	USER:[19]	/test10/
+21/03/2019 14:19:57	SYSTEM:[20]	blah back

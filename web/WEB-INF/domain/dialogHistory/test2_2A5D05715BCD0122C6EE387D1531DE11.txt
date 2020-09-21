@@ -1,0 +1,12 @@
+19/03/2019 14:12:49	USER:[1]	/hello/
+19/03/2019 14:12:49	SYSTEM:[2]	hello back
+19/03/2019 14:29:19	USER:[3]	/hello/
+19/03/2019 14:29:19	SYSTEM:[4]	hello back
+19/03/2019 14:45:57	USER:[1]	/hello/
+19/03/2019 14:45:57	SYSTEM:[2]	hello back
+19/03/2019 14:46:43	USER:[1]	/hello/
+19/03/2019 14:46:43	SYSTEM:[2]	hello back
+19/03/2019 14:46:55	USER:[3]	how are you
+19/03/2019 14:46:55	SYSTEM:[4]	how back
+19/03/2019 14:48:03	USER:[5]	gh
+19/03/2019 14:48:03	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "blah"

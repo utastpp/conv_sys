@@ -1,0 +1,4 @@
+21/02/2019 14:28:53	USER:[1]	hello
+21/02/2019 14:28:53	SYSTEM:[2]	I'm sorry, I don't understand.
+21/02/2019 14:28:56	USER:[3]	I'm sorry I don't understand
+21/02/2019 14:28:56	SYSTEM:[4]	I'm sorry, I don't understand.

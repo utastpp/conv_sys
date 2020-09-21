@@ -1,0 +1,2 @@
+14/06/2019 09:12:55	USER:[1]	oopsoops
+14/06/2019 09:12:55	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "david.herbert@utas.edu.au", "dave5", "dave8", "hello2", "show schema items"

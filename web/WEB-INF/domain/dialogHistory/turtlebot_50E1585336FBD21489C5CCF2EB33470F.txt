@@ -1,0 +1,189 @@
+27/06/2019 09:37:50	USER:[1]	user prompting
+27/06/2019 09:37:50	SYSTEM:[2]	User prompting is
+27/06/2019 09:38:02	USER:[3]	test
+27/06/2019 09:38:02	SYSTEM:[4]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "user prompting"
+27/06/2019 09:38:09	USER:[5]	enable prompting
+27/06/2019 09:38:09	SYSTEM:[6]	prompting is enabled
+27/06/2019 09:38:17	USER:[7]	user prompting
+27/06/2019 09:38:17	SYSTEM:[8]	User prompting is true
+27/06/2019 09:38:42	USER:[9]	disable prompting
+27/06/2019 09:38:42	SYSTEM:[10]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "user prompting"
+27/06/2019 09:39:53	USER:[11]	disable prompting
+27/06/2019 09:39:53	SYSTEM:[12]	prompting is disabled
+27/06/2019 09:39:57	USER:[13]	user prompting
+27/06/2019 09:39:57	SYSTEM:[14]	User prompting is false
+27/06/2019 09:40:00	USER:[15]	test
+27/06/2019 09:40:00	SYSTEM:[16]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "user prompting", "disable prompting"
+27/06/2019 09:41:16	USER:[1]	user prompting
+27/06/2019 09:41:16	SYSTEM:[2]	User prompting is
+27/06/2019 09:41:23	USER:[3]	test
+27/06/2019 09:41:23	SYSTEM:[4]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "user prompting", "disable prompting"
+27/06/2019 09:41:27	USER:[5]	disable prompting
+27/06/2019 09:41:27	SYSTEM:[6]	prompting is disabled
+27/06/2019 09:41:52	USER:[7]	test
+27/06/2019 09:41:52	SYSTEM:[8]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "user prompting", "disable prompting"
+27/06/2019 09:45:09	USER:[9]	user prompting
+27/06/2019 09:45:09	SYSTEM:[10]	User prompting is false
+27/06/2019 09:49:51	USER:[1]	user prompting
+27/06/2019 09:50:57	USER:[1]	user prompting
+27/06/2019 09:50:57	SYSTEM:[2]	User prompting is
+27/06/2019 09:51:12	USER:[3]	disable prompting
+27/06/2019 09:51:12	SYSTEM:[4]	prompting is disabled
+27/06/2019 09:51:20	USER:[5]	test
+27/06/2019 09:51:21	SYSTEM:[6]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "user prompting", "disable prompting"
+27/06/2019 10:01:03	USER:[1]	test
+27/06/2019 10:01:03	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "user prompting", "disable prompting"
+27/06/2019 10:01:09	USER:[3]	disable prompting
+27/06/2019 10:01:09	SYSTEM:[4]	prompting is disabled
+27/06/2019 10:01:10	USER:[5]	test
+27/06/2019 10:01:10	SYSTEM:[6]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "user prompting", "disable prompting"
+27/06/2019 10:01:11	USER:[7]	test
+27/06/2019 10:01:11	SYSTEM:[8]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "user prompting", "disable prompting"
+27/06/2019 10:01:16	USER:[9]	user prompting
+27/06/2019 10:01:16	SYSTEM:[10]	User prompting is false
+27/06/2019 10:13:38	USER:[1]	test
+27/06/2019 10:13:38	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "user prompting", "disable prompting"
+27/06/2019 10:14:24	USER:[3]	disable prompting
+27/06/2019 10:14:24	SYSTEM:[4]	prompting is disabled
+27/06/2019 10:14:35	USER:[5]	test
+27/06/2019 10:14:35	SYSTEM:[6]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "user prompting", "disable prompting"
+27/06/2019 10:15:07	USER:[7]	user prompting
+27/06/2019 10:15:07	SYSTEM:[8]	User prompting is false
+27/06/2019 10:20:07	USER:[1]	test
+27/06/2019 10:20:07	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "user prompting", "disable prompting"
+27/06/2019 10:20:20	USER:[3]	disable prompting
+27/06/2019 10:20:20	SYSTEM:[4]	prompting is disabled
+27/06/2019 10:20:29	USER:[5]	user prompting
+27/06/2019 10:20:29	SYSTEM:[6]	User prompting is false
+27/06/2019 10:20:44	USER:[7]	test
+27/06/2019 10:20:44	SYSTEM:[8]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "user prompting", "disable prompting"
+27/06/2019 10:25:43	USER:[1]	test
+27/06/2019 10:25:43	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "user prompting", "disable prompting"
+27/06/2019 10:25:56	USER:[3]	user prompting
+27/06/2019 10:25:56	SYSTEM:[4]	User prompting is
+27/06/2019 10:26:34	USER:[5]	disable prompting
+27/06/2019 10:26:34	SYSTEM:[6]	prompting is disabled
+27/06/2019 10:26:41	USER:[7]	user prompting
+27/06/2019 10:26:41	SYSTEM:[8]	User prompting is false
+27/06/2019 10:30:19	USER:[9]	test
+27/06/2019 10:30:19	SYSTEM:[10]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "user prompting", "disable prompting"
+27/06/2019 10:35:09	USER:[1]	test
+27/06/2019 10:35:09	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "user prompting", "disable prompting"
+27/06/2019 10:38:57	USER:[3]	disable prompting
+27/06/2019 10:38:57	SYSTEM:[4]	prompting is disabled
+27/06/2019 10:39:32	USER:[5]	test
+27/06/2019 10:39:32	SYSTEM:[6]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "user prompting", "disable prompting"
+27/06/2019 10:46:15	USER:[1]	test
+27/06/2019 10:46:15	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "user prompting", "disable prompting"
+27/06/2019 10:46:38	USER:[3]	user prompting
+27/06/2019 10:46:38	SYSTEM:[4]	User prompting is
+27/06/2019 10:47:42	USER:[5]	disable prompting
+27/06/2019 10:47:42	SYSTEM:[6]	prompting is disabled
+27/06/2019 10:48:03	USER:[7]	user prompting
+27/06/2019 10:48:03	SYSTEM:[8]	User prompting is false
+27/06/2019 10:49:35	USER:[9]	test
+27/06/2019 10:49:35	SYSTEM:[10]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "user prompting", "disable prompting"
+27/06/2019 10:55:08	USER:[11]	continue no prompting
+27/06/2019 10:55:08	SYSTEM:[12]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "user prompting", "disable prompting"
+27/06/2019 10:55:27	USER:[13]	disable prompting
+27/06/2019 10:55:27	SYSTEM:[14]	prompting is disabled
+27/06/2019 10:55:36	USER:[15]	continue no prompting
+27/06/2019 10:55:36	SYSTEM:[16]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "user prompting", "disable prompting"
+27/06/2019 10:56:42	USER:[17]	continue no prompting
+27/06/2019 10:56:42	SYSTEM:[18]	ok, in continue
+27/06/2019 11:08:19	USER:[1]	disable prompt
+27/06/2019 11:08:19	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "user prompting", "disable prompting"
+27/06/2019 11:08:37	USER:[1]	disable prompting
+27/06/2019 11:08:37	SYSTEM:[2]	I'm sorry, I don't understand.
+27/06/2019 11:11:53	USER:[3]	test
+27/06/2019 11:11:53	SYSTEM:[4]	I'm sorry, I don't understand..
+27/06/2019 11:12:09	USER:[5]	enable prompting
+27/06/2019 11:12:09	SYSTEM:[6]	I'm sorry, I don't understand..
+27/06/2019 11:13:34	USER:[1]	test
+27/06/2019 11:13:34	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting"
+27/06/2019 11:13:49	USER:[3]	disable prompting
+27/06/2019 11:13:49	SYSTEM:[4]	prompting disabled
+27/06/2019 11:13:54	USER:[5]	test
+27/06/2019 11:13:54	SYSTEM:[6]	I'm sorry, I don't understand..
+27/06/2019 11:14:22	USER:[7]	enable prompting
+27/06/2019 11:14:22	SYSTEM:[8]	I'm sorry, I don't understand..
+27/06/2019 11:15:18	USER:[9]	test
+27/06/2019 11:15:18	SYSTEM:[10]	I'm sorry, I don't understand..
+27/06/2019 11:15:25	USER:[11]	enable prompting
+27/06/2019 11:15:25	SYSTEM:[12]	prompting enabled
+27/06/2019 11:15:28	USER:[13]	test
+27/06/2019 11:15:28	SYSTEM:[14]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting"
+27/06/2019 11:22:04	USER:[1]	enable prompting
+27/06/2019 11:22:04	SYSTEM:[2]	prompting enabled
+27/06/2019 12:23:54	USER:[3]	prompting2
+27/06/2019 12:23:54	SYSTEM:[4]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting"
+27/06/2019 12:26:14	USER:[1]	enable prompting
+27/06/2019 12:26:14	SYSTEM:[2]	prompting enabled
+27/06/2019 12:26:25	USER:[3]	prompting2
+27/06/2019 12:26:25	SYSTEM:[4]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting"
+27/06/2019 12:50:14	USER:[1]	enable prompting
+27/06/2019 12:50:14	SYSTEM:[2]	prompting enabled
+27/06/2019 12:50:19	USER:[3]	prompting2
+27/06/2019 12:50:19	SYSTEM:[4]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting"
+27/06/2019 12:55:26	USER:[1]	enable prompting
+27/06/2019 12:55:26	SYSTEM:[2]	prompting enabled
+27/06/2019 12:55:35	USER:[3]	prompting2
+27/06/2019 12:55:35	SYSTEM:[4]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting"
+27/06/2019 12:57:30	USER:[1]	enable prompting
+27/06/2019 12:57:30	SYSTEM:[2]	prompting enabled
+27/06/2019 12:57:34	USER:[3]	prompting2
+27/06/2019 12:57:34	SYSTEM:[4]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting"
+27/06/2019 12:58:44	USER:[5]	prompting2
+27/06/2019 12:58:44	SYSTEM:[6]	prompting2 is set!
+27/06/2019 13:07:22	USER:[1]	prompting2
+27/06/2019 13:07:22	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting"
+27/06/2019 13:07:28	USER:[3]	enable prompting
+27/06/2019 13:07:28	SYSTEM:[4]	prompting enabled
+27/06/2019 13:07:31	USER:[5]	prompting2
+27/06/2019 13:07:31	SYSTEM:[6]	prompting2 is set!
+27/06/2019 13:08:04	USER:[7]	prompting2
+27/06/2019 13:08:04	SYSTEM:[8]	prompting2 is set!
+27/06/2019 13:08:22	USER:[9]	get prompting2
+27/06/2019 13:08:22	SYSTEM:[10]	I'm sorry, I don't understand.  You could try - e.g. "prompting2"
+27/06/2019 13:09:57	USER:[11]	get prompting2
+27/06/2019 13:09:57	SYSTEM:[12]	prompting2 is woohoo!
+27/06/2019 13:26:03	USER:[1]	prompting2
+27/06/2019 13:26:03	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting"
+27/06/2019 13:26:37	USER:[3]	enable prompting
+27/06/2019 13:26:37	SYSTEM:[4]	prompting enabled
+27/06/2019 13:26:42	USER:[5]	prompting2
+27/06/2019 13:26:42	SYSTEM:[6]	prompting2 is set!
+27/06/2019 13:30:30	USER:[1]	enable prompting
+27/06/2019 13:30:30	SYSTEM:[2]	prompting enabled
+27/06/2019 13:30:44	USER:[3]	promoting2
+27/06/2019 13:30:44	SYSTEM:[4]	I'm sorry, I don't understand.  You could try - e.g. "prompting2"
+27/06/2019 13:30:51	USER:[5]	prompting2
+27/06/2019 13:30:51	SYSTEM:[6]	prompting2 is set!
+27/06/2019 13:44:27	USER:[1]	enable prompting
+27/06/2019 13:44:27	SYSTEM:[2]	prompting enabled
+27/06/2019 13:44:36	USER:[3]	prompting2
+27/06/2019 13:44:36	SYSTEM:[4]	prompting2 is set!
+27/06/2019 13:45:19	USER:[5]	blah
+27/06/2019 13:45:19	SYSTEM:[6]	I'm sorry, I don't understand.  You could try - e.g. "get prompting2"
+27/06/2019 13:47:07	USER:[7]	blah
+27/06/2019 13:47:07	SYSTEM:[8]	unset prompting..
+27/06/2019 13:48:04	USER:[9]	blah
+27/06/2019 13:48:04	SYSTEM:[10]	The value of prompting is now:
+27/06/2019 13:48:11	USER:[11]	enable prompting
+27/06/2019 13:48:11	SYSTEM:[12]	prompting enabled
+27/06/2019 13:48:20	USER:[13]	blah
+27/06/2019 13:48:20	SYSTEM:[14]	The value of prompting is now: true
+27/06/2019 13:50:23	USER:[15]	blah
+27/06/2019 13:50:23	SYSTEM:[16]	testing
+27/06/2019 13:50:36	USER:[17]	unset prompting2
+27/06/2019 13:50:36	SYSTEM:[18]	testing
+27/06/2019 13:51:54	USER:[19]	unset prompting2
+27/06/2019 13:51:54	SYSTEM:[20]	testing
+27/06/2019 13:52:34	USER:[1]	unset prompting2
+27/06/2019 13:52:34	SYSTEM:[2]	prompting2 now unset..
+27/06/2019 13:52:37	USER:[3]	blah
+27/06/2019 13:52:37	SYSTEM:[4]	The value of prompting is now:
+27/06/2019 14:38:44	USER:[3]	test
+27/06/2019 14:38:44	SYSTEM:[4]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting", "blah", "unset prompting2"
+27/06/2019 14:38:49	USER:[5]	enable prompting
+27/06/2019 14:38:49	SYSTEM:[6]	prompting enabled

@@ -1,0 +1,4 @@
+07/02/2020 09:44:46	USER:[3]	test
+07/02/2020 09:44:46	SYSTEM:[4]	I'm sorry, I don't understand.  You could try - e.g. "hi", "today"
+07/02/2020 09:50:32	USER:[5]	/hello/
+07/02/2020 09:50:32	SYSTEM:[6]	testing 2020!

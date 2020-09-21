@@ -1,0 +1,116 @@
+16/05/2019 16:08:08	USER:[1]	dave8
+16/05/2019 16:08:08	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "what is dave", "set today", "dave7", "dave7", "variables"
+16/05/2019 16:09:26	USER:[3]	dave8
+16/05/2019 16:09:26	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "what is dave", "hello", "dave5", "dave7", "variables"
+16/05/2019 16:18:47	USER:[1]	save schema test
+16/05/2019 16:18:47	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "dave4", "dave5", "dave7", "variables", "today"
+16/05/2019 16:20:17	USER:[3]	save schema test
+16/05/2019 16:20:17	SYSTEM:[4]	test schema saved!
+16/05/2019 16:20:44	USER:[5]	variables
+16/05/2019 16:20:44	SYSTEM:[6]	Variable 'id 'is '' and variable 'test' is ''
+16/05/2019 16:20:50	USER:[7]	dave7
+16/05/2019 16:20:50	SYSTEM:[8]	this sets id
+this sets test
+16/05/2019 16:20:55	USER:[9]	variables
+16/05/2019 16:20:55	SYSTEM:[10]	Variable 'id 'is 'id is set..' and variable 'test' is 'test is set'
+16/05/2019 16:21:00	USER:[11]	save schema test
+16/05/2019 16:21:00	SYSTEM:[12]	test schema saved!
+16/05/2019 16:29:01	USER:[1]	dave7
+16/05/2019 16:29:01	SYSTEM:[2]	this sets id
+this sets test
+16/05/2019 16:29:11	USER:[3]	variables
+16/05/2019 16:29:11	SYSTEM:[4]	Variable 'id 'is 'id is set..' and variable 'test' is 'test is set'
+16/05/2019 16:29:20	USER:[5]	save schema test
+16/05/2019 16:29:20	SYSTEM:[6]	test schema saved!
+16/05/2019 16:34:45	USER:[1]	dave7
+16/05/2019 16:34:45	SYSTEM:[2]	this sets id
+this sets test
+16/05/2019 16:34:55	USER:[3]	save schema test
+16/05/2019 16:34:55	SYSTEM:[4]	test schema saved!
+16/05/2019 16:35:38	USER:[5]	save schema id
+16/05/2019 16:35:38	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "what is dave", "dave4", "set today", "dave7", "dave7"
+16/05/2019 16:36:41	USER:[7]	save schema id
+16/05/2019 16:36:41	SYSTEM:[8]	schema item id saved
+16/05/2019 16:38:54	USER:[9]	load schema test
+16/05/2019 16:38:54	SYSTEM:[10]	I'm sorry, I don't understand.  Did you mean - e.g. "dave5", "dave7", "save schema id", "unset test", "today"
+16/05/2019 16:39:56	USER:[11]	unset test
+16/05/2019 16:39:56	SYSTEM:[12]	the variable test is now not set..
+16/05/2019 16:39:59	USER:[13]	variables
+16/05/2019 16:39:59	SYSTEM:[14]	Variable 'id 'is 'id is set..' and variable 'test' is ''
+16/05/2019 16:40:06	USER:[15]	load schema test
+16/05/2019 16:40:06	SYSTEM:[16]	schema test loaded..
+16/05/2019 16:40:16	USER:[17]	variables
+16/05/2019 16:40:16	SYSTEM:[18]	Variable 'id 'is 'id is set..' and variable 'test' is ''
+16/05/2019 16:41:37	USER:[1]	dave7
+16/05/2019 16:41:37	SYSTEM:[2]	this sets id
+this sets test
+16/05/2019 16:41:40	USER:[3]	variables
+16/05/2019 16:41:40	SYSTEM:[4]	Variable 'id 'is 'id is set..' and variable 'test' is 'test is set'
+16/05/2019 16:41:43	USER:[5]	unset test
+16/05/2019 16:41:43	SYSTEM:[6]	the variable test is now not set..
+16/05/2019 16:41:46	USER:[7]	variables
+16/05/2019 16:41:46	SYSTEM:[8]	Variable 'id 'is 'id is set..' and variable 'test' is ''
+16/05/2019 16:41:51	USER:[9]	load schema test
+16/05/2019 16:41:51	SYSTEM:[10]	schema test loaded..
+16/05/2019 16:42:06	USER:[11]	variables
+16/05/2019 16:42:06	SYSTEM:[12]	Variable 'id 'is 'id is set..' and variable 'test' is 'test is set'
+16/05/2019 16:42:33	USER:[13]	load all scema
+16/05/2019 16:42:33	SYSTEM:[14]	I'm sorry, I don't understand.  Did you mean - e.g. "hello", "what is dave", "save schema test", "dave7", "dave7"
+16/05/2019 16:42:36	USER:[15]	load all schema
+16/05/2019 16:42:36	SYSTEM:[16]	I'm sorry, I don't understand.  Did you mean - e.g. "what is dave", "dave4", "dave7", "save schema id", "variables"
+16/05/2019 16:43:27	USER:[17]	unset test
+16/05/2019 16:43:27	SYSTEM:[18]	the variable test is now not set..
+16/05/2019 16:43:29	USER:[19]	variables
+16/05/2019 16:43:29	SYSTEM:[20]	Variable 'id 'is 'id is set..' and variable 'test' is ''
+16/05/2019 16:43:33	USER:[21]	load all schema
+16/05/2019 16:43:33	SYSTEM:[22]	all schema items loaded
+16/05/2019 16:43:41	USER:[23]	variables
+16/05/2019 16:43:41	SYSTEM:[24]	Variable 'id 'is 'galaxy' and variable 'test' is 'test is set'
+16/05/2019 16:46:20	USER:[25]	variables
+16/05/2019 16:46:20	SYSTEM:[26]	Variable 'id 'is 'galaxy' and variable 'test' is 'test is set'
+16/05/2019 16:46:47	USER:[27]	variables
+16/05/2019 16:46:47	SYSTEM:[28]	Variable 'id 'is 'galaxy' and variable 'test' is 'test is set'
+16/05/2019 16:48:20	USER:[29]	variables
+16/05/2019 16:48:20	SYSTEM:[30]	Variable 'id 'is 'galaxy' and variable 'test' is 'test is set'
+16/05/2019 17:00:51	USER:[1]	dave7
+16/05/2019 17:00:51	SYSTEM:[2]	this sets id
+this sets test
+16/05/2019 17:00:55	USER:[3]	variables
+16/05/2019 17:00:55	SYSTEM:[4]	Variable 'id 'is 'id is set..' and variable 'test' is 'test is set'
+16/05/2019 17:06:41	USER:[1]	dave7
+16/05/2019 17:06:41	SYSTEM:[2]	this sets id
+this sets test
+16/05/2019 17:06:46	USER:[3]	variables
+16/05/2019 17:06:46	SYSTEM:[4]	Variable 'id 'is 'id is set..' and variable 'test' is 'test is set'
+16/05/2019 17:12:37	USER:[1]	dave7
+16/05/2019 17:12:37	SYSTEM:[2]	this sets id
+this sets test
+16/05/2019 17:12:45	USER:[3]	variables
+16/05/2019 17:12:45	SYSTEM:[4]	Variable 'id 'is 'id is set..' and variable 'test' is 'test is set'
+16/05/2019 17:30:16	USER:[1]	dave7
+16/05/2019 17:30:16	SYSTEM:[2]	this sets id
+this sets test
+16/05/2019 17:30:19	USER:[3]	variables
+16/05/2019 17:30:19	SYSTEM:[4]	Variable 'id 'is 'id is set..' and variable 'test' is 'test is set'
+New variables values are: id:id is set.., test:test is set
+16/05/2019 17:46:07	USER:[1]	dave7
+16/05/2019 17:46:07	SYSTEM:[2]	this sets id
+this sets test
+16/05/2019 17:46:10	USER:[3]	variable
+16/05/2019 17:46:10	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "what is dave", "hello", "dave5", "variables", "today", "what is dave", "dave4", "dave5", "dave7", "variables"
+16/05/2019 17:47:18	USER:[5]	dave2
+16/05/2019 17:47:18	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "save schema test", "dave7", "save schema id", "dave7", "unset test", "set today", "save schema test", "dave7", "dave7", "today"
+16/05/2019 17:47:23	USER:[7]	dave1
+16/05/2019 17:47:23	SYSTEM:[8]	I'm sorry, I don't understand.  Did you mean - e.g. "what is dave", "set today", "save schema test", "dave7", "today", "what is dave", "save schema id", "dave7", "unset test", "variable"
+16/05/2019 17:47:26	USER:[9]	dave
+16/05/2019 17:47:26	SYSTEM:[10]	I'm sorry, I don't understand.  Did you mean - e.g. "set today", "dave7", "dave7", "load schema test", "variables", "hello", "dave5", "save schema test", "variables", "today"
+16/05/2019 17:47:35	USER:[11]	hello
+16/05/2019 17:47:35	SYSTEM:[12]	hello
+16/05/2019 17:47:36	USER:[13]	dave1
+16/05/2019 17:47:36	SYSTEM:[14]	dave1
+16/05/2019 17:47:39	USER:[15]	dave2
+16/05/2019 17:47:39	SYSTEM:[16]	dave2
+16/05/2019 17:47:48	USER:[17]	variable
+16/05/2019 17:47:48	SYSTEM:[18]	hello
+16/05/2019 17:48:45	USER:[19]	variable
+16/05/2019 17:48:45	SYSTEM:[20]	variable!!!

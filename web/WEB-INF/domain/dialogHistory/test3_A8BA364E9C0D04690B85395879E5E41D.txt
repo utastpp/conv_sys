@@ -1,0 +1,2 @@
+25/05/2019 09:22:32	USER:[1]	hello
+25/05/2019 09:22:32	SYSTEM:[2]	Loading all schema items!

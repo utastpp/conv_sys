@@ -1,0 +1,24 @@
+21/05/2019 12:13:41	USER:[1]	hello
+21/05/2019 12:13:41	SYSTEM:[2]	Loading all schema items!
+21/05/2019 12:14:17	USER:[3]	hello2
+21/05/2019 12:14:17	SYSTEM:[4]	loaded all schema items2!
+21/05/2019 12:14:43	USER:[5]	show schema items
+21/05/2019 12:14:43	SYSTEM:[6]	id is now
+21/05/2019 12:26:16	USER:[19]	show schema items
+21/05/2019 12:26:16	SYSTEM:[20]	id is now
+21/05/2019 12:26:23	USER:[21]	david.herbert@utas.edu.au
+21/05/2019 12:26:23	SYSTEM:[22]	variable primaryID is now set!
+21/05/2019 12:26:37	USER:[23]	load schema items
+21/05/2019 12:26:37	SYSTEM:[24]	I'm sorry, I don't understand.  Did you mean - e.g. "dave1", "galaxy", "dave5", "dave5", "show schema items"
+21/05/2019 12:27:00	USER:[25]	hello2
+21/05/2019 12:27:00	SYSTEM:[26]	loaded all schema items2!
+21/05/2019 12:27:08	USER:[27]	show schema items
+21/05/2019 12:27:08	SYSTEM:[28]	id is now galaxy
+21/05/2019 12:27:34	USER:[29]	quest
+21/05/2019 12:27:34	SYSTEM:[30]	I'm sorry, I don't understand.  Did you mean - e.g. "david.herbert@utas.edu.au", "dave1", "galaxy", "dave5", "dave5"
+21/05/2019 12:29:01	USER:[31]	quest
+21/05/2019 12:29:01	SYSTEM:[32]	schema test is now set to quest!
+21/05/2019 12:30:00	USER:[33]	quest2
+21/05/2019 12:30:00	SYSTEM:[34]	I'm sorry, I don't understand.  Did you mean - e.g. "dave1", "dave2", "dave5", "hello2", "unset variables"
+21/05/2019 12:33:32	USER:[35]	quest2
+21/05/2019 12:33:32	SYSTEM:[36]	id is now galaxy

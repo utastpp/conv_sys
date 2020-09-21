@@ -1,0 +1,4 @@
+07/03/2019 10:54:08	USER:[1]	/hello/
+07/03/2019 10:54:08	SYSTEM:[2]	hello back
+07/03/2019 10:54:12	USER:[3]	/test10/
+07/03/2019 10:54:12	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "how are you"

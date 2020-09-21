@@ -1,0 +1,10 @@
+21/05/2019 13:09:59	USER:[1]	hello2
+21/05/2019 13:09:59	SYSTEM:[2]	loaded all schema items2!
+21/05/2019 13:10:33	USER:[3]	galaxy
+21/05/2019 13:10:33	SYSTEM:[4]	schema id is not set to galaxy!
+21/05/2019 13:10:54	USER:[5]	david.herbert@utas.edu.au
+21/05/2019 13:10:54	SYSTEM:[6]	variable primaryID is now set!
+21/05/2019 13:11:02	USER:[7]	galaxy
+21/05/2019 13:11:02	SYSTEM:[8]	schema id is not set to galaxy!
+21/05/2019 13:11:15	USER:[9]	quest2
+21/05/2019 13:11:15	SYSTEM:[10]	id is now

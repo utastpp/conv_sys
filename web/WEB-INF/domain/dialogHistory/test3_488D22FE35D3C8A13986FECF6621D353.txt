@@ -1,0 +1,24 @@
+03/06/2019 08:28:20	USER:[1]	oops
+03/06/2019 08:28:20	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "dave1", "dave2", "dave8", "insert", "hello"
+03/06/2019 08:29:13	USER:[1]	oops
+03/06/2019 08:29:13	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "dave2", "dave5", "insert", "hello", "show schema items"
+03/06/2019 08:34:28	USER:[1]	oops
+03/06/2019 08:34:28	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "dave1", "dave5", "insert", "hello", "unset variables"
+03/06/2019 08:44:49	USER:[1]	oops
+03/06/2019 08:44:49	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "dave1", "galaxy", "dave5", "hello", "insert"
+03/06/2019 08:45:50	USER:[1]	oops
+03/06/2019 08:45:50	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "dave1", "dave5", "quest", "dave8", "insert"
+03/06/2019 08:52:10	USER:[1]	oops
+03/06/2019 08:52:10	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "dave1", "galaxy", "dave5", "dave5", "hello"
+03/06/2019 08:58:36	USER:[1]	oops
+03/06/2019 08:58:36	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "dave8", "insert", "insert", "unset variables", "show schema items"
+03/06/2019 09:00:05	USER:[1]	oops
+03/06/2019 09:00:05	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "dave8", "hello", "insert", "unset variables", "show schema items"
+03/06/2019 09:33:13	USER:[1]	oops
+03/06/2019 09:33:13	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "galaxy", "dave8", "insert", "hello", "show schema items"
+03/06/2019 09:48:19	USER:[1]	oops
+03/06/2019 09:48:19	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "galaxy", "quest", "dave8", "hello", "hello2"
+03/06/2019 09:51:05	USER:[1]	oops
+03/06/2019 09:51:05	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "david.herbert@utas.edu.au", "dave5", "dave5", "insert", "insert"
+03/06/2019 09:56:13	USER:[1]	oops
+03/06/2019 09:56:13	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "dave5", "hello2", "unset variables", "hello", "show schema items"

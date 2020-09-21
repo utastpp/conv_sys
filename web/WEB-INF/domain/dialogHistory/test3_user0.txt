@@ -1,0 +1,94 @@
+10/05/2019 14:41:10	USER:[1]	hello
+10/05/2019 14:41:10	SYSTEM:[2]	I'm sorry, I don't understand.
+10/05/2019 14:42:19	USER:[3]	hello
+10/05/2019 14:42:19	SYSTEM:[4]	hello
+15/05/2019 11:03:09	USER:[3]	good
+15/05/2019 11:03:09	SYSTEM:[4]	dave2
+15/05/2019 11:04:48	USER:[11]	good
+15/05/2019 11:04:48	SYSTEM:[12]	The value of schemaTesting.id is DAVE
+15/05/2019 11:07:16	USER:[15]	hello
+15/05/2019 12:28:37	USER:[1]	hello
+15/05/2019 12:28:37	SYSTEM:[2]	I'm sorry, I don't understand.
+15/05/2019 12:29:26	USER:[3]	dave
+15/05/2019 12:29:26	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "hello"
+15/05/2019 12:29:44	USER:[5]	hello
+15/05/2019 12:29:44	SYSTEM:[6]	hello back
+15/05/2019 12:29:46	USER:[7]	dave
+15/05/2019 12:29:46	SYSTEM:[8]	I'm sorry, I don't understand.  Did you mean - e.g. "hello"
+15/05/2019 12:49:45	USER:[1]	hello
+15/05/2019 12:49:45	SYSTEM:[2]	hello back
+15/05/2019 12:49:50	USER:[3]	dave
+15/05/2019 12:49:50	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "hello"
+15/05/2019 12:51:05	USER:[5]	dave
+15/05/2019 12:51:05	SYSTEM:[6]	dave
+15/05/2019 12:51:08	USER:[7]	fred
+15/05/2019 12:51:08	SYSTEM:[8]	I'm sorry, I don't understand.  Did you mean - e.g. "dave"
+15/05/2019 13:33:46	USER:[9]	hello
+15/05/2019 13:33:46	SYSTEM:[10]	hello back
+15/05/2019 13:37:05	USER:[1]	hello
+15/05/2019 13:37:05	SYSTEM:[2]	hello back
+15/05/2019 14:08:12	USER:[1]	hello
+15/05/2019 14:08:12	SYSTEM:[2]	I'm sorry, I don't understand.
+15/05/2019 14:08:56	USER:[3]	hello
+15/05/2019 14:08:56	SYSTEM:[4]	hello
+15/05/2019 14:09:02	USER:[5]	dave1
+15/05/2019 14:09:02	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "hello"
+15/05/2019 14:09:59	USER:[7]	dave1
+15/05/2019 14:09:59	SYSTEM:[8]	dave1
+15/05/2019 14:10:02	USER:[9]	dave2
+15/05/2019 14:10:02	SYSTEM:[10]	I'm sorry, I don't understand.  Did you mean - e.g. "dave1"
+16/05/2019 17:53:12	USER:[1]	dave1
+16/05/2019 17:53:12	SYSTEM:[2]	I'm sorry, I don't understand.
+16/05/2019 17:53:56	USER:[3]	dave1
+16/05/2019 17:53:56	SYSTEM:[4]	dave1
+16/05/2019 17:53:59	USER:[5]	dave2
+16/05/2019 17:53:59	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "dave1"
+16/05/2019 17:59:30	USER:[1]	dave1
+16/05/2019 17:59:30	SYSTEM:[2]	dave1
+16/05/2019 17:59:39	USER:[3]	dave3
+16/05/2019 17:59:39	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "dave1", "dave2"
+16/05/2019 18:00:33	USER:[5]	dave3
+16/05/2019 18:00:33	SYSTEM:[6]	dave3
+16/05/2019 18:00:36	USER:[7]	dave4
+16/05/2019 18:00:36	SYSTEM:[8]	I'm sorry, I don't understand.  Did you mean - e.g. "dave3"
+16/05/2019 18:01:16	USER:[9]	dave5
+16/05/2019 18:01:16	SYSTEM:[10]	I'm sorry, I don't understand.  Did you mean - e.g. "dave4"
+16/05/2019 18:01:26	USER:[11]	dave4
+16/05/2019 18:01:26	SYSTEM:[12]	dave4
+16/05/2019 18:01:29	USER:[13]	dave5
+16/05/2019 18:01:29	SYSTEM:[14]	I'm sorry, I don't understand.  Did you mean - e.g. "dave4"
+16/05/2019 18:02:14	USER:[15]	dave5
+16/05/2019 18:02:14	SYSTEM:[16]	dave5
+16/05/2019 18:02:17	USER:[17]	dave6
+16/05/2019 18:02:17	SYSTEM:[18]	I'm sorry, I don't understand.  Did you mean - e.g. "dave1", "dave2", "dave5"
+16/05/2019 18:04:13	USER:[19]	dave6
+16/05/2019 18:04:13	SYSTEM:[20]	dave6
+16/05/2019 18:04:20	USER:[21]	dave6
+16/05/2019 18:04:20	SYSTEM:[22]	dave6
+16/05/2019 18:05:44	USER:[23]	dave6
+16/05/2019 18:05:44	SYSTEM:[24]	dave6 fixed
+16/05/2019 18:06:14	USER:[25]	dave5
+16/05/2019 18:06:14	SYSTEM:[26]	dave5
+16/05/2019 18:06:41	USER:[27]	dave5
+16/05/2019 18:06:41	SYSTEM:[28]	dave5
+another dave5!
+17/05/2019 14:44:45	USER:[3]	unset variables
+17/05/2019 14:44:45	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "dave1", "dave2", "dave5", "dave5", "hello"
+17/05/2019 14:46:03	USER:[5]	show variables
+17/05/2019 14:46:03	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "dave1", "dave2", "dave5", "hello", "hello2"
+21/05/2019 12:19:47	USER:[7]	david.herbert@utas.edu.au
+21/05/2019 12:19:47	SYSTEM:[8]	I'm sorry, I don't understand.  Did you mean - e.g. "dave5", "hello", "hello2", "unset variables", "show schema items"
+21/05/2019 12:22:07	USER:[9]	david.herbert@utas.edu.au
+21/05/2019 12:22:07	SYSTEM:[10]	variable primaryID is now set!
+21/05/2019 12:23:01	USER:[11]	save
+21/05/2019 12:23:01	SYSTEM:[12]	I'm sorry, I don't understand.  Did you mean - e.g. "dave2", "dave5", "hello2", "unset variables", "show schema items"
+21/05/2019 12:23:07	USER:[13]	save id
+21/05/2019 12:23:07	SYSTEM:[14]	I'm sorry, I don't understand.  Did you mean - e.g. "dave1", "dave2", "hello", "hello2", "show schema items"
+21/05/2019 12:24:23	USER:[15]	galaxy
+21/05/2019 12:24:23	SYSTEM:[16]	I'm sorry, I don't understand.  Did you mean - e.g. "david.herbert@utas.edu.au", "dave5", "hello", "unset variables", "show schema items"
+21/05/2019 12:25:40	USER:[17]	galaxy
+21/05/2019 12:25:40	SYSTEM:[18]	schema id is not set to galaxy!
+27/05/2019 11:23:03	USER:[1]	/schemaTesting.id/
+27/05/2019 11:23:03	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "david.herbert@utas.edu.au", "dave8", "dave5", "hello2", "unset variables"
+04/06/2019 12:50:03	USER:[1]	oops
+04/06/2019 12:50:04	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "dave1", "insert", "insert", "unset variables", "show schema items"

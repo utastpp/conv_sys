@@ -1,0 +1,2 @@
+02/05/2019 12:53:25	USER:[1]	bok
+02/05/2019 12:53:25	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "hi", "whiz", "bork"

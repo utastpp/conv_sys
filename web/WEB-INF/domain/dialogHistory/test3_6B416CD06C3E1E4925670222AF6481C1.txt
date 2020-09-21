@@ -1,0 +1,31 @@
+15/05/2019 09:51:46	USER:[1]	hello
+15/05/2019 09:51:46	SYSTEM:[2]	hello
+15/05/2019 10:42:31	USER:[1]	hello
+15/05/2019 10:42:31	SYSTEM:[2]	hello
+15/05/2019 11:04:02	USER:[5]	good
+15/05/2019 11:04:02	SYSTEM:[6]	The value of schemaTesting.id is
+15/05/2019 11:04:22	USER:[7]	hello
+15/05/2019 11:04:31	USER:[9]	good
+15/05/2019 11:04:31	SYSTEM:[10]	The value of schemaTesting.id is
+15/05/2019 11:15:27	USER:[1]	hello
+15/05/2019 11:18:18	USER:[1]	hello
+15/05/2019 11:25:50	USER:[1]	hello
+15/05/2019 11:25:50	SYSTEM:[2]	I'm sorry, I don't understand.
+15/05/2019 11:30:49	USER:[1]	hello
+15/05/2019 11:30:49	SYSTEM:[2]	I'm sorry, I don't understand.
+15/05/2019 11:31:37	USER:[3]	hello
+15/05/2019 11:31:37	SYSTEM:[4]	greetings, you typed hello
+15/05/2019 11:31:44	USER:[5]	reset
+15/05/2019 11:31:44	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "hello"
+15/05/2019 11:43:17	USER:[1]	hello
+15/05/2019 11:43:17	SYSTEM:[2]	greetings, you typed hello
+15/05/2019 11:44:02	USER:[3]	dave
+15/05/2019 11:44:02	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "hello"
+15/05/2019 11:52:50	USER:[1]	hello
+15/05/2019 11:52:50	SYSTEM:[2]	greetings, you typed hello
+15/05/2019 11:53:00	USER:[3]	dave
+15/05/2019 11:53:00	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "hello"
+15/05/2019 12:11:59	USER:[1]	hello
+15/05/2019 12:11:59	SYSTEM:[2]	greetings, you typed hello
+15/05/2019 12:12:06	USER:[3]	dave
+15/05/2019 12:12:06	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "hello"

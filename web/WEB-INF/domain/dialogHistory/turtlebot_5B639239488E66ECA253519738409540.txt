@@ -1,0 +1,105 @@
+26/06/2019 12:25:33	USER:[3]	test5
+26/06/2019 12:25:33	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "test1", "test1", "test2", "test2", "test4"
+26/06/2019 12:30:30	USER:[19]	test1
+26/06/2019 12:30:30	SYSTEM:[20]	test1 1b corrected
+26/06/2019 12:58:19	USER:[1]	test1
+26/06/2019 12:58:19	SYSTEM:[2]	test1 1b corrected
+26/06/2019 12:59:15	USER:[3]	test1
+26/06/2019 12:59:15	SYSTEM:[4]	reply1b
+26/06/2019 12:59:30	USER:[5]	test5
+26/06/2019 12:59:30	SYSTEM:[6]	reply5
+26/06/2019 12:59:32	USER:[7]	test6
+26/06/2019 12:59:32	SYSTEM:[8]	reply5 corrected
+26/06/2019 12:59:34	USER:[9]	test7
+26/06/2019 12:59:34	SYSTEM:[10]	reply7
+26/06/2019 12:59:38	USER:[11]	test8
+26/06/2019 12:59:38	SYSTEM:[12]	I'm sorry, I don't understand.  Did you mean - e.g. "test1", "test1", "test2", "test4", "test7"
+26/06/2019 13:00:44	USER:[13]	test8
+26/06/2019 13:00:44	SYSTEM:[14]	STOPRULE
+26/06/2019 13:13:20	USER:[1]	test9
+26/06/2019 13:13:20	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "test1", "test2", "test4", "test5", "test7"
+26/06/2019 13:16:16	USER:[3]	METAHELP
+26/06/2019 13:16:16	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "test1", "test2", "test4", "test7"
+26/06/2019 13:16:21	USER:[5]	test9
+26/06/2019 13:16:21	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "test1", "test2", "test4"
+26/06/2019 13:16:26	USER:[7]	test9
+26/06/2019 13:16:26	SYSTEM:[8]	I'm sorry, I don't understand.  Did you mean - e.g. "test1", "test2", "test4", "test5", "test8"
+26/06/2019 13:37:36	USER:[1]	test
+26/06/2019 13:37:36	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "test1", "test2", "test5", "test7"
+26/06/2019 13:37:58	USER:[3]	test
+26/06/2019 13:37:58	SYSTEM:[4]	I'm sorry, I don't understand..
+26/06/2019 13:38:41	USER:[5]	please turn prompt on
+26/06/2019 13:38:41	SYSTEM:[6]	I'm sorry, I don't understand..
+26/06/2019 13:39:54	USER:[7]	please turn prompt on
+26/06/2019 13:39:54	SYSTEM:[8]	prompting is now enabled
+26/06/2019 13:40:01	USER:[9]	test
+26/06/2019 13:40:01	SYSTEM:[10]	I'm sorry, I don't understand..
+26/06/2019 13:40:26	USER:[11]	what is prompting
+26/06/2019 13:40:26	SYSTEM:[12]	I'm sorry, I don't understand..
+26/06/2019 13:41:10	USER:[13]	what is prompting
+26/06/2019 13:41:10	SYSTEM:[14]	prompting is: false
+26/06/2019 13:42:33	USER:[15]	what is prompting
+26/06/2019 13:42:33	SYSTEM:[16]	prompting is: false
+26/06/2019 13:42:45	USER:[17]	please turn prompt on
+26/06/2019 13:42:45	SYSTEM:[18]	prompting is now enabled
+26/06/2019 13:42:54	USER:[19]	what is prompting
+26/06/2019 13:42:54	SYSTEM:[20]	prompting is: false
+26/06/2019 13:45:14	USER:[21]	please turn prompt on
+26/06/2019 13:45:14	SYSTEM:[22]	prompting is now enabled
+26/06/2019 13:45:36	USER:[23]	what is prompting
+26/06/2019 13:45:36	SYSTEM:[24]	prompting is: false
+26/06/2019 13:49:22	USER:[25]	please turn prompt on
+26/06/2019 13:49:22	SYSTEM:[26]	prompting is now enabled
+26/06/2019 13:50:06	USER:[27]	what is prompting
+26/06/2019 13:50:06	SYSTEM:[28]	prompting is: true
+26/06/2019 13:50:11	USER:[29]	test
+26/06/2019 13:50:11	SYSTEM:[30]	I'm sorry, I don't understand..
+26/06/2019 13:54:58	USER:[31]	test
+26/06/2019 13:54:58	SYSTEM:[32]	I'm sorry, I don't understand..
+26/06/2019 13:56:06	USER:[33]	test
+26/06/2019 13:56:06	SYSTEM:[34]	I'm sorry, I don't understand..
+26/06/2019 14:00:07	USER:[35]	test1
+26/06/2019 14:00:07	SYSTEM:[36]	reply1b
+26/06/2019 14:00:09	USER:[37]	test
+26/06/2019 14:00:09	SYSTEM:[38]	I'm sorry, I don't understand..
+26/06/2019 14:00:19	USER:[39]	please turn prompt on
+26/06/2019 14:00:19	SYSTEM:[40]	prompting is now enabled
+26/06/2019 14:00:23	USER:[41]	test
+26/06/2019 14:00:23	SYSTEM:[42]	I'm sorry, I don't understand..
+26/06/2019 14:17:26	USER:[1]	enable prompting
+26/06/2019 14:18:52	USER:[1]	enable prompting
+26/06/2019 14:18:52	SYSTEM:[2]	I'm sorry, I don't understand.
+26/06/2019 14:20:45	USER:[3]	test
+26/06/2019 14:20:45	SYSTEM:[4]	I'm sorry, I don't understand..
+26/06/2019 14:20:55	USER:[5]	enable prompting
+26/06/2019 14:20:55	SYSTEM:[6]	prompting enabled
+26/06/2019 14:21:00	USER:[7]	test
+26/06/2019 14:21:00	SYSTEM:[8]	I'm sorry, I don't understand..
+26/06/2019 14:23:37	USER:[1]	test
+26/06/2019 14:23:37	SYSTEM:[2]	I'm sorry, I don't understand..
+26/06/2019 14:23:50	USER:[3]	enable prompting
+26/06/2019 14:23:50	SYSTEM:[4]	prompting enabled
+26/06/2019 14:24:06	USER:[5]	test
+26/06/2019 14:24:06	SYSTEM:[6]	I'm sorry, I don't understand..
+26/06/2019 14:28:52	USER:[1]	test
+26/06/2019 14:28:52	SYSTEM:[2]	I'm sorry, I don't understand..
+26/06/2019 14:29:17	USER:[3]	enable prompting
+26/06/2019 14:29:17	SYSTEM:[4]	prompting enabled
+26/06/2019 14:29:21	USER:[5]	test
+26/06/2019 14:29:21	SYSTEM:[6]	I'm sorry, I don't understand..
+26/06/2019 14:56:58	USER:[1]	test
+26/06/2019 14:56:58	SYSTEM:[2]	I'm sorry, I don't understand..
+26/06/2019 14:57:36	USER:[1]	enable prompting
+26/06/2019 14:57:36	SYSTEM:[2]	I'm sorry, I don't understand.
+26/06/2019 15:00:08	USER:[3]	test
+26/06/2019 15:00:08	SYSTEM:[4]	I'm sorry, I don't understand..
+26/06/2019 15:00:17	USER:[5]	enable prompting
+26/06/2019 15:00:17	SYSTEM:[6]	prompting is enabled
+26/06/2019 15:00:23	USER:[7]	test
+26/06/2019 15:00:23	SYSTEM:[8]	I'm sorry, I don't understand..
+26/06/2019 15:01:06	USER:[9]	user prompting
+26/06/2019 15:01:06	SYSTEM:[10]	I'm sorry, I don't understand..
+26/06/2019 15:01:54	USER:[11]	user prompting
+26/06/2019 15:01:54	SYSTEM:[12]	User prompting is true
+26/06/2019 15:02:37	USER:[13]	test
+26/06/2019 15:02:37	SYSTEM:[14]	I'm sorry, I don't understand..

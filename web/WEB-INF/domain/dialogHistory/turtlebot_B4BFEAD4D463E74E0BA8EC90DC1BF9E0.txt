@@ -1,0 +1,6 @@
+21/06/2019 10:12:28	USER:[1]	test1
+21/06/2019 10:12:28	SYSTEM:[2]	I'm sorry, I don't understand.
+21/06/2019 10:14:23	USER:[3]	test1
+21/06/2019 10:14:23	SYSTEM:[4]	reply1
+21/06/2019 10:14:33	USER:[5]	test1
+21/06/2019 10:14:33	SYSTEM:[6]	reply1

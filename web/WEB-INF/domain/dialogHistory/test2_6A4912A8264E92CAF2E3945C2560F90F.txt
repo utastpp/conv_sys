@@ -1,0 +1,26 @@
+27/03/2019 17:04:56	USER:[1]	/hello/'
+27/03/2019 17:04:56	SYSTEM:[2]	hello back
+27/03/2019 17:04:59	USER:[3]	how are you
+27/03/2019 17:04:59	SYSTEM:[4]	how back
+27/03/2019 17:32:09	USER:[1]	/hello/
+27/03/2019 17:32:09	SYSTEM:[2]	hello back
+27/03/2019 17:32:11	USER:[3]	how are you
+27/03/2019 17:32:11	SYSTEM:[4]	how back
+27/03/2019 17:33:12	USER:[5]	oops
+27/03/2019 17:33:12	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "blah"
+27/03/2019 18:08:12	USER:[1]	/hello/
+27/03/2019 18:08:12	SYSTEM:[2]	hello back
+27/03/2019 18:08:14	USER:[3]	how are oyu
+27/03/2019 18:08:14	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "how are you", "bink", "hello"
+27/03/2019 18:08:17	USER:[5]	how are you
+27/03/2019 18:08:18	SYSTEM:[6]	how back
+27/03/2019 18:17:03	USER:[1]	/hello/
+27/03/2019 18:17:03	SYSTEM:[2]	hello back
+27/03/2019 18:17:05	USER:[3]	how are you
+27/03/2019 18:17:05	SYSTEM:[4]	how back
+27/03/2019 18:17:58	USER:[5]	oops
+27/03/2019 18:17:58	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "blah"
+27/03/2019 18:18:00	USER:[7]	ghgh
+27/03/2019 18:18:00	SYSTEM:[8]	I'm sorry, I don't understand.  Did you mean - e.g. "blah"
+27/03/2019 18:42:24	USER:[15]	/hello/
+27/03/2019 18:42:24	SYSTEM:[16]	hello back

@@ -1,0 +1,59 @@
+09/05/2019 12:23:55	USER:[1]	bok
+09/05/2019 12:23:55	SYSTEM:[2]	something found! 
+hello back
+hello back
+bonk back
+ <REPLACE> 33 <REPLACE-EMPTY> no results! <REPLACE-OVERRIDE> something found! </REPLACE>
+09/05/2019 12:29:50	USER:[1]	bok
+09/05/2019 12:29:50	SYSTEM:[2]	something found! 
+hello back
+hello back
+bonk back
+ <REPLACE> 33 <REPLACE-EMPTY> no results! <REPLACE-OVERRIDE> something found! </REPLACE>
+09/05/2019 12:38:43	USER:[1]	bok
+09/05/2019 12:38:43	SYSTEM:[2]	something found! 
+hello back
+hello back
+bonk back
+ <REPLACE> 33 <REPLACE-EMPTY> no results! <REPLACE-OVERRIDE> something found! </REPLACE>
+09/05/2019 12:41:28	USER:[1]	bok
+09/05/2019 12:41:28	SYSTEM:[2]	something found! 
+hello back
+hello back
+bonk back
+ <REPLACE> 33 <REPLACE-EMPTY> no results! <REPLACE-OVERRIDE> something found! </REPLACE>
+09/05/2019 12:47:27	USER:[1]	bok
+09/05/2019 12:47:27	SYSTEM:[2]	something found! 
+hello back
+hello back
+bonk back
+ <REPLACE> 33 <REPLACE-EMPTY> no results! <REPLACE-OVERRIDE> something found! </REPLACE>
+09/05/2019 13:03:21	USER:[1]	bok
+09/05/2019 13:03:21	SYSTEM:[2]	something found! 
+hello back
+hello back
+bonk back
+ <REPLACE> 33 <REPLACE-EMPTY> no results! <REPLACE-OVERRIDE> something found! </REPLACE>
+09/05/2019 13:06:43	USER:[1]	bok
+09/05/2019 13:06:43	SYSTEM:[2]	something found! 
+hello back
+hello back
+bonk back
+ <REPLACE> 33 <REPLACE-EMPTY> no results! <REPLACE-OVERRIDE> something found! </REPLACE>
+09/05/2019 13:07:37	USER:[3]	bok
+09/05/2019 13:07:37	SYSTEM:[4]	something found! 
+dave
+09/05/2019 13:10:49	USER:[1]	/hello/
+09/05/2019 13:10:49	SYSTEM:[2]	I'm sorry, I don't understand.
+09/05/2019 13:12:41	USER:[3]	/hello/
+09/05/2019 13:12:41	SYSTEM:[4]	hello back!
+09/05/2019 13:13:31	USER:[5]	/hello/
+09/05/2019 13:13:31	SYSTEM:[6]	hello back!
+another hello!
+09/05/2019 13:16:10	USER:[7]	/hello/
+09/05/2019 13:16:10	SYSTEM:[8]	hello back!
+another hello!
+This is a new conclusion!
+09/05/2019 13:16:14	USER:[9]	/hello/ there
+09/05/2019 13:16:14	SYSTEM:[10]	hello back!
+another hello!

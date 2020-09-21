@@ -1,0 +1,21 @@
+22/05/2019 09:23:53	USER:[1]	dave5
+22/05/2019 09:23:53	SYSTEM:[2]	dave5
+another dave5!
+22/05/2019 09:23:58	USER:[3]	dave6
+22/05/2019 09:23:58	SYSTEM:[4]	dave6 fixed
+22/05/2019 09:24:02	USER:[5]	dave8
+22/05/2019 09:24:02	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "dave6"
+22/05/2019 09:24:38	USER:[7]	dave8
+22/05/2019 09:24:38	SYSTEM:[8]	dave8
+22/05/2019 09:41:58	USER:[1]	dave8
+22/05/2019 09:41:58	SYSTEM:[2]	dave8
+22/05/2019 10:03:15	USER:[1]	insert
+22/05/2019 10:03:15	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "david.herbert@utas.edu.au", "quest", "dave8", "hello2", "show schema items"
+22/05/2019 10:33:48	USER:[3]	insert
+22/05/2019 10:33:48	SYSTEM:[4]	
+22/05/2019 10:34:23	USER:[5]	david.herbert@utas.edu.au
+22/05/2019 10:34:23	SYSTEM:[6]	variable primaryID is now set!
+22/05/2019 10:34:28	USER:[7]	insert
+22/05/2019 10:34:28	SYSTEM:[8]	
+22/05/2019 10:35:07	USER:[9]	insert
+22/05/2019 10:35:07	SYSTEM:[10]	david.herbert@utas.edu.au

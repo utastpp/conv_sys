@@ -1,0 +1,32 @@
+02/05/2019 14:37:58	USER:[1]	bok
+02/05/2019 14:37:58	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "hi", "whiz", "bork"
+02/05/2019 14:39:19	USER:[3]	bok
+02/05/2019 14:39:19	SYSTEM:[4]	whiz back
+02/05/2019 14:41:16	USER:[5]	bling
+02/05/2019 14:41:16	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "hi", "whiz", "bork", "bok"
+02/05/2019 14:49:41	USER:[7]	bling
+02/05/2019 14:49:41	SYSTEM:[8]	hello back
+hello back
+02/05/2019 15:17:06	USER:[11]	squib
+02/05/2019 15:17:06	SYSTEM:[12]	bonk back
+02/05/2019 15:26:38	USER:[1]	squib
+02/05/2019 15:26:38	SYSTEM:[2]	bonk back
+02/05/2019 15:32:34	USER:[1]	/hello/
+02/05/2019 15:32:34	SYSTEM:[2]	how back
+02/05/2019 15:32:36	USER:[3]	squib
+02/05/2019 15:32:36	SYSTEM:[4]	bonk back
+02/05/2019 15:45:19	USER:[11]	widget
+02/05/2019 15:45:19	SYSTEM:[12]	hello back
+02/05/2019 15:50:19	USER:[25]	bork
+02/05/2019 15:50:19	SYSTEM:[26]	whiz back
+02/05/2019 15:51:58	USER:[27]	bork
+02/05/2019 15:51:58	SYSTEM:[28]	whiz back
+bonk back
+02/05/2019 15:54:35	USER:[29]	bork
+02/05/2019 15:54:35	SYSTEM:[30]	whiz back
+bonk back
+STOPRULE
+02/05/2019 15:59:01	USER:[31]	/test10/
+02/05/2019 15:59:01	SYSTEM:[32]	I'm sorry, I don't understand.  Did you mean - e.g. "bork", "bork", "bork", "bork", "bork", "bork", "bork", "bork", "bork"
+02/05/2019 16:03:38	USER:[33]	/test10/
+02/05/2019 16:03:38	SYSTEM:[34]	bork

@@ -1,0 +1,24 @@
+24/04/2019 10:34:03	USER:[1]	/hello/
+24/04/2019 10:34:03	SYSTEM:[2]	how back
+24/04/2019 10:34:15	USER:[3]	ick
+24/04/2019 10:34:15	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "how are you", "bink", "hi", "hello"
+24/04/2019 10:57:41	USER:[1]	ick
+24/04/2019 10:57:41	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "hi", "whiz", "bork"
+24/04/2019 10:59:50	USER:[3]	/hello/
+24/04/2019 10:59:50	SYSTEM:[4]	how back
+24/04/2019 10:59:53	USER:[5]	ick
+24/04/2019 10:59:53	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "how are you", "bink", "hi", "hello"
+24/04/2019 11:02:54	USER:[1]	/hello/
+24/04/2019 11:02:54	SYSTEM:[2]	how back
+24/04/2019 11:02:56	USER:[3]	ick'
+24/04/2019 11:02:56	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "how are you", "bink", "hi", "hello"
+24/04/2019 11:05:38	USER:[5]	ick
+24/04/2019 11:05:38	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "how are you", "bink", "hi", "hello"
+24/04/2019 11:05:40	USER:[7]	ock
+24/04/2019 11:05:40	SYSTEM:[8]	I'm sorry, I don't understand.  Did you mean - e.g. "how are you", "bink", "hi", "hi"
+24/04/2019 11:05:43	USER:[9]	blook
+24/04/2019 11:05:43	SYSTEM:[10]	I'm sorry, I don't understand.  Did you mean - e.g. "how are you", "bink", "hi", "hi"
+24/04/2019 11:11:58	USER:[11]	/hello/
+24/04/2019 11:11:58	SYSTEM:[12]	how back
+24/04/2019 11:12:01	USER:[13]	how are you
+24/04/2019 11:12:01	SYSTEM:[14]	how back

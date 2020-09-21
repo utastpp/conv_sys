@@ -1,0 +1,16 @@
+04/02/2019 13:23:04	USER:[1]	/test/;lah
+04/02/2019 13:23:04	SYSTEM:[2]	I'm sorry, I don't understand.
+04/02/2019 13:27:01	USER:[1]	/test10/
+04/02/2019 13:27:01	SYSTEM:[2]	I'm sorry, I don't understand.
+04/02/2019 13:38:39	USER:[1]	/hello/
+04/02/2019 13:38:39	SYSTEM:[2]	I'm sorry, I don't understand.
+04/02/2019 13:40:11	USER:[1]	/hello/
+04/02/2019 13:40:11	SYSTEM:[2]	I'm sorry, I don't understand.
+04/02/2019 14:06:36	USER:[1]	/hello/
+04/02/2019 14:06:36	SYSTEM:[2]	I'm sorry, I don't understand.
+04/02/2019 14:37:33	USER:[1]	/hello/
+04/02/2019 14:37:33	SYSTEM:[2]	I'm sorry, I don't understand.
+04/02/2019 14:48:46	USER:[7]	/hello/
+04/02/2019 14:48:46	SYSTEM:[8]	hello back
+04/02/2019 14:49:33	USER:[9]	/hello/
+04/02/2019 14:49:33	SYSTEM:[10]	hello back

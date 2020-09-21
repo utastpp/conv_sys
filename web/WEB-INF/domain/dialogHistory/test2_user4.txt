@@ -1,0 +1,2 @@
+20/03/2019 12:47:00	USER:[25]	/hello/ how are you
+20/03/2019 12:47:00	SYSTEM:[26]	how back

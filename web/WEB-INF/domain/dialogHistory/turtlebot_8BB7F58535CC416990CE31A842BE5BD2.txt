@@ -1,0 +1,24 @@
+20/06/2019 13:16:42	USER:[3]	text 1
+20/06/2019 13:16:42	SYSTEM:[4]	reply for text 1
+20/06/2019 13:32:47	USER:[5]	text new
+20/06/2019 13:32:47	SYSTEM:[6]	I'm sorry, I don't understand.  Did you mean - e.g. "text 1", "text 1"
+20/06/2019 13:33:51	USER:[7]	text new
+20/06/2019 13:33:51	SYSTEM:[8]	reply for text new
+20/06/2019 13:38:18	USER:[1]	text new
+20/06/2019 13:38:18	SYSTEM:[2]	reply for text new
+20/06/2019 13:38:49	USER:[3]	text 2
+20/06/2019 13:38:49	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "text 1", "text 1", "text new"
+20/06/2019 14:01:50	USER:[1]	text 1
+20/06/2019 14:01:50	SYSTEM:[2]	reply for text 1
+20/06/2019 14:03:48	USER:[3]	text 1
+20/06/2019 14:03:48	SYSTEM:[4]	reply for text 1
+Corrected reply for text 1
+20/06/2019 14:22:15	USER:[1]	text 1
+20/06/2019 14:22:15	SYSTEM:[2]	reply for text 1
+Corrected reply for text 1
+20/06/2019 14:22:20	USER:[3]	text 2
+20/06/2019 14:22:20	SYSTEM:[4]	I'm sorry, I don't understand.  Did you mean - e.g. "text 1", "text 1", "text new", "text 1", "text 1", "text 1", "text new", "text 1"
+20/06/2019 14:23:29	USER:[5]	text 2
+20/06/2019 14:23:29	SYSTEM:[6]	reply for text 2
+20/06/2019 14:24:52	USER:[7]	text 3
+20/06/2019 14:24:52	SYSTEM:[8]	I'm sorry, I don't understand.  Did you mean - e.g. "text 1", "text 1", "text new", "text 1", "text 2"

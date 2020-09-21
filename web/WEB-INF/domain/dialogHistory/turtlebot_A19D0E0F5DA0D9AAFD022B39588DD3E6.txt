@@ -1,0 +1,10 @@
+11/07/2019 08:15:44	USER:[1]	/hello/
+11/07/2019 08:15:44	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "blah", "unset prompting2", "test1", "ooks"
+11/07/2019 08:45:13	USER:[1]	/hello/
+11/07/2019 08:45:13	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting", "unset prompting2", "test1", "ooks"
+11/07/2019 08:56:41	USER:[1]	/hello/ /schemaTable1.ID1/
+11/07/2019 08:56:41	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting", "unset prompting2", "test1", "ooks"
+11/07/2019 10:00:04	USER:[1]	/hellodave/
+11/07/2019 10:00:04	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting", "blah", "unset prompting2", "test1"
+11/07/2019 10:07:40	USER:[1]	/hellodave/
+11/07/2019 10:07:40	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "enable prompting", "blah", "unset prompting2", "test1", "ooks"

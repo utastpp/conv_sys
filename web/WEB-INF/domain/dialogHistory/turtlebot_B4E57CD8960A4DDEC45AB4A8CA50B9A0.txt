@@ -1,0 +1,8 @@
+19/07/2019 08:51:26	USER:[1]	/hello/
+19/07/2019 08:51:26	SYSTEM:[2]	I'm sorry, I don't understand.  You could try - e.g. "disable prompting", "enable prompting", "blah", "unset prompting2", "test1"
+19/07/2019 09:28:25	USER:[1]	/hello/
+19/07/2019 09:28:25	SYSTEM:[2]	I'm sorry, I don't understand.
+19/07/2019 09:52:12	USER:[1]	/hello/
+19/07/2019 09:52:12	SYSTEM:[2]	I'm sorry, I don't understand.
+19/07/2019 09:56:49	USER:[3]	/hello/
+19/07/2019 09:56:49	SYSTEM:[4]	hello is now set!

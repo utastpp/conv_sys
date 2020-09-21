@@ -1,0 +1,6 @@
+28/03/2019 08:58:22	USER:[1]	/hello/ how are you /test10/
+28/03/2019 08:58:22	SYSTEM:[2]	blah back
+28/03/2019 09:13:03	USER:[1]	hellohow are you /test10/
+28/03/2019 09:13:03	SYSTEM:[2]	I'm sorry, I don't understand.  Did you mean - e.g. "hello", "whiz", "bork"
+28/03/2019 09:13:09	USER:[3]	/hello/ how are you /test10/
+28/03/2019 09:13:09	SYSTEM:[4]	blah back

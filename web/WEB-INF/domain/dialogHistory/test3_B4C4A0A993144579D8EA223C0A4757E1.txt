@@ -1,0 +1,8 @@
+25/05/2019 15:23:42	USER:[1]	hello
+25/05/2019 15:23:42	SYSTEM:[2]	Loading all schema items!
+25/05/2019 15:25:08	USER:[3]	hello
+25/05/2019 15:25:08	SYSTEM:[4]	Loading all schema items!
+dave1
+25/05/2019 15:25:26	USER:[5]	hello
+25/05/2019 15:25:26	SYSTEM:[6]	Loading all schema items!
+dave1
