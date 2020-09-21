@@ -1771,13 +1771,11 @@ public class DBOperation {
      */
     public static String getDomainDescription(String domainName, String path)
     {
-        Connection connection;
+        Connection connection = DBConnection.getConnection();
         String description = "";
         
         try {
-            Class.forName("org.sqlite.JDBC");
-
-            connection = (Connection) DriverManager.getConnection("jdbc:sqlite:" + path + "/domain/"+ domainName +".db" );
+            
             if (connection != null) {
                 Statement stmt = null;
                 try {

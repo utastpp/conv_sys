@@ -16,7 +16,6 @@ import static javax.swing.JOptionPane.showMessageDialog;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import rdr.apps.Main;
 import rdr.domain.DomainLoader;
-import rdr.sqlite.DBManager;
 
 /**
  * This class is used to present GUI for startup frame
@@ -125,7 +124,7 @@ public class StartupFrame extends javax.swing.JFrame {
 
     private void openDomainButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_openDomainButtonActionPerformed
         if(!DomainEditorFrame.isOpened()){
-            FileNameExtensionFilter filter = new FileNameExtensionFilter("sqlite db", new String[] {"db"});
+            FileNameExtensionFilter filter = new FileNameExtensionFilter("db", new String[] {"db"});
             fileChooser.setCurrentDirectory(new File(System.getProperty("user.dir") + "/domain/"));
             fileChooser.addChoosableFileFilter(filter);
             fileChooser.setFileFilter(filter);

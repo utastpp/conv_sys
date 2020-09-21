@@ -125,7 +125,7 @@ public class StartupFrame extends javax.swing.JFrame {
 
     private void openDomainButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_openDomainButtonActionPerformed
         if(!DomainEditorFrame.isOpened()){
-            FileNameExtensionFilter filter = new FileNameExtensionFilter("sqlite db", new String[] {"db"});
+            FileNameExtensionFilter filter = new FileNameExtensionFilter("db", new String[] {"db"});
             fileChooser.setCurrentDirectory(new File(System.getProperty("user.dir") + "/domain/"));
             fileChooser.addChoosableFileFilter(filter);
             fileChooser.setFileFilter(filter);

@@ -34,7 +34,7 @@ import weka.core.converters.ConverterUtils;
 public class CaseLoader {
 
     /**
-     * insert case structure details into sqlite db
+     * insert case structure details into db
      * 
      * @param caseStructure in essence a wrapped linked list of named attributes
      */
@@ -67,7 +67,7 @@ public class CaseLoader {
     
     
     /**
-     * insert case structure details into sqlite db
+     * insert case structure details into db
      * 
      */
     public static void setCaseStructure() {
