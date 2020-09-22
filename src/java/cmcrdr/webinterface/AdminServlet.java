@@ -26,6 +26,7 @@ import static cmcrdr.main.DialogMain.defaultResponse;
 import cmcrdr.mysql.DBOperation;
 import static cmcrdr.mysql.DBCreation.referenceDatabaseSlotFieldsCreate;
 import static cmcrdr.mysql.DBOperation.getDomainDescription;
+import java.sql.ResultSet;
 
 @WebServlet("/AdminServlet")
 public class AdminServlet extends HttpServlet {
@@ -42,33 +43,17 @@ public class AdminServlet extends HttpServlet {
             {
                 try {
                     String theStatus = "";
-
-                    //Logger.info("starting getDomainList");
-
-                    File folder = new File(request.getSession().getServletContext().getRealPath("/WEB-INF/domain"));
-                    File[] listOfFiles = folder.listFiles(new FilenameFilter() {
-                        public boolean accept(File dir, String name) {
-                            return name.toLowerCase().endsWith(".db");
-                        }});
-                    Arrays.sort(listOfFiles);
-                    
-
-                    for (File listOfFile : listOfFiles) {
-                        if (listOfFile.isFile()) {
-                            String domainFileNamePrefix = listOfFile.getName();
-                            if (domainFileNamePrefix.endsWith(".db")) {
-                                domainFileNamePrefix = domainFileNamePrefix.substring(0, domainFileNamePrefix.length()-3);
-                                //Logger.info("Found the following domain database file: " + domainFileNamePrefix);
-                            }
-                            theStatus = theStatus + domainFileNamePrefix + ";";
+                    HashMap<String,String> rs = DBOperation.getDomainDetails();
+                    for (Map.Entry<String, String> entry : rs.entrySet()) {
+                        String key = entry.getKey();
+                        String value = (String) entry.getValue();
+                        if (key == "domainName" ) {
+                            theStatus = theStatus + value + ";";
                         }
                     }
-
                     response.setContentType("text/plain; charset=UTF-8");
 
                     response.getWriter().write(theStatus);
-                    //Logger.info(theStatus);
-                    //Logger.info("Finished getDomainList...");
 
                     break;
                 } catch (Exception ex) {
